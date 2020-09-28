@@ -1,0 +1,102 @@
+\documentclass[a4paper, 12pt, oneside]{book}
+\usepackage[english]{babel} % choose the language
+\usepackage[utf8]{inputenc} % åäö
+\usepackage[T1]{fontenc}
+\usepackage[a4paper, inner=3cm, outer=3cm, top=3cm, bottom=3cm]{geometry}
+\usepackage[onehalfspacing]{setspace} 
+\usepackage{mathptmx} % Times New Roman
+\usepackage{tikz} % Support for pictures in latex format -> convert svg files into tikz format at first
+\usepackage{amsfonts}
+
+\usepackage{etoolbox} % this one makes a workaround with page numbering possible
+
+
+\usepackage{csquotes} % BibLaTex stuff
+\bibliographystyle{ieeetran}
+
+
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=40mm,
+ top=25mm,
+ }
+
+% Table of contents
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+
+\begin{document}
+
+\pagestyle{empty}    
+\begingroup
+\patchcmd{\chapter}{plain}{empty}{}{}
+
+%------ Cover page stuff 
+
+\begin{titlepage}
+\vspace*{144pt}
+\begin{center}
+\Huge\bf A breathtaking title %------ NAME OF THE THESIS HERE!!!
+
+
+\end{center}
+\enlargethispage{3cm}
+\vfill
+
+\hfill
+\begin{tabular}[t]{l@{}}%{\raggedleft%
+\textit{author:} Joel Sjöberg 38686\\ % YOUR NAME AND STUDENT ID!
+Masters thesis in Computer Science\\ % BAC/MASTER THESIS AND MAIN SUBJECT
+\textit{Supervisor:} Luigia Petre\\ % NAME OF YOUR SUPERVISOR
+The Faculty Of Science And Engineering\\ % FACULTY
+Åbo Akademi University\\ 
+2020\\ % YEAR
+\\
+\\
+\\
+\\
+\end{tabular}
+%}%
+\end{titlepage}
+
+%------ end of cover page stuff
+
+\tableofcontents 
+
+
+\endgroup % end of TeX group
+
+\clearpage
+\pagestyle{plain}      
+\pagenumbering{arabic} % Page numbering starts from here
+% Example of structure
+\chapter*{Foreword}
+\input{chapters/foreword}
+
+\chapter*{Abstract}
+\input{chapters/abstract}
+
+\chapter{Introduction} % chapeter 1 in hierarchy
+\input{chapters/motivation}
+
+\chapter{Project Description}
+\input{chapters/chapter1} % chapters actually begins from 2, motivation is chapter 1
+\cite{einstein}
+\chapter{Theoretical Background}
+\input{chapters/chapter2} 
+
+\chapter{Data Exploration}
+\input{chapters/chapter3}
+
+\chapter{Results}
+
+\chapter{Conclusion}
+
+
+\bibliography{ref} % ref.bib
+
+\end{document}
