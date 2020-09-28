@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.7)  28 SEP 2020 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.7)  28 SEP 2020 16:20
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -514,7 +514,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-No file thesis.aux.
+(thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -531,7 +531,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 32
 .
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -667,14 +667,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
  [1
 
 
-{C:/Users/joels/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-No file thesis.toc.
+{C:/Users/joels/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (thesis.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+)
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
-[1
+ [1
 
-] (chapters/foreword.tex) [1
+]
+(chapters/foreword.tex) [1
 
 
 ] (chapters/abstract.tex) [2
@@ -682,9 +685,6 @@ No file thesis.toc.
 ]
 Chapter 1.
 (chapters/motivation.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 4.
-
 
 LaTeX Warning: Citation `test' on page 3 undefined on input line 4.
 
@@ -705,21 +705,9 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
+ [5
 
-
-LaTeX Warning: Reference `eqn:card' on page 5 undefined on input line 11.
-
-[5
-
-] [6]
-
-LaTeX Warning: Reference `eqn:Ti' on page 7 undefined on input line 81.
-
-[7]
-
-LaTeX Warning: Reference `eqn:Si' on page 8 undefined on input line 88.
-
-
+] [6] [7]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
@@ -741,18 +729,15 @@ No file thesis.bbl.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 14253 strings out of 492452
- 276626 string characters out of 3129808
- 341387 words of memory out of 3000000
+ 14257 strings out of 492452
+ 276814 string characters out of 3129808
+ 341457 words of memory out of 3000000
  18273 multiletter control sequences out of 15000+200000
  44186 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,60p,781b,177s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,6n,60p,775b,177s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -763,7 +748,7 @@ rw/symbol/usyr.pfb><C:/Users/joels/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/s
 ymbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (14 pages, 107403 bytes).
+Output written on thesis.pdf (14 pages, 108383 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
