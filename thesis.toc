@@ -1,0 +1,17 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{3}% 
+\contentsline {chapter}{\numberline {2}Project Description}{4}% 
+\contentsline {chapter}{\numberline {3}Theoretical Background}{5}% 
+\contentsline {section}{\numberline {3.1}Mathematical Foundations}{5}% 
+\contentsline {subsection}{\numberline {3.1.1}Set Theory}{5}% 
+\contentsline {subsection}{\numberline {3.1.2}Statistics}{6}% 
+\contentsline {subsection}{\numberline {3.1.3}Linear Algebra}{6}% 
+\contentsline {subsection}{\numberline {3.1.4}Calculus}{7}% 
+\contentsline {section}{\numberline {3.2}Machine Learning}{7}% 
+\contentsline {subsection}{\numberline {3.2.1}K-means Clustering}{7}% 
+\contentsline {section}{\numberline {3.3}Deep Learning}{8}% 
+\contentsline {subsection}{\numberline {3.3.1}Artificial Neural Networks}{8}% 
+\contentsline {subsection}{\numberline {3.3.2}Computational Representations}{9}% 
+\contentsline {chapter}{\numberline {4}Data Exploration}{10}% 
+\contentsline {chapter}{\numberline {5}Results}{11}% 
+\contentsline {chapter}{\numberline {6}Conclusion}{12}% 
