@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.7)  27 OCT 2020 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.7)  21 DEC 2020 13:33
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -479,18 +479,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
+(C:\Users\joels\AppData\Roaming\MiKTeX\2.9\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count115
+\c@@ppsavesec=\count116
+\c@@ppsaveapp=\count117
+)
 (C:\Users\joels\AppData\Roaming\MiKTeX\2.9\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count115
+\etb@tempcnta=\count118
 )
 (C:\Users\joels\AppData\Roaming\MiKTeX\2.9\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
-\csq@reset=\count116
-\csq@gtype=\count117
-\csq@glevel=\count118
-\csq@qlevel=\count119
-\csq@maxlvl=\count120
-\csq@tshold=\count121
+\csq@reset=\count119
+\csq@gtype=\count120
+\csq@glevel=\count121
+\csq@qlevel=\count122
+\csq@maxlvl=\count123
+\csq@tshold=\count124
 \csq@ltx@everypar=\toks31
 
 (C:\Users\joels\AppData\Roaming\MiKTeX\2.9\tex/latex/csquotes\csquotes.def
@@ -572,16 +578,16 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ABD: EveryShipout initializing macros
 (C:\Users\joels\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
+\scratchcounter=\count125
 \scratchdimen=\dimen165
 \scratchbox=\box38
-\nofMPsegments=\count123
-\nofMParguments=\count124
+\nofMPsegments=\count126
+\nofMParguments=\count127
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count125
+\MPscratchCnt=\count128
 \MPscratchDim=\dimen166
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks33
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -710,31 +716,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
 [8]) [9]
 Chapter 4.
-(chapters/chapter3.tex) [10
+(chapters/chapter3.tex [10
 
-]
+]) [11] [12]
 Chapter 5.
-[11
+[13
 
 ]
 Chapter 6.
-(thesis.bbl [12
+(thesis.bbl [14
 
-]) [13
+]) [15
+
+] [16
 
 ] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 14272 strings out of 492452
- 277099 string characters out of 3129808
- 341461 words of memory out of 3000000
- 18286 multiletter control sequences out of 15000+200000
+ 14372 strings out of 492452
+ 278603 string characters out of 3129808
+ 342875 words of memory out of 3000000
+ 18383 multiletter control sequences out of 15000+200000
  44186 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,60p,852b,177s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,6n,60p,1602b,177s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -745,9 +756,9 @@ rw/symbol/usyr.pfb><C:/Users/joels/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/s
 ymbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (15 pages, 111900 bytes).
+Output written on thesis.pdf (18 pages, 116218 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

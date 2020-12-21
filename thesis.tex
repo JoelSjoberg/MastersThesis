@@ -7,7 +7,7 @@
 \usepackage{mathptmx} % Times New Roman
 \usepackage{tikz} % Support for pictures in latex format -> convert svg files into tikz format at first
 \usepackage{amsfonts}
-
+\usepackage[toc,page]{appendix}
 \usepackage{etoolbox} % this one makes a workaround with page numbering possible
 
 
@@ -97,6 +97,17 @@ The Faculty Of Science And Engineering\\ % FACULTY
 \chapter{Conclusion}
 \cite{einstein}
 \bibliography{ref}% ref.bib
+
+\chapter*{Appendix}
+
+\section*{Appendix A}
+\label{appendix:spectrumTable1}
+\textbf{INSERT TABLE}
+
+\section*{Appendix B}
+\label{appendix:spectrumTable2}
+\textbf{INSERT TABLE}
+
 
 
 \end{document}
