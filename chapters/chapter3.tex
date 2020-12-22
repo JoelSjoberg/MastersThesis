@@ -1,10 +1,79 @@
-In this section the data is presented in greater detail. Due to the low number of samples available, it is necessary to examine each sample in detail to determine it's predictability. The data must be satisfyingly diverse between the given classes and similar within those classes for the predictive model to work appropriately. Should this not be the case, the model will struggle to reach desired performance by either failing to capture basic features of the data or by overfitting to it. Within this project it is also vital to examine and determine if the samples of one class are different with respect to samples of other classes i.e. The sample-classes are heterogeneous. This criterion is important, since there must be a sufficient difference between the different classes to separate them appropriately. This also requires that the within-class samples are sufficiently similar i.e. All tumors belonging to the same class are homogeneous. Should this criterion not be satified the model is expected to overfit to the training data and fail to generalize to the test data. It is also necessary to be prepared that this would not be the case. A possible worst case scenario is that all tumors are heterogeneous, which would mean that any model would be unable to satisfyingly distinguish between the classes. This means that we must evaluate the model on a patient by patient basis as the model would learn to recognize patterns in individual patients. This becomes relevant when selecting which samples to use for training the model and testing it.  
+In this section the data is presented in greater detail. Due to the low number of samples available, it is necessary to examine each sample in detail to determine it's predictability. The data must be sufficiently diverse between the given classes and similar within those classes for the predictive model to work appropriately. Should this not be the case, the model will struggle to reach desired performance by either failing to capture basic features of the data or by overfitting to it. Within this project it is also vital to examine and determine if the samples of one class are different with respect to samples of other classes i.e. The sample-classes are heterogeneous. This criterion is important, since there must be a sufficient difference between the different classes to separate them appropriately. This also requires that the within-class samples are sufficiently similar i.e. All tumors belonging to the same class are homogeneous. Should this criterion not be satisfied the model is expected to overfit to the training data and fail to generalize to the test data. It is also necessary to prepare for eventual worst case scenarios. A possible worst case scenario is that all tumors are heterogeneous, which would mean that any model would be unable to satisfyingly distinguish between the classes. This means that we must evaluate the model on a patient by patient basis as the model would learn to recognize patterns in individual patients. This becomes relevant when selecting which samples to use for training the model and testing it.  
 
 \section{Data Representation}
-The data of the glioblastoma patients is provided by \textbf{PROVIDERS HERE} and consists of the Raman-spectrum of 45 tumors from separate patients. Multiple samples of tissue was extracted from the same tumor in some cases, yielding several samples for the respective tumors. The samples are sorted by the patient to whom they belong to maintain separation between the patient samples. Moreover, there is large variation with regard to the sample shape within the data. Each sample is a 3-dimensional array of size $(w, h, 1738)$ where $w$ and $h$ are the respective width and height of the sample. This formalization is necessary, as width and height have non-zero variance among different samples. The number 1738 is constant through all samples and represent the length of the Raman-spectrum. Each element inside these arrays is a real number without clear bounds. The largest absolute element found within is $79427.0625$, some values are negative which is confirmed by the providers to have significance for the projects purpose. The project aims to predict the methylation-types by feeding in one of these samples i.e. one vector of shape $(1, 1738)$
+The data of the glioma patients is provided by \textbf{PROVIDERS HERE} and consists of the Raman-spectrum of 45 tumors from separate patients. Multiple samples of tissue was extracted from the same tumor in some cases, yielding several samples for the respective tumors. The samples are sorted by the patient to whom they belong; this maintain separation between the patient samples. Moreover, there is large variation with regard to the sample shape within the data. Each sample is a 3-dimensional array of size $(w, h, 1738)$ where $w$ and $h$ are the width and height of the sample respectively. This formalization is necessary, as width and height have non-zero variance among different samples. The number 1738 is constant through all samples and represent the length of the Raman-spectrum. Each element inside these arrays is a real number without clear bounds. The largest absolute element found within is $79427.0625$, some values are negative which is confirmed by the providers to have significance for the projects purpose. The project aims to predict the methylation-types by feeding in one of these samples i.e. one vector of shape $(1, 1738)$
 
 \section{Data preparation}
-The preparation of the data is vital to form non-biased models, provided that the data can be restructured and rescaled to sufficiently represent the majority of samples. Should this be impossible the resulting predictive model will fail to grasp the necessary features in the data to form reasonable predictions. The model would in this respect overfit to the data used to train it. To avoid this we preform a qualitative analysis on the data to determine the predictability. Each sample i cathegorized according to their methylation types, there are six distinct classes of methylation in this data, the labels are denoted by: LGm1, LGm2, LGm3, LGm4, LGm5 and LGm 6.
+The preparation of the data is vital to form non-biased models, provided that the data can be restructured and rescaled to sufficiently represent the majority of samples. Should this be impossible the resulting predictive model will fail to grasp the necessary features in the data for forming predictions. The model would in this respect overfit to the data used to train it. To avoid this we preform a qualitative analysis on the data to determine the predictability. Each sample i cathegorized according to their methylation-types, there are six distinct classes of methylation in this data, the labels are denoted by: LGm1, LGm2, LGm3, LGm4, LGm5 and LGm 6.
 
 \subsection{Balancing}
-The data used to train a model must in some way be balanced. Should one label-class be over-represented with respect to the others, the model will as a consequence of it's learning-algorithm become biased towards certain predictions. The data suffers heavily from this problem, a table of the number of spectra in each class may be seen in appendix \ref{appendix:spectrumTable1}. Before the data is balanced, the testing data is selected and separated from the rest. This is done by separating at least one patient and all their samples from the rest of the data. This way it will be possible to test if the model is overfit to the patients in training and if the patient samples are heterogeneous  with respect to the other samples of the same class. With the test-patients separated, balancing the classes which contain less elements by a factor larger than or equal to two than the majority class (LGm2) is done by repeating the spectrum in each sample by that factor. Following this method the majority class will stay the majority which is be crucial provided the sample pattern is correct. The resulting dataset is gained by doubling the samples in LGm1, quadrupling the samples in Lgm3 and tripling the samples in LGm6. The table is shown in appendix \ref{appendix:spectrumTable1}.
+The data used to train a model must in some way be balanced. Should one label-class be over-represented with respect to the others, the model will as a consequence of it's learning-algorithm become biased towards certain predictions. The data suffers heavily from this problem, a table of the number of spectra in each class may be seen in Table \ref{table:1}.
+\\
+
+\begin{table}[h!]
+\centering
+ \begin{tabular}{||c c c c c c c||} 
+ \hline
+ Class & LGm1 & LGm2 & LGm3 & LGm4 & LGm5 & LGm6 \\ [0.5ex] 
+ \hline\hline
+ \# of samples & 5& 16 & 7 & 13 & 15 & 5 \\ 
+ \hline
+ \# of spectra & 37319 & 210586 & 39636 & 50660 & 62256 & 20176 \\
+ \hline
+ percentage & 9\%& 50\% & 9\% & 12\% & 15\% & 5\% \\
+ \hline
+
+\end{tabular}
+\caption{Table showing the distribution of data in the initial dataset}
+\label{table:1}
+\end{table}
+
+\newpage
+Table \ref{table:1} shows the per class separation in the data, the first row shows the labels of each class. The second row shows the number of samples belonging to each class, these are the tumors which will be analysed. The third row display the total number of spectra across each class, these must be considered when balancing is performed. The last row of table \ref{table:1} shows the percentage each class makes of the entire dataset. Initially LGm2 is the majority class while LGm 6 is the minority, consisting of only $5$\% of the entire dataset. Some samples prove to be problematic as their size make them too big to load into memory. Some even included what appears to be erroneous readings. For simplicity they are removed from the analysis. Their plots are shown in appendix \textbf{FILL IN APPENDIX!}\ref{appendix:spectrumTable1}. The data is now represented in Table \ref{table:2}
+\\
+
+\begin{table}[h!]
+\centering
+ \begin{tabular}{||c c c c c c c||} 
+ \hline
+ Class & LGm1 & LGm2 & LGm3 & LGm4 & LGm5 & LGm6 \\ [0.5ex] 
+ \hline\hline
+ \# of samples & 5& 11 & 4 & 13 & 15 & 5 \\ 
+ \hline
+ \# of spectra & 37319 & 71846 & 14896 & 50660 & 62256 & 20176 \\
+ \hline
+ percentage & 15\%& 28\% & 6\% & 20\% & 24\% & 8\% \\
+ \hline
+
+\end{tabular}
+\caption{The data distribution after removing problematic samples}
+\label{table:2}
+\end{table}
+
+
+Before the data is balanced, the testing data is selected and separated from the rest. This is done by separating at least one patient and all their samples from the rest of the data. This way it will be possible to test if the model is overfit to the patients in training and if the patient samples are heterogeneous  with respect to the other samples of the same class. With the test-patients separated, balancing the classes which contain less elements by a factor larger than or equal to two than the majority class (LGm2) is done by repeating the spectrum in each sample by that factor. Following this method the majority class will stay the majority which is be crucial provided the sample pattern is correct. The resulting dataset is gained by doubling the samples in LGm1, quadrupling the samples in Lgm3 and tripling the samples in LGm6. The distributions of the final training dataset is shown in Table \ref{table:3}.
+
+
+\begin{table}[h!]
+\centering
+ \begin{tabular}{||c c c c c c c||} 
+ \hline
+ Class & LGm1 & LGm2 & LGm3 & LGm4 & LGm5 & LGm6 \\ [0.5ex] 
+ \hline\hline
+\# of spectra & 22374	& 51698	& 11296	& 34276	& 43892	& 12976 \\
+ \hline 
+ Factor  & 2 & 1 & 4 & 1 & 1 & 3 \\
+ \hline 
+ \# of spectra & 44748 & 51698 & 45184 & 34276 & 43892 & 38928 \\
+ \hline
+ percentage & 17\%& 20\% & 17\% & 13\% & 17\% & 15\% \\
+ \hline
+
+\end{tabular}
+\caption{Distribution of the training data}
+\label{table:3}
+\end{table}
+
+Table \ref{table:3} shows the number of spectra before multiplying on row two and the number of spectra after on row four. The precentages on row five shows the distribution on the modified dataset. The percentages are now closer in scope,  meaning each class is now in relative balance to the other classes.
+
+\subsection{Feature selection}
