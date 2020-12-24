@@ -7,7 +7,7 @@ The data of the glioma patients is provided by \textbf{PROVIDERS HERE} and consi
 The preparation of the data is vital to form non-biased models, provided that the data can be restructured and rescaled to sufficiently represent the majority of samples. Should this be impossible the resulting predictive model will fail to grasp the necessary features in the data for forming predictions. The model would in this respect overfit to the data used to train it. To avoid this we preform a qualitative analysis on the data to determine the predictability. Each sample i cathegorized according to their methylation-types, there are six distinct classes of methylation in this data, the labels are denoted by: LGm1, LGm2, LGm3, LGm4, LGm5 and LGm 6.
 
 \subsection{Balancing}
-The data used to train a model must in some way be balanced. Should one label-class be over-represented with respect to the others, the model will as a consequence of it's learning-algorithm become biased towards certain predictions. The data suffers heavily from this problem, a table of the number of spectra in each class may be seen in Table \ref{table:1}.
+The data used to train a model must in some way be balanced. Should one label-class be over-represented with respect to the others, the model will as a consequence of it's learning-algorithm become biased towards certain predictions \textbf{PROVE THIS!}. The data suffers heavily from this problem, a table of the number of spectra in each class may be seen in Table \ref{table:1}.
 \\
 
 \begin{table}[h!]
@@ -76,4 +76,10 @@ Before the data is balanced, the testing data is selected and separated from the
 
 Table \ref{table:3} shows the number of spectra before multiplying on row two and the number of spectra after on row four. The precentages on row five shows the distribution on the modified dataset. The percentages are now closer in scope,  meaning each class is now in relative balance to the other classes.
 
+\subsection{Clustering}
+
+To ensure each sample include relevant information requires intuitive analysis. During extraction it is possible droplets of certain fluids were present, it is also possible the laser hit the tissue at a thin point which would scan the plastic underneath. This data must be removed to avoid model dependency on erroneous spectra. To find and remove the erroneous spectra, a clustering method is used. A suggested method is the k-means clustering algorithm by McQueen \textbf{SOURCE HERE!} performed on every spectra on a sample by sample analysis. The resulting clustering may be displayed as a 2-dimensional image, some of which are shown in \textbf{APPENDIX!!}. K-means do however suffer heavily from outlier influences, as these outliers may be present at this stage, it is necessary to consider other methods. Hierarchical clustering is a clustering method which avoids outlier dependency by separating each individual spectra into its own cluster and then reducing the number of clusters depending on the linkage type. Complete linkage is used to best capture the features,\textbf{Fill in information on how the method works, from sklearn} 
+
 \subsection{Feature selection}
+
+Each number in the spectra is a frequency at which the scattered light is gathered. This light is expected to be sufficient for predicting the methylation-type of the tumor-tissue. Due to the number of spectra inside each sample memory quickly becomes an issue, it is therefore relevant to examine which frequencies would have the most impact on classification. For this reason the best features are extracted with SelectKBestfeatures \textbf{SOURCE FROM SKLEARN}. The 70 best features were extracted from each spectra which is shown to be appropriate to recreate the original tumorshape by performing clustering 
