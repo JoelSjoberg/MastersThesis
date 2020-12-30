@@ -4,60 +4,6 @@ covering necessary mathematical theory required to understand data representatio
 
 \section{Mathematical Foundations}
 
-Machine learning is founded on statistical and linear algebraic theory. Moreover, certain methods within ML is heavily dependent on calculus to compute the change required to reach optimal solutions. The relevant theory for these concepts, accompanied by necessary examples will be covered in this section.
-
-\subsection{Set Theory}
-
-Set theory is a useful schematic originally presented by Georg Cantor in \textbf{[YEAR] [SOURCE HERE]}. Set theory concerns the theory of sets within the universe and allows for formalization of collections of elements e.g. the set of all natural numbers $\mathbb{N}$ is the set containing all whole numbers greater than or equal to 0. The cardinality of the set is $\infty$ as there is an infinite number of natural numbers expressed formally as \ref{eqn:card}.
-
-\begin{equation}
-\label{eqn:card}
-|\mathbb{N}| = \infty
-\end{equation}
-The elements bellonging to a certain set is denoted by $2 \in \mathbb{N}$. 
-Collections of sets bound by the operators $\cup$ (Union) and $\cap$ (intersection) produce sets of their own. Thus the following statements are theorems of set theory:
-
-
-\begin{equation}
-\label{eqn:union}
-\mathbb{N} \cup \mathbb{Z} \equiv \mathbb{Z}
-\end{equation}
-
-\begin{equation}
-\label{eqn:intersection}
-\mathbb{N} \cap \mathbb{Z} \equiv \mathbb{N}
-\end{equation}
-
-Formally, the sets are collections of elements not limited to numbers, sets are primarily collections whose elements are devoid of order. Therefore we may have sets of items, , datatypes, people etc. The set devoid of elements is the empty set $\emptyset$. This set is in contrast to the universal set $U$ containing all elements in the universe. The complement of a set is the set containing all elements in the universe excluding the complemented set. Form this reasoning follows the following theorems of set theory.
-
-\begin{equation}
-\label{eqn:emptyC}
-\emptyset^c  \equiv U
-\end{equation}
-
-\begin{equation}
-\label{eqnuniverseC}
-U^c  \equiv \emptyset
-\end{equation}
-
-
-
-\subsection{Statistics}
-
-With ML we have the capability to analyze and develop models for systems or phenomena within them without rigorous definition of said systems. This may be achieved by gathering data which in some way describes the system in question. A collection of data is called a dataset, datasets consists of examples which may range from single valued numbers to multi-dimensional tensors. Formally we say a dataset $X$ is a subset of an unknown Population $X'$ which includes every possible example $x$.
-
-
-Creating a model for predicting the systems behavior for the entire population is the goal of ML. Empirically it is rare to access data from the entire population $E$. Instead a subset of examples $x' \sim E_{X}$ is drawn from the population distribution $E_{X}$ for use within the ML-model. 
-
-\subsection{Linear Algebra}
-
-Linear algebra is founded on the theory of tensors. ML uses this theory immensely as the models produced in it are collections of numbers stored within matrices or multidimensional tensors. It is therefore vital to understand the preliminary concepts and terms within linear algebra.
-
-A vector...
-
-\subsection{Calculus}
-
-
 \section{Machine Learning}
 
 Machine learning is the practice of computing models for relationships between sets of data. The field has garnered significant interest within akademia and industry alike due to the promising result in a number of applications. Within the field there are mainly two paradigms for learning: Supervised learning (using labeled data to approximate models) and unsupervised learning (finding patterns within the data itself). 

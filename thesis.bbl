@@ -21,6 +21,19 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{cellsubsets}
+M.~Ceccarelli, F.~P. Barthel, T.~M. Malta, T.~S. Sabedot, S.~R. Salama, B.~A.
+  Murray, O.~Morozova, Y.~Newton, A.~Radenbaugh, S.~M. Pagnotta \emph{et~al.},
+  ``Molecular profiling reveals biologically discrete subsets and pathways of
+  progression in diffuse glioma,'' \emph{Cell}, vol. 164, no.~3, pp. 550--563,
+  2016.
+
+\bibitem{macqueen}
+J.~MacQueen \emph{et~al.}, ``Some methods for classification and analysis of
+  multivariate observations,'' in \emph{Proceedings of the fifth Berkeley
+  symposium on mathematical statistics and probability}, vol.~1, no.~14.\hskip
+  1em plus 0.5em minus 0.4em\relax Oakland, CA, USA, 1967, pp. 281--297.
+
 \bibitem{scikit}
 F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
   M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
