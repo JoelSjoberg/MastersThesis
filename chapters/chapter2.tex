@@ -76,9 +76,7 @@ $$x_0\theta_0 + x_1\theta_1 + ... + x_n\theta_n$$
 
 \subsection{K-means Clustering}
 
-Clustering is an unsupervised learning method whose primary use is in grouping sets of data. In this thesis we consider a fundamental version of such a clustering algorithm called \textit{K-means clustering}. The following is the formal definition of \textit{K - means clustering} as defined by McQueen
-\\
-Given a set of $N$-dimensional points $E_N$ and a desired amount of partitions $k$ in said population, partition the elements of $E_N$ into a partitioned set $S = \{S_1, S_2, ... S_k\}$. The partitioning of $E_N$ is performed by initializing $k$  $N$-dimensional points as randomly selected points within $E_N$. We define the set $V$ with elements $v$ where $v_i$ is the i:th cluster center where $i \in [0, k]$. The partitioning of the elements $x \in E_N$ into their respective partition $S_i$ is performed by computing the closest cluster center $\forall_{x \in E_N}$. Let $T_i$ be the set of $x \in E_N$ such that the distance from the element to the relevant cluster is minimal, $T_i$ is defined by formula \ref{eqn:Ti}.
+Clustering is an unsupervised learning method whose primary use is in grouping sets of data. In this thesis we consider a fundamental version of such a clustering algorithm called \textit{K-means clustering}. The following is the formal definition of \textit{K - means clustering} as defined by MacQueen\cite{macqueen}. Given a set of $N$-dimensional points $E_N$ and a desired amount of partitions $k$ in said population, partition the elements of $E_N$ into a partitioned set $S = \{S_1, S_2, ... S_k\}$. The partitioning of $E_N$ is performed by initializing $k$  $N$-dimensional points as randomly selected points within $E_N$. We define the set $V$ with elements $v$ where $v_i$ is the i:th cluster center where $i \in [0, k]$. The partitioning of the elements $x \in E_N$ into their respective partition $S_i$ is performed by computing the closest cluster center $\forall_{x \in E_N}$. Let $T_i$ be the set of $x \in E_N$ such that the distance from the element to the relevant cluster is minimal, $T_i$ is defined by formula \ref{eqn:Ti}.
 
 \begin{equation}
 \label{eqn:Ti}
@@ -92,9 +90,19 @@ For centers who share equal distance to any give $x$ the cluster with the smalle
 S_i = T_i \cap \bigcap_{j=0}^{(i-1)} S_j^c
 \end{equation}
 
-\section{Hierarchical clustering}
+\subsection{Hierarchical clustering}
 
-Hierarchical clustering is a clustering method which is less suceptible to outliers compared to K-means. The method initializes one cluster per datapoint and merges clusters according to the linkage type. \textbf{EXPAND THIS SECTION, ADD SKLEARN REFERENCES!}
+Hierarchical clustering is a clustering method which is less suceptible to outliers compared to K-means. The method produces clusters in hierarchies by separating the data into clusters from which the process continues recursively. The two primary strategies for forming clusters are agglomerative and divisive. Agglomerative clustering initializes one cluster for each data point and combines them in a hierarchy according to the linkage criterion until all clusters are part of the hierarchy. Divisive strategies process in counter to the agglomerative strategies by initializing one universal cluster for all data points and divide the points into separate clusters according to the linkage criterion. The method proceeds until all data points are separated to their own cluster within the unifying hierarchy. The project described in this thesis uses the agglomerative strategy. All strategies depend on the distance measure and linkage criterion. A usual choise for the distance metric is the euclidian distance, calculated by equation \ref{eqn:euclid}.
+
+\begin{equation}
+\label{eqn:euclid}
+d(u, v) = \sqrt{\Sigma_i (u_i - v_i)^2} 
+\end{equation}
+
+The euclidean measure is use in the project. The linkage criteria used in this project is the complete-linkage method (maximum linkage). The linkage criterion determines where clusters will be merged in the clustering method.
+
+ \textbf{EXPAND THIS SECTION, ADD SKLEARN REFERENCES!}
+ \cite{scikit}
 
 \section{Deep Learning}
 
