@@ -2,9 +2,10 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: ieeetran.bst
 Database file #1: ref.bib
 Warning--I didn't find a database entry for "test"
+Warning--I didn't find a database entry for "ramanUseful0"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-(There was 1 warning)
+(There were 2 warnings)

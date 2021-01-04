@@ -21,12 +21,30 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{mayoglioma}
+\BIBentryALTinterwordspacing
+M.~C. Staff. Glioma. [Online]. Available:
+  \url{https://www.mayoclinic.org/diseases-conditions/glioma/symptoms-causes/syc-20350251}
+\BIBentrySTDinterwordspacing
+
 \bibitem{cellsubsets}
 M.~Ceccarelli, F.~P. Barthel, T.~M. Malta, T.~S. Sabedot, S.~R. Salama, B.~A.
   Murray, O.~Morozova, Y.~Newton, A.~Radenbaugh, S.~M. Pagnotta \emph{et~al.},
   ``Molecular profiling reveals biologically discrete subsets and pathways of
   progression in diffuse glioma,'' \emph{Cell}, vol. 164, no.~3, pp. 550--563,
   2016.
+
+\bibitem{nihglioma}
+\BIBentryALTinterwordspacing
+N.~Genetic and R.~D.~I. Center. (2015) Glioma. [Online]. Available:
+  \url{https://rarediseases.info.nih.gov/diseases/6513/glioma}
+\BIBentrySTDinterwordspacing
+
+\bibitem{hopkinsglioma}
+\BIBentryALTinterwordspacing
+J.~H. Medicine. Gliomas. [Online]. Available:
+  \url{https://www.hopkinsmedicine.org/health/conditions-and-diseases/gliomas#:~:text=The%20treatment%20for%20a%20glioma,tumor's%20growth%20potential%20and%20aggressiveness.}
+\BIBentrySTDinterwordspacing
 
 \bibitem{macqueen}
 J.~MacQueen \emph{et~al.}, ``Some methods for classification and analysis of
@@ -40,10 +58,5 @@ F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
   D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay, ``Scikit-learn:
   Machine learning in {P}ython,'' \emph{Journal of Machine Learning Research},
   vol.~12, pp. 2825--2830, 2011.
-
-\bibitem{einstein}
-A.~Einstein, ``{Zur Elektrodynamik bewegter K{\"o}rper}. ({German}) [{On} the
-  electrodynamics of moving bodies],'' \emph{Annalen der Physik}, vol. 322,
-  no.~10, pp. 891--921, 1905.
 
 \end{thebibliography}
