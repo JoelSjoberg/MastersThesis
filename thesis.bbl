@@ -1,8 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{mayoglioma}
-M.~C. Staff, ``Glioma.''
-
 \bibitem{gallego2015nonsurgical}
 O.~Gallego, ``Nonsurgical treatment of recurrent glioblastoma,'' {\em Current
   oncology}, vol.~22, no.~4, p.~e273, 2015.
@@ -12,11 +9,18 @@ F.~E. Bleeker, R.~J. Molenaar, and S.~Leenstra, ``Recent advances in the
   molecular understanding of glioblastoma,'' {\em Journal of neuro-oncology},
   vol.~108, no.~1, pp.~11--27, 2012.
 
-\bibitem{nihglioma}
-N.~Genetic and R.~D.~I. Center, ``Glioma,'' 2015.
+\bibitem{dirkse2019stem}
+A.~Dirkse, A.~Golebiewska, T.~Buder, P.~V. Nazarov, A.~Muller, S.~Poovathingal,
+  N.~H. Brons, S.~Leite, N.~Sauvageot, D.~Sarkisjan, {\em et~al.}, ``Stem
+  cell-associated heterogeneity in glioblastoma results from intrinsic tumor
+  plasticity shaped by the microenvironment,'' {\em Nature communications},
+  vol.~10, no.~1, pp.~1--16, 2019.
 
-\bibitem{hopkinsglioma}
-J.~H. Medicine, ``Gliomas.''
+\bibitem{gradesandpriorsubdivision}
+K.~Vigneswaran, S.~Neill, and C.~G. Hadjipanayis, ``Beyond the world health
+  organization grading of infiltrating gliomas: advances in the molecular
+  genetics of glioma classification,'' {\em Annals of translational medicine},
+  vol.~3, no.~7, 2015.
 
 \bibitem{cellsubsets}
 M.~Ceccarelli, F.~P. Barthel, T.~M. Malta, T.~S. Sabedot, S.~R. Salama, B.~A.
@@ -24,6 +28,13 @@ M.~Ceccarelli, F.~P. Barthel, T.~M. Malta, T.~S. Sabedot, S.~R. Salama, B.~A.
   ``Molecular profiling reveals biologically discrete subsets and pathways of
   progression in diffuse glioma,'' {\em Cell}, vol.~164, no.~3, pp.~550--563,
   2016.
+
+\bibitem{long1977raman}
+D.~A. Long, ``Raman spectroscopy,'' {\em New York}, pp.~1--12, 1977.
+
+\bibitem{graves1989practical}
+P.~Graves and D.~Gardiner, ``Practical raman spectroscopy,'' {\em Springer},
+  1989.
 
 \bibitem{ramanDL}
 M.~K. Maruthamuthu, A.~H. Raffiee, D.~M. De~Oliveira, A.~M. Ardekani, and M.~S.
