@@ -1,11 +1,56 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
-The style file: ieeetran.bst
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: ref.bib
-Warning--I didn't find a database entry for "test"
-Warning--I didn't find a database entry for "ramanUseful0"
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-
-Done.
-(There were 2 warnings)
+Warning--entry type for "mayoglioma" isn't style-file defined
+--line 46 of file ref.bib
+Warning--entry type for "nihglioma" isn't style-file defined
+--line 53 of file ref.bib
+Warning--entry type for "hopkinsglioma" isn't style-file defined
+--line 61 of file ref.bib
+Warning--can't use both volume and number fields in macqueen
+You've used 11 entries,
+            1876 wiz_defined-function locations,
+            551 strings with 5719 characters,
+and the built_in function-call counts, 3381 in all, are:
+= -- 305
+> -- 193
+< -- 0
++ -- 69
+- -- 58
+* -- 261
+:= -- 500
+add.period$ -- 9
+call.type$ -- 11
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 151
+empty$ -- 284
+format.name$ -- 58
+if$ -- 800
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 8
+newline$ -- 36
+num.names$ -- 11
+pop$ -- 31
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 133
+stack$ -- 0
+substring$ -- 202
+swap$ -- 73
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 31
+width$ -- 13
+write$ -- 108
+(There were 4 warnings)
