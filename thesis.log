@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  6 JAN 2021 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  7 JAN 2021 11:59
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -663,24 +663,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
 ]
 Chapter 1.
-(chapters/motivation.tex) [3
+(chapters/chapter1.tex [3
 
-]
+]) [4]
 Chapter 2.
-(chapters/chapter1.tex [4
+(chapters/chapter2.tex [5
 
-]) [5]
-Chapter 3.
-(chapters/chapter2.tex [6
-
-] [7]
+] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[8]) [9]
-Chapter 4.
-(chapters/chapter3.tex [10
+[7]) [8]
+Chapter 3.
+(chapters/chapter3.tex [9
 
 ]
 Overfull \hbox (5.08446pt too wide) in paragraph at lines 10--12
@@ -693,51 +689,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
-[11]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-[12]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-[13]) [14]
-Chapter 5.
-[15
+[12]) [13]
+Chapter 4.
+[14
 
 ]
-Chapter 6.
-(thesis.bbl [16
+Chapter 5.
+(thesis.bbl [15
 
-] [17
+] [16
 
-]) [18] [19
+]) [17] [18
 
-] (thesis.aux) ) 
+] (thesis.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 14379 strings out of 479624
- 282345 string characters out of 2865148
+ 14375 strings out of 479624
+ 282214 string characters out of 2865148
  569912 words of memory out of 3000000
- 31230 multiletter control sequences out of 15000+200000
+ 31229 multiletter control sequences out of 15000+200000
  443976 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,8n,106p,1949b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/b
-ase/8r.enc}<C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joels/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/joels/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/joels/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/joels/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (21 pages, 128256 bytes).
+ 108i,8n,106p,2724b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
+/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fo
+nts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmb8a.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmr8a.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (20 pages, 128244 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

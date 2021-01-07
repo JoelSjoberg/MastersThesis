@@ -1,19 +1,18 @@
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{3}{}%
-\contentsline {chapter}{\numberline {2}Project Description}{4}{}%
-\contentsline {chapter}{\numberline {3}Theoretical Background}{6}{}%
-\contentsline {section}{\numberline {3.1}Mathematical Foundations}{6}{}%
-\contentsline {section}{\numberline {3.2}Machine Learning}{6}{}%
-\contentsline {subsection}{\numberline {3.2.1}K-means Clustering}{7}{}%
-\contentsline {subsection}{\numberline {3.2.2}Hierarchical clustering}{7}{}%
-\contentsline {section}{\numberline {3.3}Deep Learning}{8}{}%
-\contentsline {subsection}{\numberline {3.3.1}Artificial Neural Networks}{8}{}%
-\contentsline {subsection}{\numberline {3.3.2}Computational Representations}{9}{}%
-\contentsline {chapter}{\numberline {4}Data Exploration}{10}{}%
-\contentsline {section}{\numberline {4.1}Data Representation}{10}{}%
-\contentsline {section}{\numberline {4.2}Data preparation}{11}{}%
-\contentsline {subsection}{\numberline {4.2.1}Balancing}{11}{}%
-\contentsline {subsection}{\numberline {4.2.2}Clustering}{13}{}%
-\contentsline {subsection}{\numberline {4.2.3}Feature selection}{13}{}%
-\contentsline {chapter}{\numberline {5}Results}{15}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{16}{}%
+\contentsline {chapter}{\numberline {2}Theoretical Background}{5}{}%
+\contentsline {section}{\numberline {2.1}Mathematical Foundations}{5}{}%
+\contentsline {section}{\numberline {2.2}Machine Learning}{5}{}%
+\contentsline {subsection}{\numberline {2.2.1}K-means Clustering}{6}{}%
+\contentsline {subsection}{\numberline {2.2.2}Hierarchical clustering}{6}{}%
+\contentsline {section}{\numberline {2.3}Deep Learning}{7}{}%
+\contentsline {subsection}{\numberline {2.3.1}Artificial Neural Networks}{7}{}%
+\contentsline {subsection}{\numberline {2.3.2}Computational Representations}{8}{}%
+\contentsline {chapter}{\numberline {3}Data Exploration}{9}{}%
+\contentsline {section}{\numberline {3.1}Data Representation}{9}{}%
+\contentsline {section}{\numberline {3.2}Data preparation}{10}{}%
+\contentsline {subsection}{\numberline {3.2.1}Balancing}{10}{}%
+\contentsline {subsection}{\numberline {3.2.2}Clustering}{12}{}%
+\contentsline {subsection}{\numberline {3.2.3}Feature selection}{12}{}%
+\contentsline {chapter}{\numberline {4}Results}{14}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{15}{}%
