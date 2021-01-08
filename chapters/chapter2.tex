@@ -29,26 +29,41 @@ Clustering is an unsupervised learning method whose primary use is in grouping s
 T_i = \{x : x \in E_N | (\forall_{j \in [0, k]/i } |x - v_i| \leq |x - v_j|)\} 
 \end{equation}
 
-For centers who share equal distance to any give $x$ the cluster with the smallest index is chosen as the containing set. The partitions $S_i \in S$ are defined by formula \ref{eqn:Si}
+For centers who share equal distance to any given $x$ the cluster with the smallest index is chosen as the containing set. The partitions $S_i \in S$ are defined by formula \ref{eqn:Si}
 
 \begin{equation}
 \label{eqn:Si}
 S_i = T_i \cap \bigcap_{j=0}^{(i-1)} S_j^c
 \end{equation}
 
+A consequence to this definition is that outliers have a potential to drastically change the quality of the cluster outcomes. To remedy this and the stochastic nature of the initialization process, the method is run several times on the same dataset, yielding the resulting clusters with minimal inertia. The method also has a considerably time complexity and is prove to be NP-hard \cite{mahajan2009planar}.
+
+
 \subsection{Hierarchical clustering}
 
-Hierarchical clustering is a clustering method which is less suceptible to outliers compared to K-means. The method produces clusters in hierarchies by separating the data into clusters from which the process continues recursively. The two primary strategies for forming clusters are agglomerative and divisive. Agglomerative clustering initializes one cluster for each data point and combines them in a hierarchy according to the linkage criterion until all clusters are part of the hierarchy. Divisive strategies process in counter to the agglomerative strategies by initializing one universal cluster for all data points and divide the points into separate clusters according to the linkage criterion. The method proceeds until all data points are separated to their own cluster within the unifying hierarchy. The project described in this thesis uses the agglomerative strategy. All strategies depend on the distance measure and linkage criterion. A usual choise for the distance metric is the euclidian distance, calculated by equation \ref{eqn:euclid}.
+Hierarchical clustering is a clustering method which is less suceptible to outliers compared to K-means. The method produces clusters by iteratively combining the closest clusters according to the linkage criterion. The two primary strategies for forming clusters are agglomerative and divisive. Agglomerative clustering initializes one cluster for each data point and combines them in a hierarchy according to the linkage criterion until all clusters are part of the hierarchy. Divisive strategies process in counter to the agglomerative strategies by initializing one universal cluster for all data points and then separate the points into distinct clusters according to the linkage criterion. The method proceeds until all data points are separated to their own cluster within the unifying hierarchy. The project described in this thesis uses the agglomerative strategy. All strategies depend on the distance measure and linkage criterion. Let $u$ and $v$ be vectors of the same dimension $n$. The euclidean distance(alternatively L2) measure can be used to measure distance between the vectors in euclidean space. It is calculated by taking the square root of the summed squared distance between each vector element in each vector. Formally expressed in equation \ref{eqn:euclid}.
 
 \begin{equation}
 \label{eqn:euclid}
 d(u, v) = \sqrt{\Sigma_i (u_i - v_i)^2} 
 \end{equation}
 
-The euclidean measure is use in the project. The linkage criteria used in this project is the complete-linkage method (maximum linkage). The linkage criterion determines where clusters will be merged in the clustering method.
+The manhattan distance(alternatively L1) metric is also a viable alternative if the distance is to be measured in blocks. The distance is akin to finding a shortest path among blocks and is therefore calculated by summing the absolute distance of every element between every vector. Formally expressed in equation \ref{eqn:manhattan}.
 
- \textbf{EXPAND THIS SECTION, ADD SKLEARN REFERENCES!}
- \cite{scikit}
+\begin{equation}
+\label{eqn:manhattan}
+d(u, v) = \Sigma_i |u_i - v_i|
+\end{equation}
+
+Cosine similarity measures similarity between vector angles and suits situations where certain vectors are expected to be similar. Should the vectors be sizable in terms of dimensionality, this method will yield varying results, especially if the elements have significant variance in each dimension. It is calculated by dividing the sum of each element product in each vector by the product of the square roots of each summed and squared vector element. Formally expressed in equation \ref{eqn:cosine}.
+
+\begin{equation}
+\label{eqn:cosine}
+d(u, v) = \frac{\Sigma_i u_iv_i}{\sqrt{\Sigma_i u_i^2}\sqrt{\Sigma_i v_i^2}}
+\end{equation}
+
+Furthermore the algorithm uses a linkage criterion to decide which clusters to merge in the agglomerative method. 
+
 
 \section{Deep Learning}
 
