@@ -41,7 +41,10 @@ A consequence to this definition is that outliers have a potential to drasticall
 
 \subsection{Hierarchical clustering}
 
-Hierarchical clustering is a clustering method which is less suceptible to outliers compared to K-means. The method produces clusters by iteratively combining the closest clusters according to the linkage criterion. The two primary strategies for forming clusters are agglomerative and divisive. Agglomerative clustering initializes one cluster for each data point and combines them in a hierarchy according to the linkage criterion until all clusters are part of the hierarchy. Divisive strategies process in counter to the agglomerative strategies by initializing one universal cluster for all data points and then separate the points into distinct clusters according to the linkage criterion. The method proceeds until all data points are separated to their own cluster within the unifying hierarchy. The project described in this thesis uses the agglomerative strategy. All strategies depend on the distance measure and linkage criterion. Let $u$ and $v$ be vectors of the same dimension $n$. The euclidean distance(alternatively L2) measure can be used to measure distance between the vectors in euclidean space. It is calculated by taking the square root of the summed squared distance between each vector element in each vector. Formally expressed in equation \ref{eqn:euclid}.
+Hierarchical clustering is a clustering method which is less suceptible to outliers compared to K-means. The method produces clusters by iteratively combining the closest clusters according to the linkage criterion. The two primary strategies for forming clusters are agglomerative and divisive. Agglomerative clustering initializes one cluster for each data point and combines them in a hierarchy according to the linkage criterion until all clusters are part of the hierarchy. Divisive strategies process in counter to the agglomerative strategies by initializing one universal cluster for all data points and then separate the points into distinct clusters according to the linkage criterion. The method proceeds until all data points are separated to their own cluster within the unifying hierarchy. The project described in this thesis uses the agglomerative strategy. All strategies depend on the distance measure and linkage criterion.
+
+\subsubsection{Distance metrics}
+Let $u$ and $v$ be vectors of the same dimension $n$. The euclidean distance(alternatively L2) measure can be used to measure distance between the vectors in euclidean space. It is calculated by taking the square root of the summed squared distance between each vector element in each vector. Formally expressed in equation \ref{eqn:euclid}.
 
 \begin{equation}
 \label{eqn:euclid}
@@ -62,7 +65,9 @@ Cosine similarity measures similarity between vector angles and suits situations
 d(u, v) = \frac{\Sigma_i u_iv_i}{\sqrt{\Sigma_i u_i^2}\sqrt{\Sigma_i v_i^2}}
 \end{equation}
 
-Furthermore the algorithm uses a linkage criterion to decide which clusters to merge in the agglomerative method. 
+\subsubsection{Linkage Criteria}
+
+Furthermore the algorithm uses a linkage criterion to decide which clusters to merge in the agglomerative method. While many linkage criteria exist, only those available in SKlearns' implementation are explained in this section\cite{scikit}. These criteria consider the positional values of the elements within each cluster and with the distance metric, measures a distance between the clusters. Single linkage searches for the element in each cluster that are closest to the elements in every other cluster. The two clusters including the elements that are closest to each other are then merged. Complete linkage works in contrast by searching for the elements which have a maximum distance between each other. after finding the smallest distance of all these, the method merges the clusters. Ward linkage merges the two clusters which have minimal variance. This requires calculating the variance among all elements between two clusters for every combination of clusters within the data. Average linkage calculates the average between all elements for every combination of clusters and merges the ones corresponding to the minimal distance.
 
 
 \section{Deep Learning}
