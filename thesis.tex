@@ -10,7 +10,6 @@
 \usepackage[toc,page]{appendix}
 \usepackage{etoolbox} % this one makes a workaround with page numbering possible
 
-
 \usepackage{csquotes} % BibLaTex stuff
 
 
@@ -99,11 +98,17 @@ The Faculty Of Science And Engineering\\ % FACULTY
 \bibliographystyle{ieeetr}
 \bibliography{ref}% ref.bib
 
-\chapter*{Appendix}
+\appendix
+\chapter{Appendix}
 
-\section*{Appendix A}
-\label{appendix:spectrumTable1}
-\textbf{INSERT TABLE}
+\label{appendix:spectraplot}
+
+\begin{figure}[hbt!]
+ \centering
+ \includegraphics{images/1293graph.JPG}
+ \caption{Spectras from patient HF-1293}
+\end{figure}
+
 
 \section*{Appendix B}
 \label{appendix:spectrumTable2}
@@ -112,6 +117,5 @@ The Faculty Of Science And Engineering\\ % FACULTY
 \section*{Appendix C}
 \label{appendix:hierimg0}
 \textbf{INSERT Image}
-
 
 \end{document}
