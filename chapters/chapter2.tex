@@ -69,6 +69,9 @@ d(u, v) = \frac{\Sigma_i u_iv_i}{\sqrt{\Sigma_i u_i^2}\sqrt{\Sigma_i v_i^2}}
 
 Furthermore the algorithm uses a linkage criterion to decide which clusters to merge in the agglomerative method. While many linkage criteria exist, only those available in SKlearns' implementation are explained in this section\cite{scikit}. These criteria consider the positional values of the elements within each cluster and with the distance metric, measures a distance between the clusters. Single linkage searches for the element in each cluster that are closest to the elements in every other cluster. The two clusters including the elements that are closest to each other are then merged. Complete linkage works in contrast by searching for the elements which have a maximum distance between each other. after finding the smallest distance of all these, the method merges the clusters. Ward linkage merges the two clusters which have minimal variance. This requires calculating the variance among all elements between two clusters for every combination of clusters within the data. Average linkage calculates the average between all elements for every combination of clusters and merges the ones corresponding to the minimal distance.
 
+\subsection{Feature Selection}
+
+In many cases the data available contains numerous features. This is necessary, as gathering enough features is essential to building a sufficient classifier. However as the number of features increases so does the requirement for training data. To avoid this expanding dependence on data it is necessary to strip the data of certain features which possess minimal description of the data in question or lack that description entirely \cite{dash1997feature}. These features which possess the expressive information are not always trivial, which further motivates the use for machine learning to find these features.
 
 \section{Deep Learning}
 

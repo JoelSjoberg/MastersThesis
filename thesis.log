@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  9 JAN 2021 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  11 JAN 2021 15:21
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -669,12 +669,12 @@ Chapter 1.
 Chapter 2.
 (chapters/chapter2.tex [5
 
-] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+] [6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[8]) [9]
+) [9]
 Chapter 3.
 (chapters/chapter3.tex [10
 
@@ -713,10 +713,10 @@ Chapter 5.
 
 ] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 14378 strings out of 479624
- 282260 string characters out of 2865148
- 569937 words of memory out of 3000000
- 31232 multiletter control sequences out of 15000+200000
+ 14379 strings out of 479624
+ 282277 string characters out of 2865148
+ 569942 words of memory out of 3000000
+ 31233 multiletter control sequences out of 15000+200000
  443976 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,8n,106p,2738b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -731,7 +731,7 @@ rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (21 pages, 131016 bytes).
+Output written on thesis.pdf (21 pages, 131516 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

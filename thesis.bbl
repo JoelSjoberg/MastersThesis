@@ -70,4 +70,8 @@ F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
   Machine learning in {P}ython,'' {\em Journal of Machine Learning Research},
   vol.~12, pp.~2825--2830, 2011.
 
+\bibitem{dash1997feature}
+M.~Dash and H.~Liu, ``Feature selection for classification,'' {\em Intelligent
+  data analysis}, vol.~1, no.~3, pp.~131--156, 1997.
+
 \end{thebibliography}
