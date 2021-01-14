@@ -30,7 +30,7 @@ The balancing stage is of tremendous importance, should the model be made from t
 \end{table}
 
 \newpage
-Table \ref{table:1} shows the per class separation in the data, the header row shows the labels of each class. The first row shows the number of samples belonging to each class, these are the tumors which will be analyzed. The second row display the total number of spectra across each class, these must be considered when balancing is performed note that there are an equal amount of samples in LGm1 and LGm6 but have a different number of spectra. This is due to the size of each sample drawn from the tumor. The last row shows the percentage each class makes of the entire dataset. Initially LGm2 is the majority class while LGm6 is the minority, consisting of only $5$\% of the entire dataset. Some samples prove to be problematic as their size make them too big to load into memory. Some even included what appears to be erroneous readings. The plot of one erroneous example is shown in appendix \ref{appendix:spectraplot}. For simplicity, these are removed from the analysis, some included a great number of spectra which cause memory errors when they are plotted. The maximum is also present in these plots and as can be seen in appendix \ref{appendix:spectraplot} the spectra appear to be erroneous. While there are methods of improving their shape, there is enough data to move to the next stage. Following the removal of the problematic samples the data is now represented in Table \ref{table:2}
+Table \ref{table:1} shows the per class separation in the data, the header row shows the labels of each class. The first row shows the number of samples belonging to each class, these are the tumors which will be analyzed. The second row display the total number of spectra across each class, these must be considered when balancing is performed note that there are an equal amount of samples in LGm1 and LGm6 but have a different number of spectra. This is due to the size of each sample drawn from the tumor. The last row shows the percentage each class makes of the entire dataset. Initially LGm2 is the majority class while LGm6 is the minority, consisting of only $5$\% of the entire dataset. Some samples prove to be problematic as their size make them too big to load into memory. Some even included what appears to be erroneous readings. The plot of one erroneous example is shown in appendix \ref{appendix:spectraplot}. For simplicity, these are removed from the analysis, some included a great number of spectra which cause memory errors when they are plotted. The maximum is also present in these plots and as can be seen in appendix \ref{appendix:spectraplot} the spectra appear to be erroneous. While there are methods of improving their shape, there is enough data to move to the next stage even after their removal. Following the removal of the problematic samples the data is now represented in Table \ref{table:2}
 \\
 
 \begin{table}[h!]
@@ -52,10 +52,10 @@ Table \ref{table:1} shows the per class separation in the data, the header row s
 \end{table}
 
 
-Before the data is balanced, the testing data is selected and separated from the rest. This is done by separating at least one patient and all their samples from the rest of the data. This way it will be possible to test if the model is overfit to the patients in training and if the patient samples are heterogeneous  with respect to the other samples of the same class. With the test-patients separated, balancing the classes which contain less elements by a factor larger than or equal to two than the majority class (LGm2) is done by repeating the spectrum in each sample by that factor. Following this method the majority class will stay the majority which is be crucial provided the sample pattern is correct. The resulting dataset is gained by doubling the samples in LGm1, quadrupling the samples in Lgm3 and tripling the samples in LGm6. The distributions of the final training dataset is shown in Table \ref{table:3}.
-
-
-\begin{table}[h!]
+Before the data is balanced, the testing data is selected and separated from the rest. This is done by separating at least one patient and all their samples from the rest of the data. This way it will be possible to test if the model is overfit to the patients in training and if the patient samples are heterogeneous with respect to the other samples of the same class. Balancing the classes which contain less elements by a factor larger than or equal to two compared to the majority class (LGm2) is done by repeating the spectrum in each sample by that factor. Following this method the majority class will stay the majority which can be crucial provided the sample pattern is similar to the set of all other unseen samples. The resulting dataset is gained by doubling the samples in LGm1, quadrupling the samples in LGm3 and tripling the samples in LGm6. The distributions of the final training dataset is shown in Table \ref{table:3}.
+\\
+\\
+\begin{table}[htb]
 \centering
  \begin{tabular}{||c c c c c c c||} 
  \hline
@@ -75,7 +75,7 @@ Before the data is balanced, the testing data is selected and separated from the
 \label{table:3}
 \end{table}
 
-Table \ref{table:3} shows the number of spectra before multiplying on row two and the number of spectra after on row four. The precentages on row five shows the distribution on the modified dataset. The percentages are now closer in scope,  meaning each class is now in relative balance to the other classes.
+Table \ref{table:3} shows the number of spectra before multiplying on row one and the number of spectra after on row three. The precentages on row four shows the distribution on the modified dataset. The percentages are now closer in scope,  meaning each class is now in relative balance to the other classes.
 
 \subsection{Clustering}
 

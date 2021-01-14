@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  13 JAN 2021 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  14 JAN 2021 17:07
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -552,7 +552,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 31
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 27
 .
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -565,20 +565,20 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 ) (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -641,41 +641,41 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 50.
+ 46.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 50.
+ 46.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 50.
+ 46.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 50.
+ 46.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-0.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
+6.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
 
 [1
 
@@ -706,7 +706,7 @@ Chapter 2.
 (chapters/chapter2.tex [5
 
 ] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
@@ -725,7 +725,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 55--77
+
+ []
 
 [13]
 Underfull \hbox (badness 10000) in paragraph at lines 86--88
@@ -743,8 +745,8 @@ Chapter 5.
 ] [18
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-9.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
+3.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -754,21 +756,21 @@ Appendix A.
 <images/1293graph.JPG, id=80, 242.78203pt x 156.96141pt>
 File: images/1293graph.JPG Graphic file (type jpg)
 <use images/1293graph.JPG>
-Package pdftex.def Info: images/1293graph.JPG  used on input line 108.
+Package pdftex.def Info: images/1293graph.JPG  used on input line 104.
 (pdftex.def)             Requested size: 142.26378pt x 91.97412pt.
 <images/1887graph.JPG, id=81, 234.5011pt x 150.5625pt>
 File: images/1887graph.JPG Graphic file (type jpg)
 <use images/1887graph.JPG>
-Package pdftex.def Info: images/1887graph.JPG  used on input line 110.
+Package pdftex.def Info: images/1887graph.JPG  used on input line 106.
 (pdftex.def)             Requested size: 142.26378pt x 91.33984pt.
 [20
 
  <./images/1293graph.JPG> <./images/1887graph.JPG>] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 15802 strings out of 479624
- 309437 string characters out of 2865148
- 596844 words of memory out of 3000000
- 32637 multiletter control sequences out of 15000+200000
+ 15807 strings out of 479624
+ 309514 string characters out of 2865148
+ 596879 words of memory out of 3000000
+ 32642 multiletter control sequences out of 15000+200000
  447031 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,10n,106p,3355b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -784,7 +786,7 @@ ymbol/usyr.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on thesis.pdf (22 pages, 206652 bytes).
+Output written on thesis.pdf (22 pages, 208568 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
