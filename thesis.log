@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  14 JAN 2021 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  15 JAN 2021 17:12
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -706,20 +706,20 @@ Chapter 2.
 (chapters/chapter2.tex [5
 
 ] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-) [9]
+[9]) [10]
 Chapter 3.
-(chapters/chapter3.tex [10
+(chapters/chapter3.tex [11
 
-] [11]
+] [12]
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-[12]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
@@ -729,20 +729,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--77
 
  []
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
-[14]) [15]
+[15]) [16]
 Chapter 4.
-[16
+[17
 
 ]
 Chapter 5.
-(thesis.bbl [17
+(thesis.bbl [18
 
-] [18
+] [19
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
@@ -751,26 +751,26 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
-[19]
+[20]
 Appendix A.
-<images/1293graph.JPG, id=80, 242.78203pt x 156.96141pt>
+<images/1293graph.JPG, id=83, 242.78203pt x 156.96141pt>
 File: images/1293graph.JPG Graphic file (type jpg)
 <use images/1293graph.JPG>
 Package pdftex.def Info: images/1293graph.JPG  used on input line 104.
 (pdftex.def)             Requested size: 142.26378pt x 91.97412pt.
-<images/1887graph.JPG, id=81, 234.5011pt x 150.5625pt>
+<images/1887graph.JPG, id=84, 234.5011pt x 150.5625pt>
 File: images/1887graph.JPG Graphic file (type jpg)
 <use images/1887graph.JPG>
 Package pdftex.def Info: images/1887graph.JPG  used on input line 106.
 (pdftex.def)             Requested size: 142.26378pt x 91.33984pt.
-[20
+[21
 
  <./images/1293graph.JPG> <./images/1887graph.JPG>] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 15807 strings out of 479624
- 309514 string characters out of 2865148
- 596879 words of memory out of 3000000
- 32642 multiletter control sequences out of 15000+200000
+ 15809 strings out of 479624
+ 309537 string characters out of 2865148
+ 596899 words of memory out of 3000000
+ 32644 multiletter control sequences out of 15000+200000
  447031 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,10n,106p,3355b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -786,9 +786,9 @@ ymbol/usyr.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on thesis.pdf (22 pages, 208568 bytes).
+Output written on thesis.pdf (23 pages, 210049 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
