@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  15 JAN 2021 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  18 JAN 2021 10:44
 entering extended mode
 **./chapter2.tex
 (chapter2.tex
@@ -5453,24 +5453,6 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 68--69
-[]
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 I
-      n order to measure distance between clusters it is essential to know b...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -5962,12 +5944,62 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 70--71
+Overfull \hbox (20.0pt too wide) in paragraph at lines 68--71
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 70--71
+Overfull \hbox (37.29146pt too wide) in paragraph at lines 68--71
+\OT1/cmr/bx/n/10 TODO:
+ []
+
+
+Overfull \hbox (21.4721pt too wide) in paragraph at lines 68--71
+\OT1/cmr/bx/n/10 Add
+ []
+
+
+Overfull \hbox (17.83325pt too wide) in paragraph at lines 68--71
+\OT1/cmr/bx/n/10 for-
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 68--71
+\OT1/cmr/bx/n/10 mal
+ []
+
+
+Overfull \hbox (22.68044pt too wide) in paragraph at lines 68--71
+\OT1/cmr/bx/n/10 link-
+ []
+
+
+Overfull \hbox (16.61101pt too wide) in paragraph at lines 68--71
+\OT1/cmr/bx/n/10 age
+ []
+
+
+Overfull \hbox (19.00685pt too wide) in paragraph at lines 68--71
+\OT1/cmr/bx/n/10 def-
+ []
+
+
+Overfull \hbox (7.02774pt too wide) in paragraph at lines 68--71
+\OT1/cmr/bx/n/10 i-
+ []
+
+
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 68--71
+\OT1/cmr/bx/n/10 ni-
+ []
+
+
+Overfull \hbox (24.34152pt too wide) in paragraph at lines 68--71
+\OT1/cmr/bx/n/10 tions
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 68--71
 []
  []
 
@@ -6376,7 +6408,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.79 W
-      here $n, m$ are whole numbers denoting the index of the closest elemen...
+      here $n, m$ are whole numbers denoting the indices of all elements suc...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6415,20 +6447,15 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -6437,6 +6464,47 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -7195,10 +7263,9 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 88--88
  []
 
 
-Overfull \hbox (123.89842pt too wide) detected at line 91
-[]\OMS/cmsy/m/n/10 8[]\OML/cmm/m/it/10 max\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\O
-T1/cmr/m/n/10 (\OML/cmm/m/it/10 u[]; v\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; d\OT1
-/cmr/m/n/10 (\OML/cmm/m/it/10 u[]; v\OT1/cmr/m/n/10 ))
+Overfull \hbox (145.06546pt too wide) detected at line 91
+[]\OMS/cmsy/m/n/10 8[][]\OT1/cmr/m/n/10 [][]\OML/cmm/m/it/10 d\OT1/cmr/m/n/10
+ (\OML/cmm/m/it/10 u[]; v[]\OT1/cmr/m/n/10 )
  []
 
 
@@ -7455,68 +7522,6 @@ Overfull \hbox (123.89842pt too wide) detected at line 99
 []\OMS/cmsy/m/n/10 8[]\OML/cmm/m/it/10 max\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\O
 T1/cmr/m/n/10 (\OML/cmm/m/it/10 u[]; v\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; d\OT1
 /cmr/m/n/10 (\OML/cmm/m/it/10 u[]; v\OT1/cmr/m/n/10 ))
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 ...tbf{TODO: Add formal linkage definitions}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (57.29146pt too wide) in paragraph at lines 101--102
-[]\OT1/cmr/bx/n/10 TODO:
- []
-
-
-Overfull \hbox (21.4721pt too wide) in paragraph at lines 101--102
-\OT1/cmr/bx/n/10 Add
- []
-
-
-Overfull \hbox (17.83325pt too wide) in paragraph at lines 101--102
-\OT1/cmr/bx/n/10 for-
- []
-
-
-Overfull \hbox (18.36794pt too wide) in paragraph at lines 101--102
-\OT1/cmr/bx/n/10 mal
- []
-
-
-Overfull \hbox (22.68044pt too wide) in paragraph at lines 101--102
-\OT1/cmr/bx/n/10 link-
- []
-
-
-Overfull \hbox (16.61101pt too wide) in paragraph at lines 101--102
-\OT1/cmr/bx/n/10 age
- []
-
-
-Overfull \hbox (19.00685pt too wide) in paragraph at lines 101--102
-\OT1/cmr/bx/n/10 def-
- []
-
-
-Overfull \hbox (7.02774pt too wide) in paragraph at lines 101--102
-\OT1/cmr/bx/n/10 i-
- []
-
-
-Overfull \hbox (13.4166pt too wide) in paragraph at lines 101--102
-\OT1/cmr/bx/n/10 ni-
- []
-
-
-Overfull \hbox (24.34152pt too wide) in paragraph at lines 101--102
-\OT1/cmr/bx/n/10 tions 
  []
 
 ! Undefined control sequence.
@@ -7819,6 +7824,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -7914,6 +7920,11 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -9623,12 +9634,6 @@ Overfull \hbox (8.9444pt too wide) in paragraph at lines 117--117
  []
 
 
-Overfull \hbox (81.0327pt too wide) detected at line 117
-\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/
-cmm/m/it/10 :::f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 )))
- []
-
-
 ! LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
@@ -9636,8 +9641,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 ...ted functions $$f_n(f_{n-1}(...f_1(X)))$$
-                                                  
+l.117 ...imate a collection of nested functions $$
+                                                  f_n(f_{n-1}(...f_1(X)))$$
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -9646,8 +9651,8 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> \newlabel{eqn:Ti}{{1}{\thepage 
                                        }}
-l.117 ...ted functions $$f_n(f_{n-1}(...f_1(X)))$$
-                                                  
+l.117 ...imate a collection of nested functions $$
+                                                  f_n(f_{n-1}(...f_1(X)))$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9658,8 +9663,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{eqn:Si}{{2}{\thepage 
                                        }}
-l.117 ...ted functions $$f_n(f_{n-1}(...f_1(X)))$$
-                                                  
+l.117 ...imate a collection of nested functions $$
+                                                  f_n(f_{n-1}(...f_1(X)))$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9670,8 +9675,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{eqn:euclid}{{3}{\thepage 
                                            }}
-l.117 ...ted functions $$f_n(f_{n-1}(...f_1(X)))$$
-                                                  
+l.117 ...imate a collection of nested functions $$
+                                                  f_n(f_{n-1}(...f_1(X)))$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9682,8 +9687,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{eqn:manhattan}{{4}{\thepage 
                                               }}
-l.117 ...ted functions $$f_n(f_{n-1}(...f_1(X)))$$
-                                                  
+l.117 ...imate a collection of nested functions $$
+                                                  f_n(f_{n-1}(...f_1(X)))$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9694,8 +9699,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{eqn:cosine}{{5}{\thepage 
                                            }}
-l.117 ...ted functions $$f_n(f_{n-1}(...f_1(X)))$$
-                                                  
+l.117 ...imate a collection of nested functions $$
+                                                  f_n(f_{n-1}(...f_1(X)))$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9706,8 +9711,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{eqn:single}{{6}{\thepage 
                                            }}
-l.117 ...ted functions $$f_n(f_{n-1}(...f_1(X)))$$
-                                                  
+l.117 ...imate a collection of nested functions $$
+                                                  f_n(f_{n-1}(...f_1(X)))$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9718,8 +9723,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{eqn:complete}{{7}{\thepage 
                                              }}
-l.117 ...ted functions $$f_n(f_{n-1}(...f_1(X)))$$
-                                                  
+l.117 ...imate a collection of nested functions $$
+                                                  f_n(f_{n-1}(...f_1(X)))$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9730,8 +9735,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{eqn:average}{{8}{\thepage 
                                             }}
-l.117 ...ted functions $$f_n(f_{n-1}(...f_1(X)))$$
-                                                  
+l.117 ...imate a collection of nested functions $$
+                                                  f_n(f_{n-1}(...f_1(X)))$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9742,8 +9747,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{eqn:ward}{{9}{\thepage 
                                          }}
-l.117 ...ted functions $$f_n(f_{n-1}(...f_1(X)))$$
-                                                  
+l.117 ...imate a collection of nested functions $$
+                                                  f_n(f_{n-1}(...f_1(X)))$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9752,6 +9757,11 @@ and I'll forget about whatever was undefined.
 
 \newlabel{eqn:ward}{{9}{}}
 ]
+Overfull \hbox (81.0327pt too wide) detected at line 117
+\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 :::f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 )))
+ []
+
 ! Undefined control sequence.
 l.119 \subsection
                  {Computational Representations}
@@ -10022,9 +10032,9 @@ Overfull \hbox (24.86101pt too wide) in paragraph at lines 119--121
 Here is how much of TeX's memory you used:
  36 strings out of 479624
  666 string characters out of 2865148
- 280476 words of memory out of 3000000
+ 280467 words of memory out of 3000000
  17299 multiletter control sequences out of 15000+200000
  404084 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 20i,5n,20p,1101b,98s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 21i,5n,20p,1101b,104s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

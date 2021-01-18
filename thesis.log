@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  15 JAN 2021 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  18 JAN 2021 20:00
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -706,7 +706,7 @@ Chapter 2.
 (chapters/chapter2.tex [5
 
 ] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
@@ -746,7 +746,7 @@ Chapter 5.
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
-3.
+7.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -767,10 +767,10 @@ Package pdftex.def Info: images/1887graph.JPG  used on input line 106.
 
  <./images/1293graph.JPG> <./images/1887graph.JPG>] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 15809 strings out of 479624
- 309537 string characters out of 2865148
- 596899 words of memory out of 3000000
- 32644 multiletter control sequences out of 15000+200000
+ 15810 strings out of 479624
+ 309559 string characters out of 2865148
+ 596904 words of memory out of 3000000
+ 32645 multiletter control sequences out of 15000+200000
  447031 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,10n,106p,3355b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -786,7 +786,7 @@ ymbol/usyr.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on thesis.pdf (23 pages, 210049 bytes).
+Output written on thesis.pdf (23 pages, 210812 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

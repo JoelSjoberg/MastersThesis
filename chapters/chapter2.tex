@@ -66,36 +66,35 @@ d(u, v) = \frac{\Sigma_i u_iv_i}{\sqrt{\Sigma_i u_i^2}\sqrt{\Sigma_i v_i^2}}
 \end{equation}
 
 \subsubsection{Linkage Criteria}
-\textbf{TODO: Add formal linkage definitions}
 In order to measure distance between clusters it is essential to know between which points the distance should be measured, since clusters often consist of several points. Linkage criteria describes the method for determining how the distance metric will be applied. SKlearn define four criteria in the documentation\cite{scikit}: Single linkage, complete linkage, average linkage and ward linkage. Depending on which criterion is applied the results may differ considerably, it is therefore vital to have a formal understanding of their application and consequences.
 
 Single linkage goes through each pair of clusters measuring the distance among all points within one with respect to the other. The distance between these clusters is determined to be the distance between the two closest points. Let $U$ be the elements in the first cluster and $V$ be the elements of the second. The distance between the first and the second cluster is defined formally in equation \ref{eqn:single}.
 
 \begin{equation}
 \label{eqn:single}
-\forall_{v \in V} min(d(U_n, v), d(U_m, v))
+d(U, V) = \forall_{u, v \in U, V} min(d(u, v))
 \end{equation}
 
-Where $n, m$ are whole numbers denoting the index of the closest elements. Single linkage has a tendency to produce trivial results, forging a hierarchy in a chain where individual elements slowly merge with the bigger cluster. In contrast complete linkage considers the largest distance between two points for every pair of clusters. The distance between two cluster then become the distance between the points which are the furthest apart. Formally expressed in equation \ref{eqn:complete}.
+Single linkage tend to produce trivial results, forging a hierarchy in a chain where individual elements slowly merge with the bigger cluster. In contrast complete linkage considers the largest distance between two points for every pair of clusters. The distance between two cluster then become the distance between the points which are the furthest apart. Formally expressed in equation \ref{eqn:complete}.
 
 \begin{equation}
 \label{eqn:complete}
-\forall_{v \in V} max(d(u_n, v), d(u_m, v))
+d(U, V) = \forall_{u, v \in U, V} max(d(u, v))
 \end{equation}
 
 By considering the largest possible distance between two clusters it bypasses the setback by single linkage, allowing more clusters to form before merging into one unifying cluster. Average linkage calculates the average between all elements for every pair of clusters and merges the ones possessing to the minimal average distance. Formally described by equation \ref{eqn:average}.
 
 \begin{equation}
 \label{eqn:average}
-\forall_{v \in V} max(d(u_n, v), d(u_m, v))
+d(U, V) = \frac{1}{|U||V|}\sum\limits_u^U \sum\limits_v^V  d(U_u, V_v)
 \end{equation}
 
-Ward linkage merges the two clusters which have minimal variance. This requires calculating the variance among all elements between two clusters for every combination of clusters within the data. Expressed formally by equation \ref{eqn:ward}.
+Ward linkage represents distance by how much the summed square would increase by merging them. The method aims to merge the clusters such that the within cluster variance is minimal. Let $c_a$ be the center of cluster a, then ward linkage is expressed formally by equation \ref{eqn:ward}\cite{shalizi2009distances}.
 
 
 \begin{equation}
 \label{eqn:ward}
-\forall_{v \in V} max(d(u_n, v), d(u_m, v))
+d(U, V) = \frac{|U||V|}{|U|-|V|}||c_U - c_V||^2
 \end{equation}
 
 
