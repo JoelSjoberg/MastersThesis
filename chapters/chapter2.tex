@@ -1,4 +1,4 @@
-Within this chapter can be found the essential mathematical theory on which this thesis is based. The concepts are considered fundamental for understanding the methods applied in the project. It begins by 
+In this chapter we present the necessary mathematical concepts on which this thesis is based. The concepts are considered fundamental for understanding the methods applied in the project. It begins by 
 covering necessary mathematical theory required to understand data representations and handling within Machine Learning (ML). It then proceeds by defining common concepts in machine learning and the subject of supervised and unsupervised learning.
 
 
@@ -22,7 +22,7 @@ $$x_0\theta_0 + x_1\theta_1 + ... + x_n\theta_n$$
 
 \subsection{K-means Clustering}
 
-Clustering is an unsupervised learning method whose primary use is in grouping sets of data. In this thesis we consider a fundamental version of such a clustering algorithm called \textit{K-means clustering}. The following is the formal definition of \textit{K - means clustering} as defined by MacQueen\cite{macqueen}. Given a set of $N$-dimensional points $E_N$ and a desired amount of partitions $k$ in said population, partition the elements of $E_N$ into a partitioned set $S = \{S_1, S_2, ... S_k\}$. The partitioning of $E_N$ is performed by initializing $k$  $N$-dimensional points as randomly selected points within $E_N$. We define the set $V$ with elements $v$ where $v_i$ is the i:th cluster center where $i \in [0, k]$. The partitioning of the elements $x \in E_N$ into their respective partition $S_i$ is performed by computing the closest cluster center $\forall_{x \in E_N}$. Let $T_i$ be the set of $x \in E_N$ such that the distance from the element to the relevant cluster is minimal, $T_i$ is defined by formula \ref{eqn:Ti}.
+Clustering is an unsupervised learning method whose primary use is in grouping sets of data. In this thesis we consider the \textit{K-means clustering} algorithm. The following is a formal definition of \textit{K - means clustering} as defined by MacQueen \cite{macqueen}. Given a set of $N$-dimensional points (where $N \in \mathbb{N}$) $E_N$ and a desired amount of partitions $k$ of $E_N$, partition the elements of $E_N$ into $k$ sets $S = \{S_1, S_2, ... S_k\}$. The partitioning of $E_N$ is performed by randomly initializing $k$  $N$-dimensional points as randomly selected points within $E_N$. We define the set $V$ with elements $v$ where $v_i$ is the i:th cluster center where $i \in [0, k]$. The partitioning of the elements $x \in E_N$ into their respective partition $S_i$ is performed by computing the closest cluster center $\forall_{x \in E_N}$. Let $T_i$ be the set of $x \in E_N$ such that the distance from the element to the relevant cluster is minimal, $T_i$ is defined by formula \ref{eqn:Ti}.
 
 \begin{equation}
 \label{eqn:Ti}
@@ -41,24 +41,24 @@ A consequence to this definition is that outliers have a potential to drasticall
 
 \subsection{Hierarchical clustering}
 
-Hierarchical clustering is a clustering method which is less suceptible to outliers compared to K-means. The method produces clusters by iteratively combining the closest clusters according to the linkage criterion. The two primary strategies for forming clusters are agglomerative and divisive. Agglomerative clustering initializes one cluster for each data point and combines them in a hierarchy according to the linkage criterion until all clusters are part of the hierarchy. Divisive strategies process in counter to the agglomerative strategies by initializing one universal cluster for all data points and then separate the points into distinct clusters according to the linkage criterion. The method proceeds until all data points are separated to their own cluster within the unifying hierarchy. The project described in this thesis uses the agglomerative strategy. All strategies depend on the distance measure and linkage criterion\cite{murtagh1983survey}.
+Hierarchical clustering is a clustering method which has a deterministic process. Each cluster formed is based on the entire dataset in contrast to \textit{K-means} which approximates clusters by performing small changes to the cluster centers. The method produces clusters by iteratively combining the closest clusters according to the given linkage criterion (defined in the sections below). The two primary strategies for forming clusters are \textit{agglomerative} and \textit{divisive}. Agglomerative clustering initializes one cluster for each data point and combines them in a hierarchy according to the linkage criterion until all clusters are part of the hierarchy. Divisive strategies initializes one universal cluster for all data points and proceeds to separate the points into distinct clusters according to the linkage criterion. The method proceeds until all data points are separated to their own cluster within the unifying hierarchy. The project described in this thesis uses the \textit{agglomerative} strategy. All strategies depend on the distance measure and linkage criterion \cite{murtagh1983survey}.
 
 \subsubsection{Distance metrics}
-Let $u$ and $v$ be vectors of the same dimension $n$. The euclidean distance(alternatively L2) measure can be used to measure distance between the vectors in euclidean space. It is calculated by taking the square root of the summed squared distance between each vector element in each vector. Formally expressed in equation \ref{eqn:euclid}.
+Let $u$ and $v$ be vectors of the same dimension $n$. The \textit{Euclidean distance} (also called \textit{L2-distance}) measure can be used to measure distance between the vectors in euclidean space. The \textit{Euclidean distance} is calculated by equation (\ref{eqn:euclid}).
 
 \begin{equation}
 \label{eqn:euclid}
 d(u, v) = \sqrt{\Sigma_i (u_i - v_i)^2} 
 \end{equation}
 
-The manhattan distance(alternatively L1) metric is also a viable alternative if the distance is to be measured in blocks. The distance is akin to finding a shortest path among blocks and is therefore calculated by summing the absolute distance of every element between every vector. Formally expressed in equation \ref{eqn:manhattan}.
+The \textit{Manhattan distance} (also called \textit{L1-distance}) metric is also a viable alternative if the distance is to be measured in blocks. The distance is akin to finding a shortest path among blocks and is therefore calculated as expressed in equation (\ref{eqn:manhattan}).
 
 \begin{equation}
 \label{eqn:manhattan}
 d(u, v) = \Sigma_i |u_i - v_i|
 \end{equation}
 
-Cosine similarity measures similarity between vector angles and suits situations where certain vectors are expected to be similar. Should the vectors be sizable in terms of dimensionality, this method will yield varying results, especially if the elements have significant variance in each dimension. It is calculated by dividing the sum of each element product in each vector by the product of the square roots of each summed and squared vector element. Formally expressed in equation \ref{eqn:cosine}.
+\textit{Cosine similarity} measures similarity between vector angles and suits situations where certain vectors are expected to be similar. Should the vectors be sizable in terms of dimensionality, this method will yield varying results, especially if the elements have significant variance in each dimension. It is calculated as expressed in equation (\ref{eqn:cosine}).
 
 \begin{equation}
 \label{eqn:cosine}
@@ -66,16 +66,16 @@ d(u, v) = \frac{\Sigma_i u_iv_i}{\sqrt{\Sigma_i u_i^2}\sqrt{\Sigma_i v_i^2}}
 \end{equation}
 
 \subsubsection{Linkage Criteria}
-In order to measure distance between clusters it is essential to know between which points the distance should be measured, since clusters often consist of several points. Linkage criteria describes the method for determining how the distance metric will be applied. SKlearn define four criteria in the documentation\cite{scikit}: Single linkage, complete linkage, average linkage and ward linkage. Depending on which criterion is applied the results may differ considerably, it is therefore vital to have a formal understanding of their application and consequences.
+In order to measure distance between clusters it is essential to know between which points the distance should be measured, since clusters often consist of several points. Linkage criteria describes the method for determining how the distance metric will be applied. SKlearn define four criteria in the documentation \cite{scikit}: Single linkage, complete linkage, average linkage and ward linkage. Depending on which criterion is applied the results may differ considerably, it is therefore vital to have a formal understanding of their application and consequences.
 
-Single linkage goes through each pair of clusters measuring the distance among all points within one with respect to the other. The distance between these clusters is determined to be the distance between the two closest points. Let $U$ be the elements in the first cluster and $V$ be the elements of the second. The distance between the first and the second cluster is defined formally in equation \ref{eqn:single}.
+Single linkage goes through each pair of clusters measuring the distance among all points within one with respect to the other. The distance between these clusters is determined to be the distance between the two closest points. Let $U$ be the elements in the first cluster and $V$ be the elements of the second. The distance between the first and the second cluster is defined formally in equation (\ref{eqn:single}).
 
 \begin{equation}
 \label{eqn:single}
 d(U, V) = \forall_{u, v \in U, V} min(d(u, v))
 \end{equation}
 
-Single linkage tend to produce trivial results, forging a hierarchy in a chain where individual elements slowly merge with the bigger cluster. In contrast complete linkage considers the largest distance between two points for every pair of clusters. The distance between two clusters then become the distance between the points which are the furthest apart. Formally expressed in equation \ref{eqn:complete}.
+Single linkage tend to produce trivial results, forging a hierarchy in a chain where individual elements slowly merge with the bigger cluster. In contrast complete linkage considers the largest distance between two points for every pair of clusters. The distance between two clusters then become the distance between the points which are the furthest apart. Formally expressed in equation (\ref{eqn:complete}).
 
 \begin{equation}
 \label{eqn:complete}
@@ -101,7 +101,7 @@ d(U, V) = \frac{|U||V|}{|U|-|V|}||c_U - c_V||^2
 
 \subsection{Feature Selection}
 
-In many cases the data available contains numerous features. This is necessary, as gathering enough features is essential to building a sufficient classifier. However as the number of features increases so does the requirement for training data. To avoid this expanding dependence on data, it is necessary to strip the data of certain features which possess minimal description of the data in question or which lack that description entirely \cite{dash1997feature}. These features which possess the expressive information are not always trivial, which further motivates the use for machine learning to find these features.
+In many cases the data available contains numerous features, which often helps to building sufficient classifiers as the model may find non-trivial patterns among the features. To avoid expanding the dependence on large datasets, it is often necessary to strip the data of certain features which possess minimal correlation to other features or which lack that correlation entirely \cite{dash1997feature}. Features that possess the necessary expressive information are not always trivial, there are several ways in which they may be found. \textbf{TODO: Expand this, it's been 3 weeks already!}
 
 \section{Deep Learning}
 

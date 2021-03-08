@@ -1,22 +1,25 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{3}% 
-\contentsline {chapter}{\numberline {2}Theoretical Background}{5}% 
-\contentsline {section}{\numberline {2.1}Mathematical Foundations}{5}% 
-\contentsline {section}{\numberline {2.2}Machine Learning}{5}% 
-\contentsline {subsection}{\numberline {2.2.1}K-means Clustering}{6}% 
-\contentsline {subsection}{\numberline {2.2.2}Hierarchical clustering}{7}% 
-\contentsline {subsubsection}{\numberline {2.2.2.1}Distance metrics}{7}% 
-\contentsline {subsubsection}{\numberline {2.2.2.2}Linkage Criteria}{8}% 
-\contentsline {subsection}{\numberline {2.2.3}Feature Selection}{9}% 
-\contentsline {section}{\numberline {2.3}Deep Learning}{9}% 
-\contentsline {subsection}{\numberline {2.3.1}Artificial Neural Networks}{9}% 
-\contentsline {subsection}{\numberline {2.3.2}Computational Representations}{10}% 
-\contentsline {chapter}{\numberline {3}Data Exploration}{11}% 
-\contentsline {section}{\numberline {3.1}Data Representation}{12}% 
-\contentsline {section}{\numberline {3.2}Data preparation}{13}% 
-\contentsline {subsection}{\numberline {3.2.1}Balancing}{13}% 
-\contentsline {subsection}{\numberline {3.2.2}Clustering}{15}% 
-\contentsline {subsection}{\numberline {3.2.3}Feature selection}{16}% 
-\contentsline {chapter}{\numberline {4}Results}{17}% 
-\contentsline {chapter}{\numberline {5}Conclusion}{18}% 
-\contentsline {chapter}{\numberline {A}Appendix}{21}% 
+\contentsline {chapter}{\numberline {1}Introduction}{3}{}%
+\contentsline {chapter}{\numberline {2}Theoretical Background}{6}{}%
+\contentsline {section}{\numberline {2.1}Mathematical Foundations}{6}{}%
+\contentsline {section}{\numberline {2.2}Machine Learning}{6}{}%
+\contentsline {subsection}{\numberline {2.2.1}K-means Clustering}{7}{}%
+\contentsline {subsection}{\numberline {2.2.2}Hierarchical clustering}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Distance metrics}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Linkage Criteria}{9}{}%
+\contentsline {subsection}{\numberline {2.2.3}Feature Selection}{10}{}%
+\contentsline {section}{\numberline {2.3}Deep Learning}{10}{}%
+\contentsline {subsection}{\numberline {2.3.1}Artificial Neural Networks}{10}{}%
+\contentsline {subsection}{\numberline {2.3.2}Computational Representations}{11}{}%
+\contentsline {chapter}{\numberline {3}Data Exploration}{12}{}%
+\contentsline {section}{\numberline {3.1}Data Representation}{13}{}%
+\contentsline {section}{\numberline {3.2}Data preparation}{14}{}%
+\contentsline {subsection}{\numberline {3.2.1}Organization and Balance}{14}{}%
+\contentsline {section}{\numberline {3.3}Analysis}{16}{}%
+\contentsline {subsection}{\numberline {3.3.1}The standard deviation test}{17}{}%
+\contentsline {subsection}{\numberline {3.3.2}Old text}{17}{}%
+\contentsline {subsection}{\numberline {3.3.3}Feature selection (OLD)}{18}{}%
+\contentsline {chapter}{\numberline {4}Results}{19}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{20}{}%
+\contentsline {chapter}{\numberline {A}Appendix}{23}{}%
+\contentsline {chapter}{\numberline {B}Appendix B}{24}{}%
