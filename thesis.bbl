@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{glialcells}
+S.~J{\"a}kel and L.~Dimou, ``Glial cells and their function in the adult brain:
+  a journey through the history of their ablation,'' {\em Frontiers in cellular
+  neuroscience}, vol.~11, p.~24, 2017.
+
 \bibitem{gallego2015nonsurgical}
 O.~Gallego, ``Nonsurgical treatment of recurrent glioblastoma,'' {\em Current
   oncology}, vol.~22, no.~4, p.~e273, 2015.
@@ -8,6 +13,12 @@ O.~Gallego, ``Nonsurgical treatment of recurrent glioblastoma,'' {\em Current
 F.~E. Bleeker, R.~J. Molenaar, and S.~Leenstra, ``Recent advances in the
   molecular understanding of glioblastoma,'' {\em Journal of neuro-oncology},
   vol.~108, no.~1, pp.~11--27, 2012.
+
+\bibitem{maas2020glioblastoma}
+S.~L. Maas, E.~R. Abels, L.~L. Van De~Haar, X.~Zhang, L.~Morsett, S.~Sil,
+  J.~Guedes, P.~Sen, S.~Prabhakar, S.~E. Hickman, {\em et~al.}, ``Glioblastoma
+  hijacks microglial gene expression to support tumor growth,'' {\em Journal of
+  neuroinflammation}, vol.~17, pp.~1--18, 2020.
 
 \bibitem{dirkse2019stem}
 A.~Dirkse, A.~Golebiewska, T.~Buder, P.~V. Nazarov, A.~Muller, S.~Poovathingal,
@@ -21,6 +32,12 @@ K.~Vigneswaran, S.~Neill, and C.~G. Hadjipanayis, ``Beyond the world health
   organization grading of infiltrating gliomas: advances in the molecular
   genetics of glioma classification,'' {\em Annals of translational medicine},
   vol.~3, no.~7, 2015.
+
+\bibitem{hirose2013subgrouping}
+Y.~Hirose, H.~Sasaki, M.~Abe, N.~Hattori, K.~Adachi, Y.~Nishiyama, S.~Nagahisa,
+  T.~Hayashi, M.~Hasegawa, and K.~Yoshida, ``Subgrouping of gliomas on the
+  basis of genetic profiles,'' {\em Brain tumor pathology}, vol.~30, no.~4,
+  pp.~203--208, 2013.
 
 \bibitem{cellsubsets}
 M.~Ceccarelli, F.~P. Barthel, T.~M. Malta, T.~S. Sabedot, S.~R. Salama, B.~A.

@@ -22,21 +22,21 @@ $$x_0\theta_0 + x_1\theta_1 + ... + x_n\theta_n$$
 
 \subsection{K-means Clustering}
 
-Clustering is an unsupervised learning method whose primary use is in grouping sets of data. In this thesis we consider the \textit{K-means clustering} algorithm. The following is a formal definition of \textit{K - means clustering} as defined by MacQueen \cite{macqueen}. Given a set of $N$-dimensional points (where $N \in \mathbb{N}$) $E_N$ and a desired amount of partitions $k$ of $E_N$, partition the elements of $E_N$ into $k$ sets $S = \{S_1, S_2, ... S_k\}$. The partitioning of $E_N$ is performed by randomly initializing $k$  $N$-dimensional points as randomly selected points within $E_N$. We define the set $V$ with elements $v$ where $v_i$ is the i:th cluster center where $i \in [0, k]$. The partitioning of the elements $x \in E_N$ into their respective partition $S_i$ is performed by computing the closest cluster center $\forall_{x \in E_N}$. Let $T_i$ be the set of $x \in E_N$ such that the distance from the element to the relevant cluster is minimal, $T_i$ is defined by formula \ref{eqn:Ti}.
+Clustering is an unsupervised learning method whose primary use is in grouping sets of data. In this thesis we consider the \textit{K-means clustering} algorithm. The following is a formal definition of \textit{K - means clustering} as defined by MacQueen \cite{macqueen}. Given a set of $N$-dimensional points (where $N \in \mathbb{N}$) $E_N$ and a desired amount of partitions $k$ of $E_N$, partition the elements of $E_N$ into $k$ sets, the subsets are stored in a superset $S$ such that $S = \{S_1, S_2, ... S_k\}$. The partitioning of $E_N$ is performed by randomly initializing $k$  $N$-dimensional points as randomly selected points within $E_N$. We define the set $V$ with elements $v$ where $v_i$ is the i:th cluster center where $i \in [0, k]$. The partitioning of the elements $x \in E_N$ into their respective partition $S_i$ is performed by computing the closest cluster center $\forall_{x \in E_N}$. Let $T_i$ be the set of $x \in E_N$ such that the distance from the element to the relevant cluster is minimal, $T_i$ is defined by formula (\ref{eqn:Ti}).
 
 \begin{equation}
 \label{eqn:Ti}
-T_i = \{x : x \in E_N | (\forall_{j \in [0, k]/i } |x - v_i| \leq |x - v_j|)\} 
+T_i = \{x : x \in E_N | (|x - v_i| \leq |x - v_j|)\}  0 \leq j \leq k \wedge j \in \mathbb{N} 
 \end{equation}
 
-For centers who share equal distance to any given $x$ the cluster with the smallest index is chosen as the containing set. The partitions $S_i \in S$ are defined by formula \ref{eqn:Si}
+For centers who share equal distance to any given $x$ the cluster with the smallest index is chosen as the containing set. Let $S_i^c$ denote the complement of set $S_i$, then the partitions $S_i \in S$ are defined by formula (\ref{eqn:Si}).
 
 \begin{equation}
 \label{eqn:Si}
-S_i = T_i \cap \bigcap_{j=0}^{(i-1)} S_j^c
+S_i = T_i \cap \bigcap_{j=1}^{(i-1)} S_j^c
 \end{equation}
 
-A consequence to this definition is that outliers have a potential to drastically change the quality of the cluster outcomes\cite{chawla2013k}. To remedy this and the stochastic nature of the initialization process, the method is run several times on the same dataset, yielding the resulting clusters with minimal inertia. The problem \textit{K-means clustering} attempts to solve is proven to be NP-hard\cite{chawla2013k}\cite{mahajan2009planar} but the algorithm itself has a time complexity of $O(n^2)$\cite{pakhira2014linear}.
+A consequence to this definition is that outliers have a potential to drastically change the quality of the cluster outcomes \cite{chawla2013k}. To remedy this and the stochastic nature of the initialization process, the method is run several times on the same dataset, yielding the resulting clusters with minimal inertia. The problem \textit{K-means clustering} attempts to solve is proven to be NP-hard \cite{chawla2013k, mahajan2009planar} but the algorithm itself has a time complexity of $O(n^2)$ \cite{pakhira2014linear}.
 
 
 \subsection{Hierarchical clustering}
@@ -82,14 +82,14 @@ Single linkage tend to produce trivial results, forging a hierarchy in a chain w
 d(U, V) = \forall_{u, v \in U, V} max(d(u, v))
 \end{equation}
 
-By considering the largest possible distance between two clusters it bypasses the setback by single linkage, allowing more clusters to form before merging into one unifying cluster. Average linkage calculates the average between all elements for every pair of clusters and merges the ones possessing to the minimal average distance. Formally described by equation \ref{eqn:average}.
+By considering the largest possible distance between two clusters it bypasses the setback by single linkage, allowing more clusters to form before merging into one unifying cluster. Average linkage calculates the average between all elements for every pair of clusters and merges the ones possessing to the minimal average distance. Formally described by equation (\ref{eqn:average}).
 
 \begin{equation}
 \label{eqn:average}
 d(U, V) = \frac{1}{|U||V|}\sum\limits_u^U \sum\limits_v^V  d(U_u, V_v)
 \end{equation}
 
-Ward linkage represents distance by how much the summed square would increase by merging them. The method aims to merge the clusters such that the within cluster variance is minimal. Let $c_a$ be the center of cluster a, then ward linkage is expressed formally by equation \ref{eqn:ward}\cite{shalizi2009distances}.
+Ward linkage represents distance by how much the summed square would increase by merging them. The method aims to merge the clusters such that the within cluster variance is minimal. Let $c_a$ be the center of cluster a, then ward linkage is expressed formally by equation (\ref{eqn:ward}) \cite{shalizi2009distances}.
 
 
 \begin{equation}

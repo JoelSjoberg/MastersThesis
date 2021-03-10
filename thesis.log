@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  1 MAR 2021 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  10 MAR 2021 16:47
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -680,14 +680,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 [1
 
 
-{C:/Users/joels/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (thesis.toc)
+{C:/Users/joels/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (thesis.toc
+[1
+
+])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
-
-[1
-
-] (chapters/foreword.tex
+ [2] (chapters/foreword.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -699,23 +699,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
 ]
 Chapter 1.
-(chapters/chapter1.tex
-
-LaTeX Warning: Reference `glialcells' on page 3 undefined on input line 1.
-
-
-LaTeX Warning: Reference `maas2020glioblastoma' on page 3 undefined on input li
-ne 1.
-
-
-LaTeX Warning: Reference `gradesandpriorsubdivision' on page 3 undefined on inp
-ut line 3.
-
-
-LaTeX Warning: Reference `hirose2013subgrouping' on page 3 undefined on input l
-ine 3.
-
-[3
+(chapters/chapter1.tex [3
 
 ]) [4] [5]
 Chapter 2.
@@ -730,45 +714,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 Chapter 3.
 (chapters/chapter3.tex [12
 
-] [13] [14]
+] [13]
+
+Package caption Warning: \label without proper reference on input line 102.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `appendix:spectraplot' on page 14 undefined on input l
+ine 11.
+
+
+Package caption Warning: \label without proper reference on input line 102.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `appendix:spectraplot' on page 14 undefined on input l
+ine 15.
+
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 42--60
 
  []
 
-[15] [16] [17]) [18]
+[15] [16]
+
+LaTeX Warning: Reference `appendix:stdTest' on page 17 undefined on input line 
+85.
+
+
+LaTeX Warning: Reference `appendix:iqrMethod' on page 17 undefined on input lin
+e 89.
+
+[17] [18] [19]) [20]
 Chapter 4.
-[19
+[21
 
 ]
 Chapter 5.
-(thesis.bbl [20
+(thesis.bbl [22
 
-] [21
+] [23
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
-7.
+] [24]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+14.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
-[22]
+[25] [26
+
+
+]
 Appendix A.
-<images/1293graph.JPG, id=90, 242.78203pt x 156.96141pt>
+<images/1293graph.JPG, id=106, 242.78203pt x 156.96141pt>
 File: images/1293graph.JPG Graphic file (type jpg)
 <use images/1293graph.JPG>
 Package pdftex.def Info: images/1293graph.JPG  used on input line 104.
 (pdftex.def)             Requested size: 142.26378pt x 91.97412pt.
-<images/1887graph.JPG, id=91, 234.5011pt x 150.5625pt>
+<images/1887graph.JPG, id=107, 234.5011pt x 150.5625pt>
 File: images/1887graph.JPG Graphic file (type jpg)
 <use images/1887graph.JPG>
 Package pdftex.def Info: images/1887graph.JPG  used on input line 106.
 (pdftex.def)             Requested size: 142.26378pt x 91.33984pt.
-[23
+[27
 
  <./images/1293graph.JPG> <./images/1887graph.JPG>]
 Appendix B.
-[24
+[28
+
+]
+Appendix C.
+[29
 
 ] (thesis.aux)
 
@@ -777,12 +794,12 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  15814 strings out of 479624
- 309638 string characters out of 2865148
- 595904 words of memory out of 3000000
+ 309624 string characters out of 2865148
+ 595941 words of memory out of 3000000
  32649 multiletter control sequences out of 15000+200000
  447031 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,10n,106p,1934b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 108i,10n,106p,1934b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -795,9 +812,9 @@ rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (26 pages, 217421 bytes).
+Output written on thesis.pdf (32 pages, 228110 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

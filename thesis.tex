@@ -11,7 +11,7 @@
 \usepackage{etoolbox} % this one makes a workaround with page numbering possible
 \usepackage{subfig}
 \usepackage{csquotes} % BibLaTex stuff
-
+\usepackage[toc, page]{appendix}
 \usepackage{geometry}
  \geometry{
  a4paper,
@@ -94,21 +94,21 @@ The Faculty Of Science And Engineering\\ % FACULTY
 \bibliographystyle{ieeetr}
 \bibliography{ref}% ref.bib
 
-\appendix
-\chapter{Appendix}
 
+\begin{appendices}
+\chapter{Spectral Plots}
+
+\begin{figure}[h]
 \label{appendix:spectraplot}
-
-\begin{figure}
     \centering
     \subfloat[\centering Spectra from patient HF-1293. The rest of the samples available share in this pattern with some deviations]{{\includegraphics[width=5cm]{images/1293graph.JPG} }}
     \qquad
     \subfloat[\centering Spectra from patient HF-1887. The frequencies tilt towards the upper part of the plot. The example is decidedly removed from the analysis.]{{\includegraphics[width=5cm]{images/1887graph.JPG} }}%
     \caption{Examples of samples drawn from the data, HF-1293 display a common pattern across all samples, HF-1887 is removed due to problematic handling}%
-    \label{fig:example}
 \end{figure}
 
-\chapter{Appendix B}
+\chapter{Feature Selection}
+
 \label{appendix:features0}
 begin 250  309  522  523  524  525  526  527  528  529  553  563  645  646
   647  648 1450 1451 1452 1453 1454 1455 1456 1457 1458 1459 1460 1461
@@ -117,8 +117,37 @@ begin 250  309  522  523  524  525  526  527  528  529  553  563  645  646
  1493 1494 1495 1496 1497 1498 1499 1500 1501 1502 1503 1511 1512 1513 end
 
 
-\section*{Appendix C}
+\chapter{Spectral Images For Outlier Detection}
+
+\end{appendices}
+
+% Multiline command from stackexchange, hide this text
+\newcommand{\comment}[1]{}
+\comment{
+\appendix
+%\chapter{Appendix}
+
+\begin{figure}[h]
+\label{appendix:spectraplot}
+    \centering
+    \subfloat[\centering Spectra from patient HF-1293. The rest of the samples available share in this pattern with some deviations]{{\includegraphics[width=5cm]{images/1293graph.JPG} }}
+    \qquad
+    \subfloat[\centering Spectra from patient HF-1887. The frequencies tilt towards the upper part of the plot. The example is decidedly removed from the analysis.]{{\includegraphics[width=5cm]{images/1887graph.JPG} }}%
+    \caption{Examples of samples drawn from the data, HF-1293 display a common pattern across all samples, HF-1887 is removed due to problematic handling}%
+\end{figure}
+
+
+\label{appendix:features0}
+begin 250  309  522  523  524  525  526  527  528  529  553  563  645  646
+  647  648 1450 1451 1452 1453 1454 1455 1456 1457 1458 1459 1460 1461
+ 1462 1463 1464 1465 1469 1470 1471 1472 1473 1474 1475 1476 1477 1478
+ 1479 1480 1481 1482 1483 1484 1485 1486 1487 1488 1489 1490 1491 1492
+ 1493 1494 1495 1496 1497 1498 1499 1500 1501 1502 1503 1511 1512 1513 end
+
+
 \label{appendix:hierimg0}
 \textbf{INSERT Image}
+}
+
 
 \end{document}
