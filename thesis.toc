@@ -21,9 +21,9 @@
 \contentsline {subsection}{\numberline {3.3.3}Hierarchical clustering}{18}{}%
 \contentsline {subsection}{\numberline {3.3.4}K-means clustering}{20}{}%
 \contentsline {subsection}{\numberline {3.3.5}Adrians criterion}{20}{}%
-\contentsline {chapter}{\numberline {4}Results}{21}{}%
-\contentsline {chapter}{\numberline {5}Conclusion}{22}{}%
-\contentsline {chapter}{Appendices}{26}{}%
-\contentsline {chapter}{\numberline {A}Spectral Plots}{27}{}%
-\contentsline {chapter}{\numberline {B}Feature Selection}{28}{}%
-\contentsline {chapter}{\numberline {C}Spectral Images For Outlier Detection}{29}{}%
+\contentsline {chapter}{\numberline {4}Results}{22}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{23}{}%
+\contentsline {chapter}{Appendices}{27}{}%
+\contentsline {chapter}{\numberline {A}Spectral Plots}{28}{}%
+\contentsline {chapter}{\numberline {B}Feature Selection}{29}{}%
+\contentsline {chapter}{\numberline {C}Spectral Images For Outlier Detection}{30}{}%
