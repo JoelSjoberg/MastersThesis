@@ -1,29 +1,29 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{3}% 
-\contentsline {chapter}{\numberline {2}Theoretical Background}{6}% 
-\contentsline {section}{\numberline {2.1}Mathematical Foundations}{6}% 
-\contentsline {section}{\numberline {2.2}Machine Learning}{6}% 
-\contentsline {subsection}{\numberline {2.2.1}K-means Clustering}{7}% 
-\contentsline {subsection}{\numberline {2.2.2}Hierarchical clustering}{8}% 
-\contentsline {subsubsection}{\numberline {2.2.2.1}Distance metrics}{8}% 
-\contentsline {subsubsection}{\numberline {2.2.2.2}Linkage Criteria}{9}% 
-\contentsline {subsection}{\numberline {2.2.3}Feature Selection}{10}% 
-\contentsline {section}{\numberline {2.3}Deep Learning}{10}% 
-\contentsline {subsection}{\numberline {2.3.1}Artificial Neural Networks}{10}% 
-\contentsline {subsection}{\numberline {2.3.2}Computational Representations}{11}% 
-\contentsline {chapter}{\numberline {3}Data Exploration}{12}% 
-\contentsline {section}{\numberline {3.1}Data Representation}{13}% 
-\contentsline {section}{\numberline {3.2}Data preparation}{14}% 
-\contentsline {subsection}{\numberline {3.2.1}Organization and Balance}{14}% 
-\contentsline {section}{\numberline {3.3}Analysis}{16}% 
-\contentsline {subsection}{\numberline {3.3.1}The standard deviation test}{17}% 
-\contentsline {subsection}{\numberline {3.3.2}The Interquartile range method}{17}% 
-\contentsline {subsection}{\numberline {3.3.3}Hierarchical clustering}{18}% 
-\contentsline {subsection}{\numberline {3.3.4}K-means clustering}{20}% 
-\contentsline {subsection}{\numberline {3.3.5}Adrians criterion}{20}% 
-\contentsline {chapter}{\numberline {4}Results}{22}% 
-\contentsline {chapter}{\numberline {5}Conclusion}{23}% 
-\contentsline {chapter}{Appendices}{27}% 
-\contentsline {chapter}{\numberline {A}Spectral Plots}{28}% 
-\contentsline {chapter}{\numberline {B}Feature Selection}{29}% 
-\contentsline {chapter}{\numberline {C}Spectral Images For Outlier Detection}{30}% 
+\contentsline {chapter}{\numberline {1}Introduction}{3}{}%
+\contentsline {chapter}{\numberline {2}Theoretical Background}{6}{}%
+\contentsline {section}{\numberline {2.1}Mathematical Foundations}{6}{}%
+\contentsline {section}{\numberline {2.2}Machine Learning}{6}{}%
+\contentsline {subsection}{\numberline {2.2.1}K-means Clustering}{7}{}%
+\contentsline {subsection}{\numberline {2.2.2}Hierarchical clustering}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Distance metrics}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Linkage Criteria}{9}{}%
+\contentsline {subsection}{\numberline {2.2.3}Feature Selection}{10}{}%
+\contentsline {section}{\numberline {2.3}Deep Learning}{10}{}%
+\contentsline {subsection}{\numberline {2.3.1}Artificial Neural Networks}{10}{}%
+\contentsline {subsection}{\numberline {2.3.2}Computational Representations}{11}{}%
+\contentsline {chapter}{\numberline {3}Data Exploration}{12}{}%
+\contentsline {section}{\numberline {3.1}Data Representation}{13}{}%
+\contentsline {section}{\numberline {3.2}Data preparation}{14}{}%
+\contentsline {subsection}{\numberline {3.2.1}Organization and Balance}{14}{}%
+\contentsline {section}{\numberline {3.3}Analysis}{16}{}%
+\contentsline {subsection}{\numberline {3.3.1}The standard deviation test}{17}{}%
+\contentsline {subsection}{\numberline {3.3.2}The Interquartile range method}{18}{}%
+\contentsline {subsection}{\numberline {3.3.3}Hierarchical clustering}{18}{}%
+\contentsline {subsection}{\numberline {3.3.4}K-means clustering}{20}{}%
+\contentsline {subsection}{\numberline {3.3.5}Adrians criterion}{22}{}%
+\contentsline {chapter}{\numberline {4}Results}{23}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{24}{}%
+\contentsline {chapter}{Appendices}{28}{}%
+\contentsline {chapter}{\numberline {A}Spectral Plots}{29}{}%
+\contentsline {chapter}{\numberline {B}Feature Selection}{30}{}%
+\contentsline {chapter}{\numberline {C}Spectral Images For Outlier Detection}{31}{}%
