@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  22 MAR 2021 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  23 MAR 2021 16:14
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -751,104 +751,151 @@ File: images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png Graphic file (type png)
 <use images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png>
 Package pdftex.def Info: images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png  used on in
 put line 92.
-(pdftex.def)             Requested size: 85.35826pt x 88.1202pt.
- [17 <./images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png>]
-<images/STDtest/LGm-1/HF-868_1_2.h5_0.png, id=81, 178.6675pt x 320.19624pt>
+(pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
+ [17]
+<images/STDtest/LGm-1/HF-868_1_2.h5_0.png, id=80, 178.6675pt x 320.19624pt>
 File: images/STDtest/LGm-1/HF-868_1_2.h5_0.png Graphic file (type png)
 <use images/STDtest/LGm-1/HF-868_1_2.h5_0.png>
 Package pdftex.def Info: images/STDtest/LGm-1/HF-868_1_2.h5_0.png  used on inpu
-t line 101.
+t line 103.
 (pdftex.def)             Requested size: 85.35826pt x 152.97423pt.
+ [18 <./images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png> <./images/STDtest/LGm-1/HF-
+868_1_2.h5_0.png>]
+<images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png, id=86, 143.53625pt x 320.19624p
+t>
+File: images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png Graphic file (type png)
+<use images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png>
+Package pdftex.def Info: images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png  used on
+ input line 114.
+(pdftex.def)             Requested size: 85.35826pt x 190.41896pt.
+ [19 <./images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png>]
+<images/IQR/LGm-1/HF-448_V5B_1.h5_3.png, id=91, 310.15875pt x 320.19624pt>
+File: images/IQR/LGm-1/HF-448_V5B_1.h5_3.png Graphic file (type png)
+<use images/IQR/LGm-1/HF-448_V5B_1.h5_3.png>
+Package pdftex.def Info: images/IQR/LGm-1/HF-448_V5B_1.h5_3.png  used on input 
+line 129.
+(pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
+File: images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png Graphic file (type png)
+<use images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png>
+Package pdftex.def Info: images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png  used on in
+put line 131.
+(pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
+<images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png, id=92, 310.15875pt x 320.19624pt>
+File: images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png Graphic file (type png)
+<use images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png>
+Package pdftex.def Info: images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png  used on inpu
+t line 141.
+(pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
+<images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png, id=93, 310.15875pt x 320.19624pt
+>
+File: images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png Graphic file (type png)
+<use images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png>
+Package pdftex.def Info: images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png  used on 
+input line 143.
+(pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
+ [20 <./images/IQR/LGm-1/HF-448_V5B_1.h5_3.png>]
+<images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png, id=98, 310.15875pt x 320.19624pt>
+File: images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png Graphic file (type png)
+<use images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png>
+Package pdftex.def Info: images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png  used on input
+ line 155.
+(pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
+<images/STDtest/LGm-2/HF-1010_V1T_1.h5_8.png, id=99, 310.15875pt x 320.19624pt>
+
+File: images/STDtest/LGm-2/HF-1010_V1T_1.h5_8.png Graphic file (type png)
+<use images/STDtest/LGm-2/HF-1010_V1T_1.h5_8.png>
+Package pdftex.def Info: images/STDtest/LGm-2/HF-1010_V1T_1.h5_8.png  used on i
+nput line 157.
+(pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
 
 
-LaTeX Warning: Reference `appendix:iqrMethod' on page 18 undefined on input lin
-e 110.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18 <./images/STDtest/LGm-1/HF-868_1_2.h5_0.png>]
-
-Package caption Warning: \label without proper reference on input line 125.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:hf_2485' on page 19 undefined on input line 122.
-
-[19]
-<images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png, id=89, 932.48375pt x 166.622
+[21 <./images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png> <./images/STDtest/LGm-4/HF-280
+2_V3T_1.h5_11.png>] [22 <./images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png> <./images/S
+TDtest/LGm-2/HF-1010_V1T_1.h5_8.png>]
+<images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png, id=111, 926.46124pt x 148.55
 5pt>
 File: images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png Graphic file (type png)
 <use images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png>
 Package pdftex.def Info: images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png  used
- on input line 127.
-(pdftex.def)             Requested size: 426.79134pt x 76.26082pt.
+ on input line 179.
+(pdftex.def)             Requested size: 426.79134pt x 68.43585pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 127--128
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 179--181
  [][] 
  []
 
 
-LaTeX Warning: Reference `appendix:spectralimages' on page 20 undefined on inpu
-t line 135.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20 <./images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png>] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+LaTeX Warning: Reference `appendix:spectralimages' on page 23 undefined on inpu
+t line 188.
+
+[23] [24 <./images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
 
  []
 
-) [22]
+) [25] [26]
 Chapter 4.
-[23
+[27
 
 ]
 Chapter 5.
-(thesis.bbl [24
+(thesis.bbl [28
 
-] [25
+] [29
 
-] [26]
+] [30]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 14.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
-[27] [28
+[31] [32
 
 
 ]
 Appendix A.
-<images/1293graph.JPG, id=120, 242.78203pt x 156.96141pt>
+<images/1293graph.JPG, id=144, 242.78203pt x 156.96141pt>
 File: images/1293graph.JPG Graphic file (type jpg)
 <use images/1293graph.JPG>
 Package pdftex.def Info: images/1293graph.JPG  used on input line 105.
 (pdftex.def)             Requested size: 142.26378pt x 91.97412pt.
-<images/1887graph.JPG, id=121, 234.5011pt x 150.5625pt>
+<images/1887graph.JPG, id=145, 234.5011pt x 150.5625pt>
 File: images/1887graph.JPG Graphic file (type jpg)
 <use images/1887graph.JPG>
 Package pdftex.def Info: images/1887graph.JPG  used on input line 107.
 (pdftex.def)             Requested size: 142.26378pt x 91.33984pt.
-[29
+[33
 
  <./images/1293graph.JPG> <./images/1887graph.JPG>]
 Appendix B.
-[30
+[34
 
 ]
 Appendix C.
-[31
+[35
 
 ] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 15890 strings out of 479624
- 311242 string characters out of 2865148
- 597237 words of memory out of 3000000
- 32715 multiletter control sequences out of 15000+200000
+ 15932 strings out of 479624
+ 312837 string characters out of 2865148
+ 597250 words of memory out of 3000000
+ 32748 multiletter control sequences out of 15000+200000
  447031 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,10n,106p,3423b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 108i,10n,106p,3423b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -861,9 +908,9 @@ rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (34 pages, 261914 bytes).
+Output written on thesis.pdf (38 pages, 298030 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 191 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

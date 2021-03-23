@@ -17,13 +17,13 @@
 \contentsline {subsection}{\numberline {3.2.1}Organization and Balance}{14}{}%
 \contentsline {section}{\numberline {3.3}Analysis}{16}{}%
 \contentsline {subsection}{\numberline {3.3.1}The standard deviation test}{17}{}%
-\contentsline {subsection}{\numberline {3.3.2}The Interquartile range method}{18}{}%
-\contentsline {subsection}{\numberline {3.3.3}Hierarchical clustering}{18}{}%
-\contentsline {subsection}{\numberline {3.3.4}K-means clustering}{20}{}%
-\contentsline {subsection}{\numberline {3.3.5}Adrians criterion}{22}{}%
-\contentsline {chapter}{\numberline {4}Results}{23}{}%
-\contentsline {chapter}{\numberline {5}Conclusion}{24}{}%
-\contentsline {chapter}{Appendices}{28}{}%
-\contentsline {chapter}{\numberline {A}Spectral Plots}{29}{}%
-\contentsline {chapter}{\numberline {B}Feature Selection}{30}{}%
-\contentsline {chapter}{\numberline {C}Spectral Images For Outlier Detection}{31}{}%
+\contentsline {subsection}{\numberline {3.3.2}The Interquartile range method}{19}{}%
+\contentsline {subsection}{\numberline {3.3.3}Hierarchical clustering}{21}{}%
+\contentsline {subsection}{\numberline {3.3.4}K-means clustering}{24}{}%
+\contentsline {subsection}{\numberline {3.3.5}Adrians criterion}{25}{}%
+\contentsline {chapter}{\numberline {4}Results}{27}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{28}{}%
+\contentsline {chapter}{Appendices}{32}{}%
+\contentsline {chapter}{\numberline {A}Spectral Plots}{33}{}%
+\contentsline {chapter}{\numberline {B}Feature Selection}{34}{}%
+\contentsline {chapter}{\numberline {C}Spectral Images For Outlier Detection}{35}{}%

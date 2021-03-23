@@ -53,7 +53,7 @@ Before the data is balanced, the testing data is selected and separated from the
  \# test & 14945 & 20140 & 11296 & 16384 & 24764 & 7200 \\
  \hline
 
-\end{tabular}
+\end{tabular}[htb]
 \caption{Distribution of the training data and the testing data}
 \label{table:2}
 \end{table}
@@ -84,30 +84,82 @@ All data is subject to this analysis as all samples must be cleaned of outliers 
 
 The standard deviation test is a test by which the data is centered around the mean and given a standard deviation of one. With this setup, outliers are defined as points which are separated from the mean by three standard deviations or more. We measure the mean and standard deviation on each frequency from the unbalanced training-set; the values are then used to standardize the spectra belonging to each tumor. A spectrum is deemed to be an outlier if the number of frequencies in that spectrum exceed an arbitrary value. We approximated the value by performing the test once while monitoring the average number of frequencies which lie three or more standard deviations from the mean. In any given sample, each spectrum includes on average $111$ frequencies which fail the test. We specify that a spectrum whose number of frequencies which fail the test is a spectrum possessing more than $111$ outlier-freuencies, is deemed an outlier. 
 
-Using this test, many samples outline small spots on each sample, it suggests there is something present in those places, but they do not possess a clear shape by which we can decide whether to include them or not. An example of such a sample is shown in Figure \ref{fig:stdHF448}.
+Using this test, many small areas are detected in each sample, it suggests there is something present in those places, but they do not possess a clear shape by which we can decide whether to discard them or not. An example of such a sample is shown in Figure \ref{fig:stdHF448}.
 
 \begin{figure}[H]
 
     \centering
-{\includegraphics[width=3cm]{images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png} }
+{\includegraphics[width=4cm]{images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png} }
 \caption{Sample HF-448 from LGm1, The test fails to detect outliers and falsely labels healthy tissue as outliers.\label{fig:stdHF448}}%
 
 \end{figure}
 
-Roughly half the samples in the entire dataset has similar results from this analysis. This uncertainty would discard roughly $50\%$ of a majority of samples. Within some samples there are clear areas of outliers, but those areas are not sufficiently defined. One sample with this promise is shown in Figure \ref{fig:stdHF868}.
+Roughly $50\%$ of the samples in the entire dataset yield similar results from this analysis. The method would as a result discard too much from most samples, depraving the dataset of a great number of tumor spectra. Some areas are formed around the individual spots, suggesting the presence of an unknown material, but the sporadic points in the surrounding area make it unclear where that material begins and ends. Furthermore, we must develop a criterion for which points to discard. Such a criterion would need to distinguish between sporadic points which are miss-classified and areas of real outliers.
+
+However, within some samples there are clear areas of outliers, but those areas are not sufficiently defined. One sample with this result is shown in Figure \ref{fig:stdHF868}.
 
 \begin{figure}[H]
 	\centering
 {\includegraphics[width=3cm]{images/STDtest/LGm-1/HF-868_1_2.h5_0.png} }
-\caption{Sample HF868 from LGm1, Several of the captured areas are confirmed to be outliers, but they fail to adequately all erroneous spots.
+\caption{Sample HF-868 from LGm1, Several of the captured areas are confirmed to be outliers, but they fail to adequately capture all erroneous spots.
 \label{fig:stdHF868}}
 
 \end{figure}
 
+Sample HF-868 is less sporadic compared to HF-448, the outliers are instead formed around common points of interest which strongly suggests non-tumor spectra are present in that area. The lack of definition in each area however, is not sufficient. The outliers must form concrete shapes with clear definition. The sample suggests outliers in the different areas, but all points are not present to make the shapes apparent. 
+The sporadic results show that this method is insufficient to detect the majority of outliers in all samples. It must be noted that despite this underwhelming result, some outliers are detected, suggesting further changes to the method could yield better results, though greedy application is not going to work for all samples. Throughout all the six LGm-classes, the method yields the best results for LGm6 where it shares many patterns with the patterns produced by \textbf{ADRIANS CRITERION} (covered in a later section). Another example of the methods promise is in sample HF-2852 of LGm3 shown in Figure \ref{fig:stdHF2852}.
+
+\begin{figure}[H]
+	\centering
+{\includegraphics[width=3cm]{images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png} }
+\caption{Sample HF-2852 from LGm3. A large area in the upper part is captured, confirmed to be nectrotic tissue.
+\label{fig:stdHF2852}}
+
+\end{figure}
+
+Sample HF-2852 has a large area in the upper part which consists of necrotic tissue. The spectra of that tissue differs from other spectra sufficiently well, allowing the method to distinguish between tumor and non-tumor with considerable accuracy. This is due to the amount of otherwise healthy tissue present in the sample. The methods inability to capture all outliers is also present despite this, as it allows several smaller spots in the area of the necrotic tissue to be classified as healthy tumor tissue. These results suggests that the method is best used in detecting necrotic tissue, but not in context of detecting other kinds of outliers.
 
 \subsection{The Interquartile range method}
 
-Similar to the standard deviation test the interquartile range method is a purely statistical analysis method which detect outliers in terms of which percentile the points fall into. The 25th and 75th percentiles are calculated on each frequency for the entire training set. Unlike the previous test, this method yields a varying amount of outliers for each sample. We instead define the allowed number of outlier frequencies within one spectra to be equal to the average number of outlier frequencies within the analyzed sample. The resulting outliers are shown in Appendix \ref{appendix:iqrMethod}. Compared to the standard deviation test, this method produces similar results. However, many regions are better represented by the interquartile range, showing well defined areas where unknown material is clearly present. The amount of individual spots are less frequent which shows promise in the method, as e.g. blood is expected to cover a larger area if present.
+Similar to the standard deviation test, the interquartile range method is a purely statistical analysis method which detects outliers in terms of which percentile the spectra belong to. The 25th and 75th percentiles are calculated on each frequency for the entire training set. Like the previous test, this method yields a varying amount of outliers for each sample. We instead define the allowed number of outlier frequencies within one spectra to be equal to the average number of outlier frequencies within the analyzed sample. Many regions are better represented by the interquartile range, showing well defined areas where non-tumor tissue is clearly present. The amount of individual spots are less frequent which shows promise in the method, as e.g. blood is expected to cover a larger area if present. The improvement from the standard deviation test is seen in Figure \ref{fig:iqrHF448}.
+
+\begin{figure}[H]
+
+    \centering
+    \subfloat[\centering The result of the interquartile range for HF-448, Several well defined areas are separated form the majority of spectra]{{\includegraphics[width=4cm]{images/IQR/LGm-1/HF-448_V5B_1.h5_3.png} }}
+    \qquad
+    \subfloat[\centering The standard deviation test for sample HF-448]{{\includegraphics[width=4cm]{images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png} }}%
+    \caption{A comparison between the interquartile range and the standard deviation test for sample HF-448.
+\label{fig:iqrHF448}}%
+\end{figure}
+
+The standard deviation test failed to separate outliers adequately in sample HF-448 while the interquartile range is better suited to detect the outliers in this sample. The upper part of the sample has a well defined line where the sample is presumably cut, meaning the plastic underneath the tissue might be visible. We also note that many outliers detected by the interquartile range also appear to be captured by the standard deviation test. While the areas are hard to distinguish among all sporadic spots, the larger spots in Figure \ref{fig:iqrHF448} (a) seem to have some trace in Figure \ref{fig:iqrHF448} (b). This further shows the methods capability in contrast to the standard deviation test as the method seem to possess greater ability in defining the areas where outliers are present. There are still some spots appearing randomly around the sample surface which would ideally be ignored, but while we have some confirmation on where outliers are present in certain samples, we do not know exactly where the outliers are. The individual points being labeled as outliers suggests the method struggles with the same issue the standard deviation test suffers from. Though it appears to be less severe in all samples belonging to LGm1, there are still a considerable amount of spots through all samples within the class. Especially LGm4 have samples for which both methods perform considerably poorly, with a considerable amount of sporadic spots appearing in some samples under the interquartile range and a significant lack of spots under the standard deviation test. This issue is apparent in sample HF-2802 of LGm4, shown in Figure \ref{fig:HF2802comp}.
+
+\begin{figure}[h]
+
+    \centering
+    \subfloat[\centering The result of the interquartile range for HF-2802, some larger areas are detected with sporadic spots around the entire spectra.]{{\includegraphics[width=4cm]{images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png} }}
+    \qquad
+    \subfloat[\centering The result of the standard deviation test for HF-2802. Few outliers are detected]{{\includegraphics[width=4cm]{images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png} }}%
+    \caption{A comparison between the interquartile range and the standard deviation test for sample HF-2802. In comparison, the interquartile range locates better defined areas than the standard deviation test, but many sporadic spots are present.
+\label{fig:HF2802comp}}%
+\end{figure}
+ 
+
+In Figure \ref{fig:HF2802comp} the results of both methods are compared on sample HF-2802. Both methods yield poor separation between the outliers and tumor spectra. The interquartile range is capable of detecting a large mass of some material on the sample, however, many sporadic spots appear around it, the majority of these spots are tumor spectra which would be discarded by the method. In stark contrast the standard deviation test struggles to detect anything in the sample, only yielding small spots in the larger areas found with the interquartiale range method.
+Fewer samples suffer from the stocastic results present in the standard deviation test, however all samples are not strictly improvements from the previous test. One such example is sample HF-1010 shown in Figure \ref{fig:HF1010comp}.
+
+\begin{figure}[h]
+
+    \centering
+    \subfloat[\centering The result of the interquartile range for HF-1010, a considerable number of spectra are falsely labeled as outliers]{{\includegraphics[width=4cm]{images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png} }}
+    \qquad
+    \subfloat[\centering The result of the standard deviation test for HF-1010. Few points are selected and the areas found correspond with known outlier positions]{{\includegraphics[width=4cm]{images/STDtest/LGm-2/HF-1010_V1T_1.h5_8.png} }}%
+    \caption{A comparison between the interquartile range and the standard deviation test for sample HF-1010.
+\label{fig:HF1010comp}}%
+\end{figure}
+
+The comparison in Figure \ref{fig:HF1010comp} show one of few samples where the method fails to sufficiently separate outliers from tumor spectra. Few samples follow the same conclusion, however, the results suggest the method is unsuitable for our purposes. 
 
 \subsection{Hierarchical clustering}
 
@@ -122,10 +174,11 @@ Complete linkage merges the clusters which posses elements with the smallest pos
 Ward linkage merges clusters which posses minimal variance between their respective elements and as such works well with Euclidean distance. We do stress that the clusters are merged by measuring variance among cluster elements and there is no guarantee the outlier spectra should share in characteristics which would result in low inter-cluster variance. Despite this lack of guarantee the clusters form at the precise location of outliers. Allowing 7 clusters produce a near picture perfect image of the biological tissue from which the spectra were measured. These results show that the algorithm is capable of organizing the spectra according to their visual information which aid us in understanding shape and state of the samples. Some of the spectral images fromed by the clusters are shown in \textbf{Appendix}. The issue is finding a uniform criterion on which we can discard the outliers. Removing every cluster except for the majority cluster in the case where 7 clusters have been formed would remove legitimate spectra which are suitable for training a model. In fact, there is no optimal choice in this case, as certain samples have their outliers sufficiently captured in a setup allowing for 2 clusters. While others show their outliers in arbitrary numbers of clusters. Selecting too many clusters will result in some samples loosing legitimate spectra which is undesirable in context of maintaining a sizable dataset. By visual inspection, we deem the optimal choice to be 3 clusters since many outliers are present in this choice, though the problem is still present in this alternative. In particular, sample HF-2485 suffers from this problem, the cluster results are shown in Figure \ref{fig:hf_2485}.
 
 \begin{figure}[h]
-\label{fig:hf_2485}
+
     \centering
 {\includegraphics[width=15cm]{images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png} }
-\caption{Sample HF-2485 from LGm5, clustered by Hierarchical clustering using Ward linkage. From left to right, is shown the results of computing from 2 to 7 clusters respectively. The oultliers are present from image 4 and up.}%
+\caption{Sample HF-2485 from LGm5, clustered by Hierarchical clustering using Ward linkage. From left to right, is shown the results of computing from 2 to 7 clusters respectively. The oultliers are present from image 4 and up.
+\label{fig:hf_2485}}%
 \end{figure}
 
  The model separates much of the healthy tissue in models computing 3 clusters or fewer. In the model computing 4 clusters, the utliers are visible as dark spots which perfectly correlates with the image of the tissue. The surface of the tissue is also well represented in the model computing 7 clusters.
