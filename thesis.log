@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  30 MAR 2021 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  31 MAR 2021 17:32
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -708,45 +708,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
 ]
 Chapter 1.
-(chapters/chapter1.tex [3
+(chapters/chapter1.tex
 
-]) [4] [5]
+LaTeX Warning: Citation `dang2016idh' on page 3 undefined on input line 3.
+
+[3
+
+] [4]) [5] [6]
 Chapter 2.
-(chapters/chapter2.tex [6
+(chapters/chapter2.tex [7
 
-] [7] [8] [9]
+] [8] [9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-[10]) [11]
+[11]) [12]
 Chapter 3.
-(chapters/chapter3.tex [12
+(chapters/chapter3.tex [13
 
-] [13]
-<images/1293graph.JPG, id=65, 242.78203pt x 156.96141pt>
+] [14]
+<images/1293graph.JPG, id=68, 242.78203pt x 156.96141pt>
 File: images/1293graph.JPG Graphic file (type jpg)
 <use images/1293graph.JPG>
 Package pdftex.def Info: images/1293graph.JPG  used on input line 16.
 (pdftex.def)             Requested size: 142.26378pt x 91.97412pt.
-<images/1887graph.JPG, id=66, 234.5011pt x 150.5625pt>
+<images/1887graph.JPG, id=69, 234.5011pt x 150.5625pt>
 File: images/1887graph.JPG Graphic file (type jpg)
 <use images/1887graph.JPG>
 Package pdftex.def Info: images/1887graph.JPG  used on input line 18.
 (pdftex.def)             Requested size: 142.26378pt x 91.33984pt.
- [14 <./images/1293graph.JPG> <./images/1887graph.JPG>]
-<images/HF_3097.JPG, id=70, 228.855pt x 156.96141pt>
+ [15 <./images/1293graph.JPG> <./images/1887graph.JPG>]
+<images/HF_3097.JPG, id=73, 228.855pt x 156.96141pt>
 File: images/HF_3097.JPG Graphic file (type jpg)
 <use images/HF_3097.JPG>
 Package pdftex.def Info: images/HF_3097.JPG  used on input line 32.
 (pdftex.def)             Requested size: 142.26378pt x 97.57611pt.
- [15 <./images/HF_3097.JPG>]
+ [16 <./images/HF_3097.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 62--80
 
  []
 
-[16] [17]
-<images/AdriansCriterion/LGm-3/HF-2849_VIT2_2.h5_5.png, id=81, 315.1775pt x 296
+[17] [18]
+<images/AdriansCriterion/LGm-3/HF-2849_VIT2_2.h5_5.png, id=84, 315.1775pt x 296
 .10625pt>
 File: images/AdriansCriterion/LGm-3/HF-2849_VIT2_2.h5_5.png Graphic file (type 
 png)
@@ -754,8 +758,8 @@ png)
 Package pdftex.def Info: images/AdriansCriterion/LGm-3/HF-2849_VIT2_2.h5_5.png 
  used on input line 110.
 (pdftex.def)             Requested size: 113.81102pt x 106.92348pt.
- [18 <./images/AdriansCriterion/LGm-3/HF-2849_VIT2_2.h5_5.png>]
-<images/AdriansCriterion/LGm-1/HF-868_1_2.h5_0.png, id=87, 178.6675pt x 320.196
+ [19 <./images/AdriansCriterion/LGm-3/HF-2849_VIT2_2.h5_5.png>]
+<images/AdriansCriterion/LGm-1/HF-868_1_2.h5_0.png, id=90, 178.6675pt x 320.196
 24pt>
 File: images/AdriansCriterion/LGm-1/HF-868_1_2.h5_0.png Graphic file (type png)
 
@@ -764,29 +768,29 @@ Package pdftex.def Info: images/AdriansCriterion/LGm-1/HF-868_1_2.h5_0.png  use
 d on input line 120.
 (pdftex.def)             Requested size: 85.35826pt x 152.97423pt.
 
-[19 <./images/AdriansCriterion/LGm-1/HF-868_1_2.h5_0.png>]
-<images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png, id=92, 310.15875pt x 320.19624pt>
+[20 <./images/AdriansCriterion/LGm-1/HF-868_1_2.h5_0.png>]
+<images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png, id=95, 310.15875pt x 320.19624pt>
 File: images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png Graphic file (type png)
 <use images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png>
 Package pdftex.def Info: images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png  used on in
 put line 136.
 (pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
- [20 <./images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png>]
-<images/STDtest/LGm-1/HF-868_1_2.h5_0.png, id=97, 178.6675pt x 320.19624pt>
+ [21 <./images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png>]
+<images/STDtest/LGm-1/HF-868_1_2.h5_0.png, id=100, 178.6675pt x 320.19624pt>
 File: images/STDtest/LGm-1/HF-868_1_2.h5_0.png Graphic file (type png)
 <use images/STDtest/LGm-1/HF-868_1_2.h5_0.png>
 Package pdftex.def Info: images/STDtest/LGm-1/HF-868_1_2.h5_0.png  used on inpu
 t line 147.
 (pdftex.def)             Requested size: 85.35826pt x 152.97423pt.
-<images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png, id=98, 143.53625pt x 320.19624p
-t>
+<images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png, id=101, 143.53625pt x 320.19624
+pt>
 File: images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png Graphic file (type png)
 <use images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png>
 Package pdftex.def Info: images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png  used on
  input line 158.
 (pdftex.def)             Requested size: 85.35826pt x 190.41896pt.
- [21 <./images/STDtest/LGm-1/HF-868_1_2.h5_0.png>]
-<images/IQR/LGm-1/HF-448_V5B_1.h5_3.png, id=103, 310.15875pt x 320.19624pt>
+ [22 <./images/STDtest/LGm-1/HF-868_1_2.h5_0.png>]
+<images/IQR/LGm-1/HF-448_V5B_1.h5_3.png, id=107, 310.15875pt x 320.19624pt>
 File: images/IQR/LGm-1/HF-448_V5B_1.h5_3.png Graphic file (type png)
 <use images/IQR/LGm-1/HF-448_V5B_1.h5_3.png>
 Package pdftex.def Info: images/IQR/LGm-1/HF-448_V5B_1.h5_3.png  used on input 
@@ -797,14 +801,14 @@ File: images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png Graphic file (type png)
 Package pdftex.def Info: images/STDtest/LGm-1/HF-448_V5B_1.h5_3.png  used on in
 put line 175.
 (pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
- [22 <./images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png>]
-<images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png, id=109, 310.15875pt x 320.19624pt>
+ [23 <./images/STDtest/LGm-3/HF-2852_VIT_2_2.h5_6.png>]
+<images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png, id=112, 310.15875pt x 320.19624pt>
 File: images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png Graphic file (type png)
 <use images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png>
 Package pdftex.def Info: images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png  used on inpu
 t line 185.
 (pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
-<images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png, id=110, 310.15875pt x 320.19624p
+<images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png, id=113, 310.15875pt x 320.19624p
 t>
 File: images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png Graphic file (type png)
 <use images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png>
@@ -815,24 +819,24 @@ input line 187.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23 <./images/IQR/LGm-1/HF-448_V5B_1.h5_3.png>]
-<images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png, id=115, 310.15875pt x 320.19624pt>
+[24 <./images/IQR/LGm-1/HF-448_V5B_1.h5_3.png>]
+<images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png, id=118, 310.15875pt x 320.19624pt>
 File: images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png Graphic file (type png)
 <use images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png>
 Package pdftex.def Info: images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png  used on input
  line 199.
 (pdftex.def)             Requested size: 85.35826pt x 88.1202pt.
-<images/STDtest/LGm-2/HF-1010_V1T_1.h5_8.png, id=116, 310.15875pt x 320.19624pt
+<images/STDtest/LGm-2/HF-1010_V1T_1.h5_8.png, id=119, 310.15875pt x 320.19624pt
 >
 File: images/STDtest/LGm-2/HF-1010_V1T_1.h5_8.png Graphic file (type png)
 <use images/STDtest/LGm-2/HF-1010_V1T_1.h5_8.png>
 Package pdftex.def Info: images/STDtest/LGm-2/HF-1010_V1T_1.h5_8.png  used on i
 nput line 201.
 (pdftex.def)             Requested size: 85.35826pt x 88.1202pt.
- [24 <./images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png> <./images/STDtest/LGm-4/HF-28
+ [25 <./images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png> <./images/STDtest/LGm-4/HF-28
 02_V3T_1.h5_11.png> <./images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png> <./images/STDte
 st/LGm-2/HF-1010_V1T_1.h5_8.png>]
-<images/Single_linkage/LGm-1/HF-868_1_2.h5_0.png, id=124, 908.39375pt x 270.008
+<images/Single_linkage/LGm-1/HF-868_1_2.h5_0.png, id=127, 908.39375pt x 270.008
 74pt>
 File: images/Single_linkage/LGm-1/HF-868_1_2.h5_0.png Graphic file (type png)
 <use images/Single_linkage/LGm-1/HF-868_1_2.h5_0.png>
@@ -844,8 +848,8 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 218--219
  [][] 
  []
 
-[25] [26 <./images/Single_linkage/LGm-1/HF-868_1_2.h5_0.png>]
-<images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png, id=132, 926.46124pt x 148.55
+[26] [27 <./images/Single_linkage/LGm-1/HF-868_1_2.h5_0.png>]
+<images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png, id=135, 926.46124pt x 148.55
 5pt>
 File: images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png Graphic file (type png)
 <use images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png>
@@ -858,7 +862,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 235--237
  []
 
 
-LaTeX Warning: Reference `appendix:spectralimages' on page 27 undefined on inpu
+LaTeX Warning: Reference `appendix:spectralimages' on page 28 undefined on inpu
 t line 244.
 
 
@@ -866,24 +870,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
  []
 
-[27 <./images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png>]) [28] [29]
+[28 <./images/Ward_linkage/LGm-5/HF-2485_V1B_1.h5_9.png>]) [29] [30]
 Chapter 4.
-[30
+[31
 
 ]
 Chapter 5.
-(thesis.bbl [31
+(thesis.bbl [32
 
-] [32
+] [33
 
-] [33]
+] [34]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-14.
+20.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
-[34] [35
+[35] [36
 
 
 ]
@@ -896,15 +900,15 @@ File: images/1887graph.JPG Graphic file (type jpg)
 <use images/1887graph.JPG>
 Package pdftex.def Info: images/1887graph.JPG  used on input line 107.
 (pdftex.def)             Requested size: 142.26378pt x 91.33984pt.
-[36
-
-]
-Appendix B.
 [37
 
 ]
-Appendix C.
+Appendix B.
 [38
+
+]
+Appendix C.
+[39
 
 ] (thesis.aux)
 
@@ -915,10 +919,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 15962 strings out of 479624
- 313945 string characters out of 2865148
- 596308 words of memory out of 3000000
- 32773 multiletter control sequences out of 15000+200000
+ 15963 strings out of 479624
+ 313960 string characters out of 2865148
+ 596313 words of memory out of 3000000
+ 32774 multiletter control sequences out of 15000+200000
  447031 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,10n,106p,3423b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -934,9 +938,9 @@ rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (41 pages, 364952 bytes).
+Output written on thesis.pdf (42 pages, 367683 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
+ 210 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
