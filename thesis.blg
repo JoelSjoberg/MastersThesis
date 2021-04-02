@@ -6,45 +6,45 @@ The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: ref.bib
 Warning--can't use both volume and number fields in macqueen
-You've used 23 entries,
+You've used 24 entries,
             1876 wiz_defined-function locations,
-            633 strings with 8536 characters,
-and the built_in function-call counts, 7357 in all, are:
-= -- 702
-> -- 364
+            639 strings with 8687 characters,
+and the built_in function-call counts, 7702 in all, are:
+= -- 740
+> -- 375
 < -- 0
-+ -- 131
-- -- 108
-* -- 571
-:= -- 1072
-add.period$ -- 23
-call.type$ -- 23
-change.case$ -- 23
++ -- 135
+- -- 111
+* -- 597
+:= -- 1118
+add.period$ -- 24
+call.type$ -- 24
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 362
-empty$ -- 630
-format.name$ -- 108
-if$ -- 1753
+cite$ -- 25
+duplicate$ -- 379
+empty$ -- 660
+format.name$ -- 111
+if$ -- 1838
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 23
-newline$ -- 72
-num.names$ -- 23
-pop$ -- 57
+int.to.str$ -- 24
+missing$ -- 24
+newline$ -- 75
+num.names$ -- 24
+pop$ -- 58
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 258
+skip$ -- 272
 stack$ -- 0
-substring$ -- 503
-swap$ -- 164
+substring$ -- 535
+swap$ -- 173
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 74
-width$ -- 25
-write$ -- 239
+while$ -- 78
+width$ -- 26
+write$ -- 250
 (There was 1 warning)
