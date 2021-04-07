@@ -1,8 +1,30 @@
-In this chapter we present the necessary mathematical concepts on which this thesis is based. The concepts are considered fundamental for understanding the methods applied in the project. It begins by 
-covering necessary mathematical theory required to understand data representations and handling within Machine Learning (ML). It then proceeds by defining common concepts in machine learning and the subject of supervised and unsupervised learning.
+In this chapter we review the concepts on which this thesis is based. We first cover the statistical theory for understanding the methods of analysis used in Chapter 3 and use of Machine Learning (ML) in Chapter 4. We then proceed by reviewing common concepts and specific methods within machine learning employed in this project.
 
 
-\section{Mathematical Foundations}
+\section{Statistics}
+
+In this section we discuss the primary statistical concepts required for understanding the methods used in this thesis. The first concepts necessary for the later chapters are the mean and the standard deviation. The mean is a value used to describe the average value of a collection of values. The mean is an important concept in statistics as it is often used to describe a expected element from a given collection. The mean is calculated by the sum of the each element in the collection divided by the number of elements in said collection. The mean $\mu$ of a list of $n$ values $L_n$ is then calculated as expressed in equation \ref{eqn:mean}.
+
+\begin{equation}
+\label{eqn:mean}
+\mu = \sum_{i=1}^n \frac{L_i}{n}
+\end{equation}
+
+The mean of a collection is usually used in association with the standard deviation. The standard deviation is the square root of the variance of that collection. The variance is an expression for how much the elements in the collection are scattered from the mean, calculating the square root then produces a value expressing the dispersion of the variance itself. The variance is calculated by measuring the squared distance between each element within the collection and the mean, divided by the number of elements in the collection subtracted by one. The standard deviation $sigma$ is then calculated as expressed in equation \ref{eqn:std}
+
+\begin{equation}
+\label{eqn:std}
+ \sigma = \sqrt{\frac{\sum_{i = 1}^{n} (\mu - L_i)^2}{n-1}}
+\end{equation}
+
+Within this project, the mean and standard deviation are used to deduce if a particular element is an outlier or not. The Gaussian distribution (also called normal distribution) is used in association with the mean and the standard deviation. Populations often include elements which are normally distributed i.e. The frequency in which elements appear within that population are more likely to be close to the mean. If an element differs from the mean by more than three standard deviations, the possibility of that element not belonging to that distribution i.e. an outlier,  is extremely high. This method is commonly referred to as the standard deviation test. The test assumes that the population is normally distributed and standardizes the entire population with z-score standardization. Z-score standardization subtracts the mean from all elements in the collection and divides the difference by the standard deviation as expressed in equation \ref{eqn:zscore}.
+
+\begin{equation}
+\label{eqn:zscore}
+ \frac{L_i - \mu} {\sigma}
+\end{equation}
+
+Following standardization, the entire collection will have a mean of zero and a standard deviation of one. 
 
 \section{Machine Learning}
 

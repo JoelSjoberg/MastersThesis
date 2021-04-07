@@ -82,7 +82,7 @@ The Faculty Of Science And Engineering\\ % FACULTY
 \chapter{Introduction}
 \input{chapters/chapter1} % chapters actually begins from 2, motivation is chapter 1
 
-\chapter{Theoretical Background}
+\chapter{Preliminaries}
 \input{chapters/chapter2} 
 
 \chapter{Data Exploration}
@@ -97,22 +97,13 @@ The Faculty Of Science And Engineering\\ % FACULTY
 
 
 \begin{appendices}
-\chapter{Spectral Plots}
-
-\begin{figure}[h]
-\label{appendix:spectraplot}
-    \centering
-    \subfloat[\centering Spectra from patient HF-1293. The rest of the samples available share in this pattern with some deviations]{{\includegraphics[width=5cm]{images/1293graph.JPG} }}
-    \qquad
-    \subfloat[\centering Spectra from patient HF-1887. The frequencies tilt towards the upper part of the plot. The example is decidedly removed from the analysis.]{{\includegraphics[width=5cm]{images/1887graph.JPG} }}%
-    \caption{Examples of samples drawn from the data, HF-1293 display a common pattern across all samples, HF-1887 is removed due to problematic handling}%
-\end{figure}
 
 \chapter{Feature Selection}
 
 \label{appendix:features0}
 
 % No standardization!
+Features extracted from the original dataset:
 509,  521,  522,  523,  524,  525,  526,  527,  528,  529,  530,
         532,  533,  538,  539,  540,  541,  545,  546,  547,  548,  549,
         550,  551,  552,  553,  562,  563,  647, 1449, 1450, 1451, 1452,
@@ -120,6 +111,21 @@ The Faculty Of Science And Engineering\\ % FACULTY
        1464, 1465, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475, 1476,
        1477, 1478, 1479, 1480, 1481, 1482, 1483, 1484, 1485, 1487, 1492,
        1494, 1495, 1496, 1497
+\\
+
+Features extracted from the curated training set:
+ 23,   30,   31,  297,  298,  299,  308,  309,  310,  508,  509,
+        521,  522,  523,  524,  525,  526,  528,  529,  647,  648,  722,
+       1494, 1496, 1501, 1681, 1685, 1686, 1692, 1696, 1697, 1699, 1700,
+       1701, 1702, 1703, 1704, 1705, 1706, 1707, 1708, 1709, 1710, 1711,
+       1712, 1713, 1714, 1715, 1716, 1717, 1718, 1719, 1720, 1721, 1722,
+       1723, 1724, 1725, 1726, 1727, 1728, 1729, 1730, 1731, 1732, 1733,
+       1734, 1735, 1736, 1737
+\\
+       
+Intersection among the feature sets: 
+509,  521,  522,  523,  524,  525,  526,  528,  529,  647, 1494, 1496
+\\
 
 \chapter{Spectral Images For Outlier Detection}
 
