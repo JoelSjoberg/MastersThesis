@@ -3,28 +3,36 @@ In this chapter we review the concepts on which this thesis is based. We first c
 
 \section{Statistics}
 
-In this section we discuss the primary statistical concepts required for understanding the methods used in this thesis. The first concepts necessary for the later chapters are the mean and the standard deviation. The mean is a value used to describe the average value of a collection of values. The mean is an important concept in statistics as it is often used to describe a expected element from a given collection. The mean is calculated by the sum of the each element in the collection divided by the number of elements in said collection. The mean $\mu$ of a list of $n$ values $L_n$ is then calculated as expressed in equation \ref{eqn:mean}.
+In this section we discuss the primary statistical concepts required for understanding the methods used in this thesis. The first concepts necessary for the later chapters are the mean and the standard deviation. The mean is a value used to describe the average value of a collection of values (A collection can refer to lists, arrays, sets etc.). The mean is an important concept in statistics as it is often used as a characteristic of the elements found in the collection under analysis. The mean is calculated by the sum of the each element in the collection divided by the number of elements in said collection. The mean $\mu$ of a list of $n$ values $L$, is calculated as expressed in equation \ref{eqn:mean}.
 
 \begin{equation}
 \label{eqn:mean}
 \mu = \sum_{i=1}^n \frac{L_i}{n}
 \end{equation}
 
-The mean of a collection is usually used in association with the standard deviation. The standard deviation is the square root of the variance of that collection. The variance is an expression for how much the elements in the collection are scattered from the mean, calculating the square root then produces a value expressing the dispersion of the variance itself. The variance is calculated by measuring the squared distance between each element within the collection and the mean, divided by the number of elements in the collection subtracted by one. The standard deviation $sigma$ is then calculated as expressed in equation \ref{eqn:std}
+The mean of a collection is usually used in association with the standard deviation. The standard deviation is the square root of the variance of that collection. The variance is an expression for how much the elements in the collection are scattered from the mean, calculating the square root then produces a value expressing the dispersion of the variance itself. The variance is calculated by measuring the squared distance between each element within the collection and the mean, divided by the number of elements in the collection subtracted by one. The standard deviation $\sigma$ is calculated as expressed in equation \ref{eqn:std}.
 
 \begin{equation}
 \label{eqn:std}
  \sigma = \sqrt{\frac{\sum_{i = 1}^{n} (\mu - L_i)^2}{n-1}}
 \end{equation}
 
-Within this project, the mean and standard deviation are used to deduce if a particular element is an outlier or not. The Gaussian distribution (also called normal distribution) is used in association with the mean and the standard deviation. Populations often include elements which are normally distributed i.e. The frequency in which elements appear within that population are more likely to be close to the mean. If an element differs from the mean by more than three standard deviations, the possibility of that element not belonging to that distribution i.e. an outlier,  is extremely high. This method is commonly referred to as the standard deviation test. The test assumes that the population is normally distributed and standardizes the entire population with z-score standardization. Z-score standardization subtracts the mean from all elements in the collection and divides the difference by the standard deviation as expressed in equation \ref{eqn:zscore}.
+\subsection{The standard deviation test}
+Within this project, the mean and standard deviation are used to detect outliers in a collection of data points. The Gaussian distribution (also called normal distribution) is used in association with the mean and the standard deviation. If the frequency which elements appear within that collection are more likely to be close to the mean, we say that the elements within that collection are normally distributed. If an element differs from the mean by more than three standard deviations, the possibility of that element not belonging to that distribution is extremely high. Such elements, which should not belong to the collection, are called outliers. The method which detects outliers by measuring the distance between each element and the mean is commonly referred to as the standard deviation test (SDT). The test assumes that elements within the collection are normally distributed with some mean $\mu_c$ and some standard deviation $\sigma_c$. By computing the \textit{z-score} of the elements, the data is transformed into a standardized form through standardization. \textit{Z-score} standardization subtracts the mean from all elements in the collection and divides the difference by the standard deviation as expressed in equation \ref{eqn:zscore}.
 
 \begin{equation}
 \label{eqn:zscore}
  \frac{L_i - \mu} {\sigma}
 \end{equation}
 
-Following standardization, the entire collection will have a mean of zero and a standard deviation of one. 
+Following standardization, the entire collection will have a mean of zero and a standard deviation of one. Each element in the collection can then be measured by removing elements from the standardized collection which have an absolute value on 3 or higher.
+
+\subsection{The interquartile range method}
+Provided the data is not drawn from a normal distribution, SDT will not work sufficiently well for detecting outliers.  An alternative method suited for outlier detection is the interquartile range method (IRM). IRM is based on analyzing the data by its median, which is the center of the sorted data, it is applied by sorting the data in ascending order and organizing the data into four percentiles, each percentile containing $25\%$ of the data.  Two quartiles center around $50\%$ of the data, this center is referred to as the interquartile range. IQM requires two values from the data collection. One is the highest value of the $25$th percentile and the highest value of the $75$th percentile. The first value is gained by taking the biggest value of the $q_25$ first elements from the sorted collection, where $q_25$ is $25\%$ of the number of elements in $L$ (calculated by $0.25 \cdot |L|$). The last percentile is gained in similar fashion, with the exception that the highest value is taken from the first $75\%$ of the sorted data. Two "cut-off" points are then defined, by multiplying each of the two data values by a constant $k$ (which is called the "cut-off" constant). Elements can then be labeled as outliers if those elements fall below the lower "cut-off" point or above the higher "cut-off" point.
+
+\subsection{Analysis of variance}
+
+We also need the Analysis of variance (ANOVA) method in this project. ANOVA is a method which determines the significance of certain features in a set.
 
 \section{Machine Learning}
 
