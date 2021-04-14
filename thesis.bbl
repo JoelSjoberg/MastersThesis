@@ -80,6 +80,35 @@ J.~Liu, M.~Osadchy, L.~Ashton, M.~Foster, C.~J. Solomon, and S.~J. Gibson,
   ``Deep convolutional neural networks for raman spectrum recognition: a
   unified solution,'' {\em Analyst}, vol.~142, no.~21, pp.~4067--4074, 2017.
 
+\bibitem{so2008sample}
+S.~So, ``Why is the sample variance a biased estimator?,'' {\em Griffith
+  University, Tech. Rep.}, vol.~9, 2008.
+
+\bibitem{nobach2020practical}
+H.~Nobach, ``Practical realization of bessel’s correction for the bias-free
+  estimation of the auto-covariance and the cross-covariance functions,'' 2020.
+
+\bibitem{geary1935ratio}
+R.~C. Geary, ``The ratio of the mean deviation to the standard deviation as a
+  test of normality,'' {\em Biometrika}, vol.~27, no.~3/4, pp.~310--332, 1935.
+
+\bibitem{vinutha2018detection}
+H.~Vinutha, B.~Poornima, and B.~Sagar, ``Detection of outliers using
+  interquartile range technique from intrusion dataset,'' in {\em Information
+  and Decision Sciences}, pp.~511--518, Springer, 2018.
+
+\bibitem{walfish2006review}
+S.~Walfish, ``A review of statistical outlier methods,'' {\em Pharmaceutical
+  technology}, vol.~30, no.~11, p.~82, 2006.
+
+\bibitem{dovoedo2015boxplot}
+Y.~Dovoedo and S.~Chakraborti, ``Boxplot-based outlier detection for the
+  location-scale family,'' {\em Communications in statistics-simulation and
+  computation}, vol.~44, no.~6, pp.~1492--1513, 2015.
+
+\bibitem{lowry2014concepts}
+R.~Lowry, ``Concepts and applications of inferential statistics,'' 2014.
+
 \bibitem{macqueen}
 J.~MacQueen {\em et~al.}, ``Some methods for classification and analysis of
   multivariate observations,'' in {\em Proceedings of the fifth Berkeley
@@ -123,5 +152,10 @@ M.~Dash and H.~Liu, ``Feature selection for classification,'' {\em Intelligent
 \bibitem{friedmann2014glioblastoma}
 D.~Friedmann-Morvinski, ``Glioblastoma heterogeneity and cancer cell
   plasticity,'' {\em Critical Reviews™ in Oncogenesis}, vol.~19, no.~5, 2014.
+
+\bibitem{zhang2010baseline}
+Z.-M. Zhang, S.~Chen, and Y.-Z. Liang, ``Baseline correction using adaptive
+  iteratively reweighted penalized least squares,'' {\em Analyst}, vol.~135,
+  no.~5, pp.~1138--1146, 2010.
 
 \end{thebibliography}

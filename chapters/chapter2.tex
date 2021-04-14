@@ -3,36 +3,56 @@ In this chapter we review the concepts on which this thesis is based. We first c
 
 \section{Statistics}
 
-In this section we discuss the primary statistical concepts required for understanding the methods used in this thesis. The first concepts necessary for the later chapters are the mean and the standard deviation. The mean is a value used to describe the average value of a collection of values (A collection can refer to lists, arrays, sets etc.). The mean is an important concept in statistics as it is often used as a characteristic of the elements found in the collection under analysis. The mean is calculated by the sum of the each element in the collection divided by the number of elements in said collection. The mean $\mu$ of a list of $n$ values $L$, is calculated as expressed in equation \ref{eqn:mean}.
+In this section we discuss the primary statistical concepts required for understanding the methods used in this thesis. The first concepts necessary for the later chapters are the mean and the standard deviation. The mean is a value used to describe the average value of a population. A population is the term used to describe the complete collection of elements in some context e.g. all people alive, all numbers in an interval etc. The mean is an important concept in statistics as it is often used as a characteristic of the elements found in the population under analysis. The mean is calculated by the sum of the each element in the population divided by the number of elements in said population. The mean $\mu$ of a population of $n$ numbers $L$, is calculated as expressed in equation (\ref{eqn:mean}).
 
 \begin{equation}
 \label{eqn:mean}
 \mu = \sum_{i=1}^n \frac{L_i}{n}
 \end{equation}
 
-The mean of a collection is usually used in association with the standard deviation. The standard deviation is the square root of the variance of that collection. The variance is an expression for how much the elements in the collection are scattered from the mean, calculating the square root then produces a value expressing the dispersion of the variance itself. The variance is calculated by measuring the squared distance between each element within the collection and the mean, divided by the number of elements in the collection subtracted by one. The standard deviation $\sigma$ is calculated as expressed in equation \ref{eqn:std}.
+The mean of a population is usually used in association with the standard deviation. The standard deviation is the square root of the variance of that population. The variance is an expression for the scaled summed squares of differences from the mean of the entire population. Calculating the square root then produces a value expressing the the dispersion of elements within the population around the mean. The variance is calculated by measuring the summed squared distance between each element within the population and the mean, divided by the number of elements in the population to scale the sum. In the case where the entire population is impossible to analyze or unknown, samples are extracted from the population (i.e. subgroups of elements randomly taken from the population). The sample variance changes slightly form the population variance; it divides the summed squares of differences by the number of elements in the sample subtracted by one. Subtracting the original denominator by one is called "Bessel's correction". The correction is based on the fact that, if the population mean is unknown (as is often the case when samples are gathered), then the mean used in calculating the variance will only be an estimation. Subtraction by one is performed to avoid bias towards the sample mean and get an unbiased estimation of the population variance \cite{so2008sample, nobach2020practical}. The standard deviation $\sigma$ of a sample is thus calculated as expressed in equation (\ref{eqn:std}).
 
 \begin{equation}
 \label{eqn:std}
  \sigma = \sqrt{\frac{\sum_{i = 1}^{n} (\mu - L_i)^2}{n-1}}
 \end{equation}
 
+
 \subsection{The standard deviation test}
-Within this project, the mean and standard deviation are used to detect outliers in a collection of data points. The Gaussian distribution (also called normal distribution) is used in association with the mean and the standard deviation. If the frequency which elements appear within that collection are more likely to be close to the mean, we say that the elements within that collection are normally distributed. If an element differs from the mean by more than three standard deviations, the possibility of that element not belonging to that distribution is extremely high. Such elements, which should not belong to the collection, are called outliers. The method which detects outliers by measuring the distance between each element and the mean is commonly referred to as the standard deviation test (SDT). The test assumes that elements within the collection are normally distributed with some mean $\mu_c$ and some standard deviation $\sigma_c$. By computing the \textit{z-score} of the elements, the data is transformed into a standardized form through standardization. \textit{Z-score} standardization subtracts the mean from all elements in the collection and divides the difference by the standard deviation as expressed in equation \ref{eqn:zscore}.
+The mean and standard deviation can be used to detect outliers in a sample of data points drawn from an unknown population. The Gaussian distribution (also called the normal distribution) is used in association with the mean and the standard deviation. If the frequency which elements appear within a sample are more likely to be close to the mean than far away from it, we say that the elements within that sample are normally distributed. If an element differs from the mean by more than three standard deviations, the possibility of that element not belonging to that distribution is extremely high. Such elements, which likely do not belong to the population, are called outliers. The method which detects outliers by measuring the distance between each element and the mean is referred to, in this thesis, as the standard deviation test (SDT). The test assumes that elements within the collection are normally distributed with some mean $\mu_c$ and some standard deviation $\sigma_c$. By computing the \textit{z-score} of the elements, the data is transformed into a standardized form through standardization. \textit{Z-score} standardization subtracts the mean from all elements in the collection and divides the difference by the standard deviation, as expressed in equation (\ref{eqn:zscore}) \cite{geary1935ratio}.
 
 \begin{equation}
 \label{eqn:zscore}
- \frac{L_i - \mu} {\sigma}
+ \frac{L_i - \mu_c} {\sigma_c}
 \end{equation}
 
-Following standardization, the entire collection will have a mean of zero and a standard deviation of one. Each element in the collection can then be measured by removing elements from the standardized collection which have an absolute value on 3 or higher.
+Following standardization, the entire sample will have a mean of zero and a standard deviation of one. Each element in the sample can then be measured using the standard deviation (one) as unit; outliers can then be discarded from the sample by removing elements which have an absolute value of 3 or higher.
+
 
 \subsection{The interquartile range method}
-Provided the data is not drawn from a normal distribution, SDT will not work sufficiently well for detecting outliers.  An alternative method suited for outlier detection is the interquartile range method (IRM). IRM is based on analyzing the data by its median, which is the center of the sorted data, it is applied by sorting the data in ascending order and organizing the data into four percentiles, each percentile containing $25\%$ of the data.  Two quartiles center around $50\%$ of the data, this center is referred to as the interquartile range. IQM requires two values from the data collection. One is the highest value of the $25$th percentile and the highest value of the $75$th percentile. The first value is gained by taking the biggest value of the $q_25$ first elements from the sorted collection, where $q_25$ is $25\%$ of the number of elements in $L$ (calculated by $0.25 \cdot |L|$). The last percentile is gained in similar fashion, with the exception that the highest value is taken from the first $75\%$ of the sorted data. Two "cut-off" points are then defined, by multiplying each of the two data values by a constant $k$ (which is called the "cut-off" constant). Elements can then be labeled as outliers if those elements fall below the lower "cut-off" point or above the higher "cut-off" point.
+An alternative method suited for outlier detection is the interquartile range method (IRM). IRM is based on analyzing the sample by its median, which is the center of the sorted sample. It is applied by sorting the sample elements in ascending order and organizing the sample into four percentiles, each percentile distanced from the others by $25\%$ of the sample.  Two quartiles center around $50\%$ of the sample contents, this center is referred to as the interquartile range. IRM requires two values from the sample, those are the highest value of the $25$th percentile and the highest value of the $75$th percentile. The first value is gained by taking the biggest value of the $q_{25}$ first elements from the sorted collection, where $q_{25}$ is $25\%$ of the number of elements in $L$ (calculated by $0.25 \cdot |L|$). The last percentile is gained in similar fashion, with the exception that the highest value is taken from the first $75\%$ of the sorted data. Two "cut-off" points are then defined, by multiplying each of the two values by a constant $k$ (which is called the "cut-off" constant). Elements can then be labeled as outliers if those elements fall below the lower "cut-off" point or above the higher "cut-off" point. This method is well suited for sample sizes which contain approximately $100$ elements but may prove cumbersome when the number of elements exceed that value \cite{vinutha2018detection, walfish2006review, dovoedo2015boxplot}.
+
 
 \subsection{Analysis of variance}
 
-We also need the Analysis of variance (ANOVA) method in this project. ANOVA is a method which determines the significance of certain features in a set.
+The analysis of variance (ANOVA) is a method for statistical analysis developed by Ronald Fisher to analyze the difference among sample means in a collection of samples. It is based on the null-hypothesis stating the sample means of two or more samples are the same. The analysis then yields a \textit{F-value} and a \textit{p-value} which are used with the F-distribution to accept or reject the null-hypothesis. The analysis assumes the population the samples are drawn from in normally distributed and that the samples are independent of each other. It also assumes the standard deviations and variances are roughly equal among the samples.
+
+The analysis is performed by calculating the mean of each sample. The summed square of differences from each mean are then calculated for their respective sample, the result is then subtracted by the squared sum of the elements within the sample divided by the number of elements in said sample. This calculation for sample $S$ is formally expressed i equation (\ref{eqn:SS}).
+
+\begin{equation}
+\label{eqn:SS}
+ \sum_s^S (s - \mu_S)^2 - \frac{(\sum_{s}^{S} s)^2}{|S|} 
+\end{equation}
+
+This is performed once for all samples drawn from the population, the results are then summed together into a sum of sample sums (SS). The calculation is also performed once on the total collection of all elements from all samples, the result is stored in the total sum of sample sums (SST). The total sum of squares is the sum of SS and the sum of squared distances from each sample mean to the total mean (SSM). SSM is therefore calculated by subtracting SST and SS. The analysis also require divisions by two values called the degrees of freedom. They are calculated as follows: $d_1$ is the number of samples subtracted by one and $d_2$ is the number of elements in the total collection subtracted by the number of samples. The \textit{F-value} is calculated by a fraction of two fractions. Let  $K_1$ be the fraction $\frac{SST}{d_1}$ and $K_2$ be the fraction $\frac{SS}{d_2}$, the \textit{F-value} is defined as expressed in equation(\ref{eqn:Fval}).
+
+\begin{equation}
+\label{eqn:Fval}
+ F = \frac{\frac{SST}{d_1}}{\frac{SS}{d_2}} = \frac{K_1}{K_2}
+\end{equation}
+
+The quotient yielded by the fraction in equation (\ref{eqn:Fval}) can then be inserted into a pre-calculated table of the F-distribution provided the degrees of freedom to yield the \textit{p-value}. A small \textit{p-value} (i.e. lower than $0.05$) indicates that the null-hypothesis may be rejected with relative certainty whereas a high \textit{p-value} indicates the null-hypothesis holds and should be accepted with relative certainty \cite{lowry2014concepts}.
+
 
 \section{Machine Learning}
 
@@ -50,6 +70,7 @@ Models are used to great length within many scientific domains. Though each doma
 Mathematically a model may be represented as a collection of numbers $M$ which may in turn be used to compute $f$ for any given example.
 In the context of machine learning a set of parameters may be tuned during a learning process (or training process). These parameters are combined with samples of data through some mathematical procedure to effectively model a distribution from which the data was extracted. The equation below is an example of a n-dimensional object.
 $$x_0\theta_0 + x_1\theta_1 + ... + x_n\theta_n$$
+
 
 \subsection{K-means Clustering}
 
@@ -133,6 +154,7 @@ d(U, V) = \frac{|U||V|}{|U|-|V|}||c_U - c_V||^2
 \subsection{Feature Selection}
 
 In many cases the data available contains numerous features, which often helps to building sufficient classifiers as the model may find non-trivial patterns among the features. To avoid expanding the dependence on large datasets, it is often necessary to strip the data of certain features which possess minimal correlation to other features or which lack that correlation entirely \cite{dash1997feature}. Features that possess the necessary expressive information are not always trivial, there are several ways in which they may be found. \textbf{TODO: Expand this, it's been 3 weeks already!}
+
 
 \section{Deep Learning}
 

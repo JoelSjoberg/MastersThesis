@@ -36,7 +36,8 @@
 \begin{titlepage}
 \vspace*{144pt}
 \begin{center}
-\Huge\bf The analysis and preprocessing of raman spectra of glioma cells %------ NAME OF THE THESIS HERE!!!
+\Huge\bf Preparation of raman spectra for methylation-based classification methods in machine learning
+%\Huge\bf Analysis and preparation of raman spectra for use in machine learning %------ NAME OF THE THESIS HERE!!!
 
 
 \end{center}
@@ -128,7 +129,6 @@ Intersection among the feature sets:
 \\
 
 \chapter{Spectral Images For Outlier Detection}
-
 \label{appendix:HF1293Comparison}
 
 \begin{figure}[H]
@@ -148,6 +148,24 @@ Intersection among the feature sets:
 
 \end{figure}
 
+\chapter{Confusion matrix from model predictions}
+\label{appendix:confm_half}
+
+\begin{figure}[H]
+
+\begin{figure}[H]
+
+    \centering
+{\includegraphics[width=7cm]{images/DL/confm_trainhalf.png} }
+\caption{The confusion matrix of the predictions for the separated training set. The diagonal shows the correct predictions of the models, wrong predictions are the surrounding area. The values within the cells are the number of predictions for the class. The model can generalize well to the separated training set.}
+
+\end{figure}
+
+    \centering
+{\includegraphics[width=7cm]{images/DL/confm_valhalf.png} }
+\caption{The confusion matrix of the predictions for the validation set. The validation set consists of samples not included in the training data. The samples are hard to generalize to. Only LGm1 is correctly labeled by the majority of predictions.}
+
+\end{figure}
 
 \end{appendices}
 
