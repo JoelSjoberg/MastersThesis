@@ -3,14 +3,14 @@ In this chapter we review the concepts on which this thesis is based. We first c
 
 \section{Statistics}
 
-In this section we discuss the primary statistical concepts required for understanding the methods used in this thesis. The first concepts necessary for the later chapters are the mean and the standard deviation. The mean is a value used to describe the average value of a population. A population is the term used to describe the complete collection of elements in some context e.g. all people alive, all numbers in an interval etc. The mean is an important concept in statistics as it is often used as a characteristic of the elements found in the population under analysis. The mean is calculated by the sum of the each element in the population divided by the number of elements in said population. The mean $\mu$ of a population of $n$ numbers $L$, is calculated as expressed in equation (\ref{eqn:mean}).
+In this section we discuss the primary statistical concepts required for understanding the methods used in this thesis. The first concepts necessary for the later chapters are the mean and the standard deviation. The mean is a value used to describe the average value of a population. A population is the term used to describe the complete collection of elements in some context e.g. all people alive, all numbers in an interval etc. The mean is an important concept in statistics as it is often used as a characteristic of the elements found in the population under analysis. The mean is calculated by the sum of the each element in the population divided by the number of elements in said population. The mean $\mu$ of a population of $n$ numbers $L$, is calculated as expressed in formula (\ref{eqn:mean}).
 
 \begin{equation}
 \label{eqn:mean}
 \mu = \sum_{i=1}^n \frac{L_i}{n}
 \end{equation}
 
-The mean of a population is usually used in association with the standard deviation. The standard deviation is the square root of the variance of that population. The variance is an expression for the scaled summed squares of differences from the mean of the entire population. Calculating the square root then produces a value expressing the the dispersion of elements within the population around the mean. The variance is calculated by measuring the summed squared distance between each element within the population and the mean, divided by the number of elements in the population to scale the sum. In the case where the entire population is impossible to analyze or unknown, samples are extracted from the population (i.e. subgroups of elements randomly taken from the population). The sample variance changes slightly form the population variance; it divides the summed squares of differences by the number of elements in the sample subtracted by one. Subtracting the original denominator by one is called "Bessel's correction". The correction is based on the fact that, if the population mean is unknown (as is often the case when samples are gathered), then the mean used in calculating the variance will only be an estimation. Subtraction by one is performed to avoid bias towards the sample mean and get an unbiased estimation of the population variance \cite{so2008sample, nobach2020practical}. The standard deviation $\sigma$ of a sample is thus calculated as expressed in equation (\ref{eqn:std}).
+The mean of a population is usually used in association with the standard deviation. The standard deviation is the square root of the variance of that population. The variance is an expression for the scaled summed squares of differences from the mean of the entire population. Calculating the square root then produces a value expressing the the dispersion of elements within the population around the mean. The variance is calculated by measuring the summed squared distance between each element within the population and the mean, divided by the number of elements in the population to scale the sum. In the case where the entire population is impossible to analyze or unknown, samples are extracted from the population (i.e. subgroups of elements randomly taken from the population). The sample variance changes slightly form the population variance; it divides the summed squares of differences by the number of elements in the sample subtracted by one. Subtracting the original denominator by one is called "Bessel's correction". The correction is based on the fact that, if the population mean is unknown (as is often the case when samples are gathered), then the mean used in calculating the variance will only be an estimation. Subtraction by one is performed to avoid bias towards the sample mean and get an unbiased estimation of the population variance \cite{so2008sample, nobach2020practical}. The standard deviation $\sigma$ of a sample is thus calculated as expressed in formula (\ref{eqn:std}).
 
 \begin{equation}
 \label{eqn:std}
@@ -44,14 +44,14 @@ The analysis is performed by calculating the mean of each sample. The summed squ
  \sum_s^S (s - \mu_S)^2 - \frac{(\sum_{s}^{S} s)^2}{|S|} 
 \end{equation}
 
-This is performed once for all samples drawn from the population, the results are then summed together into a sum of sample sums (SS). The calculation is also performed once on the total collection of all elements from all samples, the result is stored in the total sum of sample sums (SST). The total sum of squares is the sum of SS and the sum of squared distances from each sample mean to the total mean (SSM). SSM is therefore calculated by subtracting SST and SS. The analysis also require divisions by two values called the degrees of freedom. They are calculated as follows: $d_1$ is the number of samples subtracted by one and $d_2$ is the number of elements in the total collection subtracted by the number of samples. The \textit{F-value} is calculated by a fraction of two fractions. Let  $K_1$ be the fraction $\frac{SST}{d_1}$ and $K_2$ be the fraction $\frac{SS}{d_2}$, the \textit{F-value} is defined as expressed in equation(\ref{eqn:Fval}).
+This is performed once for all samples drawn from the population, the results are then summed together into a sum of sample sums (SS). The calculation is also performed once on the total collection of all elements from all samples, the result is stored in the total sum of sample sums (SST). The total sum of squares is the sum of SS and the sum of squared distances from each sample mean to the total mean (SSM). SSM is therefore calculated by subtracting SST and SS. The analysis also require divisions by two values called the degrees of freedom. They are calculated as follows: $d_1$ is the number of samples subtracted by one and $d_2$ is the number of elements in the total collection subtracted by the number of samples. The \textit{F-value} is calculated by a fraction of two fractions. Let  $K_1$ be the fraction $\frac{SSM}{d_1}$ and $K_2$ be the fraction $\frac{SS}{d_2}$, the \textit{F-value} is defined as expressed in formula (\ref{eqn:Fval}).
 
 \begin{equation}
 \label{eqn:Fval}
- F = \frac{\frac{SST}{d_1}}{\frac{SS}{d_2}} = \frac{K_1}{K_2}
+ F = \frac{\frac{SSM}{d_1}}{\frac{SS}{d_2}} = \frac{K_1}{K_2}
 \end{equation}
 
-The quotient yielded by the fraction in equation (\ref{eqn:Fval}) can then be inserted into a pre-calculated table of the F-distribution provided the degrees of freedom to yield the \textit{p-value}. A small \textit{p-value} (i.e. lower than $0.05$) indicates that the null-hypothesis may be rejected with relative certainty whereas a high \textit{p-value} indicates the null-hypothesis holds and should be accepted with relative certainty \cite{lowry2014concepts}.
+The quotient yielded by the fraction in formula (\ref{eqn:Fval}) can then be inserted into a pre-calculated table of the F-distribution provided the degrees of freedom to yield the \textit{p-value}. A small \textit{p-value} (i.e. lower than $0.05$) indicates that the null-hypothesis may be rejected with relative certainty whereas a high \textit{p-value} indicates the null-hypothesis holds and should be accepted with relative certainty \cite{lowry2014concepts}.
 
 
 \section{Machine Learning}
@@ -60,7 +60,7 @@ Machine learning is the practice of computing models for relationships between s
 
 Models are used to great length within many scientific domains. In the context of machine learning, a model can be seen as a data structure made out of constant parameters combined with an algorithm which utilizes the data structure to produce predictions given an input vector (the input can also be in the form of a multi-dimensional matrix). 
 
-The model can be represented mathematically as a collection of structures in the form of vectors or matrices, the elements of which are referred to as parameters. A model can consist of learnable parameters $\theta$ and non-learnable parameters (often generated by stochastic initialization). The model computes a function $f$ to yield a prediction $y$ by applying the algorithm to the parameters given an input example $x$ (which can be a vector or a matrix) drawn form the data set $X$. An example of this process, where the algorithm produces predictions through addition, is given in equation (\ref{eqn:simplemodel}).
+The model can be represented mathematically as a collection of structures in the form of vectors or matrices, the elements of which are referred to as parameters. A model can consist of learnable parameters $\theta$ and non-learnable parameters (often generated by stochastic initialization if used). The model computes a function $f$ to yield a prediction $y$ by applying the algorithm to the parameters given an input example $x$ (which can be a vector or a matrix) drawn form the data set $X$. Let the dimensionality of the input $x$ be equal to the dimensionality of $\theta$. An example of a model prediction, where the algorithm produces predictions through addition, is given by formula (\ref{eqn:simplemodel}).
 
 \begin{equation}
 \label{eqn:simplemodel}
@@ -72,74 +72,76 @@ Machine learning then, is the practice of changing (also known as tuning) $\thet
 
 \subsection{K-means Clustering}
 
-Clustering is an unsupervised learning method whose primary use is in grouping sets of data. In this thesis we consider the \textit{K-means clustering} algorithm. The following is a formal definition of \textit{K-means clustering} as defined by MacQueen \cite{macqueen}. Given a set of $N$-dimensional points (where $N \in \mathbb{N}$) $E_N$ and a desired amount of partitions $k$ of $E_N$, partition the elements of $E_N$ into $k$ sets, the subsets are stored in a superset $S$ such that $S = \{S_1, S_2, ... S_k\}$. The partitioning of $E_N$ is performed by randomly initializing $k$  $N$-dimensional points as randomly selected points within $E_N$. We define the set $V$ with elements $v$ where $v_i$ is the i:th cluster center where $i \in [0, k]$. The partitioning of the elements $x \in E_N$ into their respective partition $S_i$ is performed by computing the closest cluster center $\forall_{x \in E_N}$. Let $T_i$ be the set of $x \in E_N$ such that the distance from the element to the relevant cluster is minimal, $T_i$ is defined by formula (\ref{eqn:Ti}).
+Clustering is an unsupervised learning method whose primary use is in grouping data into sets. In this thesis we consider the \textit{K-means} clustering algorithm. The following is a formal definition of \textit{K-means} clustering as defined by MacQueen \cite{macqueen}. Given a set of $n$-dimensional points (where $n \in \mathbb{N}$) $E_N$ and a desired amount of partitions $k$ of $E_n$, partition the elements of $E_n$ into $k$ sets. The partitions are stored in a superset $S$ such that $S = \{S_1, S_2, ... S_k\}$. The partitioning of $E_n$ is performed by randomly initializing $k$ $n$-dimensional points as randomly selected points within $E_n$. We define the set $V$ with elements $v$, where $v_i$ is the i:th cluster center and $i \in [1, k] \cap \mathbb{N}$. The partitioning of the elements $x \in E_n$ into their respective partition $S_i$ is performed by computing the closest cluster center for all elements in $E_n$. Let $T_i$ where $i \in [1, k] \cap \mathbb{N}$ be the set of elements $x \in E_n$ such that the distance from the element to the relevant cluster center is minimal, $T_i$ is defined by formula (\ref{eqn:Ti}).
 
 \begin{equation}
 \label{eqn:Ti}
-T_i = \{x : x \in E_N | (|x - v_i| \leq |x - v_j|)\}  0 \leq j \leq k \wedge j \in \mathbb{N} 
+T_i = \{x : x \in E_n | (|x - v_i| \leq |x - v_j|)\} (i \in [1, k] \cap \mathbb{N})
 \end{equation}
 
-For centers who share equal distance to any given $x$ the cluster with the smallest index is chosen as the containing set. Let $S_i^c$ denote the complement of set $S_i$, then the partitions $S_i \in S$ are defined by formula (\ref{eqn:Si}).
+For centers that share equal distance to any given $x$, the cluster with the smallest index is chosen as the containing set. This is performed by iteratively defining $S_i$ as the intersection of $T_i$ and the points which are not in any prior partitioned sets i.e. for $S_j$ where $j < i$. This is denoted by the set complement $S_i^c$ for all elements not in $S_i$. Let $S_1$ be defined by $T_1$, then he partitions $S_i \in S$ for $i \in [2, k] \cap \mathbb{N}$ are defined by formula (\ref{eqn:Si}).
 
 \begin{equation}
 \label{eqn:Si}
 S_i = T_i \cap \bigcap_{j=1}^{(i-1)} S_j^c
 \end{equation}
 
-A consequence to this definition is that outliers have a potential to drastically change the quality of the cluster outcomes \cite{chawla2013k}. To remedy this and the stochastic nature of the initialization process, the method is run several times on the same dataset, yielding the resulting clusters with minimal inertia. The problem \textit{K-means clustering} attempts to solve is proven to be NP-hard \cite{chawla2013k, mahajan2009planar} but the algorithm itself has a time complexity of $O(n^2)$ \cite{pakhira2014linear}.
+A consequence to this definition is that outliers have a potential to drastically change the quality of the clustering outcomes \cite{chawla2013k}. To remedy this and the stochastic nature of the initialization process, the method is run several times on the same dataset, yielding the optimal solution from those runs. This does not guarantee the best solution for the problem, but the solution is approximated. The problem \textit{K-means} clustering attempts to solve is proven to be NP-hard \cite{chawla2013k, mahajan2009planar} but the algorithm itself has a time complexity of $O(n^2)$ \cite{pakhira2014linear}.
 
 
 \subsection{Hierarchical clustering}
 
-Hierarchical clustering is a clustering method which has a deterministic process. Each cluster formed is based on the entire dataset in contrast to \textit{K-means} which approximates clusters by performing small changes to the cluster centers. The method produces clusters by iteratively combining the closest clusters according to the given linkage criterion (defined in the sections below). The two primary strategies for forming clusters are \textit{agglomerative} and \textit{divisive}. Agglomerative clustering initializes one cluster for each data point and combines them in a hierarchy according to the linkage criterion until all clusters are part of the hierarchy. Divisive strategies initializes one universal cluster for all data points and proceeds to separate the points into distinct clusters according to the linkage criterion. The method proceeds until all data points are separated to their own cluster within the unifying hierarchy. The project described in this thesis uses the \textit{agglomerative} strategy. All strategies depend on the distance measure and linkage criterion \cite{murtagh1983survey}.
+Hierarchical clustering is a deterministic clustering method. Each cluster formed is based on the entire dataset, in contrast to \textit{K-means} which approximates clusters by performing small changes to the cluster centers. The method produces clusters by iteratively combining the closest clusters according to the given linkage criterion (defined in section 2.2.2.2). The two primary strategies for forming clusters are \textit{agglomerative} and \textit{divisive}. Agglomerative clustering initializes one cluster for each data point and combines them in a hierarchy according to the linkage criterion until all clusters are part of the hierarchy. Divisive strategies initializes one universal cluster for all data points and proceeds to separate the points into distinct clusters according to the linkage criterion. The method proceeds until all data points are separated to their own cluster within the unifying hierarchy. The project described in this thesis uses the \textit{agglomerative} strategy. All strategies rely on specific distance metrics and linkage criteria \cite{murtagh1983survey}.
 
 \subsubsection{Distance metrics}
-Let $u$ and $v$ be vectors of the same dimension $n$. The \textit{Euclidean distance} (also called \textit{L2-distance}) measure can be used to measure distance between the vectors in euclidean space. The \textit{Euclidean distance} is calculated by equation (\ref{eqn:euclid}).
+Let $u$ and $v$ be vectors of the same dimension $n \in \mathbb{N}$. The \textit{Euclidean distance} (also called \textit{L2-distance}) metric can be used to measure distance between the vectors in Euclidean space. The \textit{Euclidean distance} between $u$ and $v$ is defined by formula (\ref{eqn:euclid}).
 
 \begin{equation}
 \label{eqn:euclid}
-d(u, v) = \sqrt{\Sigma_i (u_i - v_i)^2} 
+d(u, v) = \sqrt{\sum_{i=1}^n (u_i - v_i)^2} 
 \end{equation}
 
-The \textit{Manhattan distance} (also called \textit{L1-distance}) metric is also a viable alternative if the distance is to be measured in blocks. The distance is akin to finding a shortest path among blocks and is therefore calculated as expressed in equation (\ref{eqn:manhattan}).
+The \textit{Manhattan distance} (also called \textit{L1-distance}) metric is also a viable alternative, if the distance is to be measured in blocks. The distance is akin to finding a shortest path among blocks and is therefore calculated as expressed in formula (\ref{eqn:manhattan}).
 
 \begin{equation}
 \label{eqn:manhattan}
-d(u, v) = \Sigma_i |u_i - v_i|
+d(u, v) = \sum_{i=1}^n |u_i - v_i|
 \end{equation}
 
-\textit{Cosine similarity} measures similarity between vector angles and suits situations where certain vectors are expected to be similar. Should the vectors be sizable in terms of dimensionality, this method will yield varying results, especially if the elements have significant variance in each dimension. It is calculated as expressed in equation (\ref{eqn:cosine}).
+\textit{Cosine similarity} measures similarity between vector angles and suits situations where certain vectors are expected to be similar. Should the vectors be sizable in terms of dimensionality, this method will yield varying results, especially if the elements have significant variance in each dimension. It is calculated as expressed in formula (\ref{eqn:cosine}).
 
 \begin{equation}
 \label{eqn:cosine}
-d(u, v) = \frac{\Sigma_i u_iv_i}{\sqrt{\Sigma_i u_i^2}\sqrt{\Sigma_i v_i^2}}
+d(u, v) = \frac{\sum_{i=1}^n u_iv_i}{\sqrt{\sum_{i=1}^n u_i^2}\sqrt{\sum_{i=1}^n v_i^2}}
 \end{equation}
 
 \subsubsection{Linkage Criteria}
-In order to measure distance between clusters it is essential to know between which points the distance should be measured, since clusters often consist of several points. Linkage criteria describes the method for determining how the distance metric will be applied. SKlearn define four criteria in the documentation \cite{scikit}: Single linkage, complete linkage, average linkage and ward linkage. Depending on which criterion is applied the results may differ considerably, it is therefore vital to have a formal understanding of their application and consequences.
+In order to measure distance between clusters it is essential to know between which points the distance should be measured, since clusters often consist of several points. Linkage criteria describe the method for determining how the distance metric will be applied. In this project, we use the library SKlearn and the already defined methods within it to perform our analyses, the following criteria are therefore the only focus for this subsection. SKlearn define four criteria in the documentation: Single linkage, complete linkage, average linkage and ward linkage \cite{scikit}. Depending on which criterion is applied, the results may differ considerably.
 
-Single linkage goes through each pair of clusters measuring the distance among all points within one with respect to the other. The distance between these clusters is determined to be the distance between the two closest points. Let $U$ be the elements in the first cluster and $V$ be the elements of the second. The distance between the first and the second cluster is defined formally in equation (\ref{eqn:single}).
+Single linkage goes through each pair of clusters measuring the distance among all points within one with respect to the other. The distance between these clusters is determined to be the distance between the two closest points. Let $U$ be the elements in the first cluster and $V$ be the elements of the second. The distance between the first and the second cluster is defined formally in formula (\ref{eqn:single}).
 
 \begin{equation}
 \label{eqn:single}
 d(U, V) = \forall_{u, v \in U, V} min(d(u, v))
 \end{equation}
 
-Single linkage tend to produce trivial results, forging a hierarchy in a chain where individual elements slowly merge with the bigger cluster. In contrast complete linkage considers the largest distance between two points for every pair of clusters. The distance between two clusters then become the distance between the points which are the furthest apart. Formally expressed in equation (\ref{eqn:complete}).
+Single linkage tends to produce trivial results, forging a hierarchy in a chain where individual elements slowly merge with the bigger cluster. In contrast, complete linkage considers the largest distance between two points for every pair of clusters. The distance between two clusters then become the distance between the points which are the furthest apart, formally expressed in formula (\ref{eqn:complete}).
 
 \begin{equation}
 \label{eqn:complete}
 d(U, V) = \forall_{u, v \in U, V} max(d(u, v))
 \end{equation}
 
-By considering the largest possible distance between two clusters it bypasses the setback by single linkage, allowing more clusters to form before merging into one unifying cluster. Average linkage calculates the average between all elements for every pair of clusters and merges the ones possessing to the minimal average distance. Formally described by equation (\ref{eqn:average}).
+By considering the largest possible distance between two clusters, this criterion bypasses the setback of single linkage, allowing more clusters to form before merging into one unifying cluster.
+
+Average linkage calculates the average between all elements for every pair of clusters and merges the ones possessing to the minimal average distance. Formally described by formula (\ref{eqn:average}).
 
 \begin{equation}
 \label{eqn:average}
-d(U, V) = \frac{1}{|U||V|}\sum\limits_u^U \sum\limits_v^V  d(U_u, V_v)
+d(U, V) = \frac{1}{|U||V|}\sum\limits_{u\in U} \sum\limits_{v\in V}  d(U_u, V_v)
 \end{equation}
 
-Ward linkage represents distance by how much the summed square would increase by merging them. The method aims to merge the clusters such that the within cluster variance is minimal. Let $c_a$ be the center of cluster a, then ward linkage is expressed formally by equation (\ref{eqn:ward}) \cite{shalizi2009distances}.
+Ward linkage represents distance by how much the summed square would increase by merging them. The method aims to merge the clusters such that the within cluster variance is minimal. Let $c_a$ be the center of cluster \textit{a}, then ward linkage is expressed formally by formula (\ref{eqn:ward}) \cite{shalizi2009distances}.
 
 
 \begin{equation}
@@ -151,7 +153,7 @@ d(U, V) = \frac{|U||V|}{|U|-|V|}||c_U - c_V||^2
 
 \subsection{Feature Selection}
 
-In many cases the data available contains numerous features, which often helps to building sufficient classifiers as the model may find non-trivial patterns among the features. To avoid expanding the dependence on large datasets, it is often necessary to strip the data of certain features which possess minimal correlation to other features or which lack that correlation entirely \cite{dash1997feature}. Features that possess the necessary expressive information are not always trivial, there are several ways in which they may be found. \textbf{TODO: Expand this, it's been 3 weeks already!}
+In many cases, the data available contains numerous features, which often helps to building sufficient classifiers as the model may find non-trivial patterns among the features. To avoid expanding the dependence on large datasets, it is often necessary to strip the data of certain features which possess minimal correlation to other features or which lack that correlation entirely \cite{dash1997feature}. Features that possess the necessary expressive information are not always trivial, there are several ways in which they may be found. In this project we exclusively use one form of feature selection with the SKlearn library. The SelectKBest method is a method which ranks features by their significance according to some scoring function. In this project, we use the f-classif method to score the features in the data set.
 
 
 \section{Deep Learning}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  15 APR 2021 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  15 APR 2021 17:35
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1032,10 +1032,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16051 strings out of 479624
- 317041 string characters out of 2865148
- 598504 words of memory out of 3000000
- 32848 multiletter control sequences out of 15000+200000
+ 16052 strings out of 479624
+ 317051 string characters out of 2865148
+ 598519 words of memory out of 3000000
+ 32849 multiletter control sequences out of 15000+200000
  448739 words of font info for 94 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,10n,106p,3069b,413s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1051,7 +1051,7 @@ rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (58 pages, 617944 bytes).
+Output written on thesis.pdf (58 pages, 618211 bytes).
 PDF statistics:
  281 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
