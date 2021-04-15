@@ -8,11 +8,11 @@
 \contentsline {section}{\numberline {2.2}Machine Learning}{10}{}%
 \contentsline {subsection}{\numberline {2.2.1}K-means Clustering}{11}{}%
 \contentsline {subsection}{\numberline {2.2.2}Hierarchical clustering}{12}{}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}Distance metrics}{12}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Distance metrics}{13}{}%
 \contentsline {subsubsection}{\numberline {2.2.2.2}Linkage Criteria}{13}{}%
 \contentsline {subsection}{\numberline {2.2.3}Feature Selection}{14}{}%
 \contentsline {section}{\numberline {2.3}Deep Learning}{14}{}%
-\contentsline {subsection}{\numberline {2.3.1}Artificial Neural Networks}{14}{}%
+\contentsline {subsection}{\numberline {2.3.1}Artificial Neural Networks}{15}{}%
 \contentsline {subsection}{\numberline {2.3.2}Computational Representations}{15}{}%
 \contentsline {chapter}{\numberline {3}Data Exploration}{16}{}%
 \contentsline {section}{\numberline {3.1}Data Representation}{17}{}%
@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {3.4}Post analytical feature extraction}{38}{}%
 \contentsline {chapter}{\numberline {4}Results}{40}{}%
 \contentsline {chapter}{\numberline {5}Conclusion}{45}{}%
-\contentsline {chapter}{Appendices}{49}{}%
-\contentsline {chapter}{\numberline {A}Feature Selection}{50}{}%
-\contentsline {chapter}{\numberline {B}Spectral Images For Outlier Detection}{51}{}%
-\contentsline {chapter}{\numberline {C}Confusion matrix from model predictions}{54}{}%
+\contentsline {chapter}{Appendices}{50}{}%
+\contentsline {chapter}{\numberline {A}Feature Selection}{51}{}%
+\contentsline {chapter}{\numberline {B}Spectral Images For Outlier Detection}{52}{}%
+\contentsline {chapter}{\numberline {C}Confusion matrix from model predictions}{55}{}%

@@ -6,46 +6,47 @@ The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: ref.bib
 Warning--empty journal in lowry2014concepts
+Warning--empty publisher in allen2003natural
 Warning--can't use both volume and number fields in macqueen
-You've used 32 entries,
+You've used 35 entries,
             1876 wiz_defined-function locations,
-            685 strings with 9852 characters,
-and the built_in function-call counts, 9718 in all, are:
-= -- 952
-> -- 425
+            702 strings with 10420 characters,
+and the built_in function-call counts, 10670 in all, are:
+= -- 1044
+> -- 460
 < -- 0
-+ -- 156
-- -- 124
-* -- 729
-:= -- 1389
-add.period$ -- 32
-call.type$ -- 32
-change.case$ -- 32
++ -- 169
+- -- 134
+* -- 793
+:= -- 1512
+add.period$ -- 36
+call.type$ -- 35
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 489
-empty$ -- 867
-format.name$ -- 124
-if$ -- 2341
+cite$ -- 38
+duplicate$ -- 540
+empty$ -- 965
+format.name$ -- 134
+if$ -- 2577
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 31
-newline$ -- 99
-num.names$ -- 32
-pop$ -- 84
+int.to.str$ -- 35
+missing$ -- 35
+newline$ -- 109
+num.names$ -- 35
+pop$ -- 102
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 349
+skip$ -- 384
 stack$ -- 0
-substring$ -- 683
-swap$ -- 219
+substring$ -- 755
+swap$ -- 240
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 99
-width$ -- 34
-write$ -- 327
-(There were 2 warnings)
+warning$ -- 3
+while$ -- 108
+width$ -- 37
+write$ -- 355
+(There were 3 warnings)
