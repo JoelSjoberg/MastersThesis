@@ -164,6 +164,65 @@ C.~Shalizi, ``Distances between clustering, hierarchical clustering,'' {\em
 M.~Dash and H.~Liu, ``Feature selection for classification,'' {\em Intelligent
   data analysis}, vol.~1, no.~3, pp.~131--156, 1997.
 
+\bibitem{sharir2020cost}
+O.~Sharir, B.~Peleg, and Y.~Shoham, ``The cost of training nlp models: A
+  concise overview,'' {\em arXiv preprint arXiv:2004.08900}, 2020.
+
+\bibitem{kukacka2012overview}
+M.~Kukacka, ``Overview of deep neural networks,'' {\em WDS ‘12 Proc. of
+  Contributed Papers}, 2012.
+
+\bibitem{zhang2015deep}
+J.~Zhang, C.~Zong, {\em et~al.}, ``Deep neural networks in machine translation:
+  An overview.,'' {\em IEEE Intell. Syst.}, vol.~30, no.~5, pp.~16--25, 2015.
+
+\bibitem{lee2017deep}
+J.-G. Lee, S.~Jun, Y.-W. Cho, H.~Lee, G.~B. Kim, J.~B. Seo, and N.~Kim, ``Deep
+  learning in medical imaging: general overview,'' {\em Korean journal of
+  radiology}, vol.~18, no.~4, p.~570, 2017.
+
+\bibitem{qiu2004opening}
+F.~Qiu and J.~Jensen, ``Opening the black box of neural networks for remote
+  sensing image classification,'' {\em International Journal of Remote
+  Sensing}, vol.~25, no.~9, pp.~1749--1768, 2004.
+
+\bibitem{wang2003artificial}
+S.-C. Wang, ``Artificial neural network,'' in {\em Interdisciplinary computing
+  in java programming}, pp.~81--100, Springer, 2003.
+
+\bibitem{agarap2018deep}
+A.~F. Agarap, ``Deep learning using rectified linear units (relu),'' {\em arXiv
+  preprint arXiv:1803.08375}, 2018.
+
+\bibitem{lu2019dying}
+L.~Lu, Y.~Shin, Y.~Su, and G.~E. Karniadakis, ``Dying relu and initialization:
+  Theory and numerical examples,'' {\em arXiv preprint arXiv:1903.06733}, 2019.
+
+\bibitem{misra2019mish}
+D.~Misra, ``Mish: A self regularized non-monotonic neural activation
+  function,'' {\em arXiv preprint arXiv:1908.08681}, vol.~4, 2019.
+
+\bibitem{srivastava2013improving}
+N.~Srivastava, ``Improving neural networks with dropout,'' {\em University of
+  Toronto}, vol.~182, no.~566, p.~7, 2013.
+
+\bibitem{santurkar2018does}
+S.~Santurkar, D.~Tsipras, A.~Ilyas, and A.~Madry, ``How does batch
+  normalization help optimization?,'' {\em arXiv preprint arXiv:1805.11604},
+  2018.
+
+\bibitem{krippendorff2009mathematical}
+K.~Krippendorff, ``Mathematical theory of communication,'' {\em Departmental
+  Papers (ASC)}, p.~169, 2009.
+
+\bibitem{shannon2001mathematical}
+C.~E. Shannon, ``A mathematical theory of communication,'' {\em ACM SIGMOBILE
+  mobile computing and communications review}, vol.~5, no.~1, pp.~3--55, 2001.
+
+\bibitem{kingma2014adam}
+D.~P. Kingma and J.~Ba, ``Adam: A method for stochastic optimization,'' {\em
+  arXiv preprint arXiv:1412.6980}, 2014.
+
 \bibitem{friedmann2014glioblastoma}
 D.~Friedmann-Morvinski, ``Glioblastoma heterogeneity and cancer cell
   plasticity,'' {\em Critical Reviews™ in Oncogenesis}, vol.~19, no.~5, 2014.

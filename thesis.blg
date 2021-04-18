@@ -5,48 +5,52 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: ref.bib
+Repeated entry---line 423 of file ref.bib
+ : @article{kingma2014adam
+ :                        ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in lowry2014concepts
 Warning--empty publisher in allen2003natural
 Warning--can't use both volume and number fields in macqueen
-You've used 35 entries,
+You've used 49 entries,
             1876 wiz_defined-function locations,
-            702 strings with 10420 characters,
-and the built_in function-call counts, 10670 in all, are:
-= -- 1044
-> -- 460
+            772 strings with 12401 characters,
+and the built_in function-call counts, 13637 in all, are:
+= -- 1324
+> -- 577
 < -- 0
-+ -- 169
-- -- 134
-* -- 793
-:= -- 1512
-add.period$ -- 36
-call.type$ -- 35
-change.case$ -- 34
++ -- 215
+- -- 166
+* -- 998
+:= -- 1960
+add.period$ -- 50
+call.type$ -- 49
+change.case$ -- 48
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 540
-empty$ -- 965
-format.name$ -- 134
-if$ -- 2577
+cite$ -- 52
+duplicate$ -- 709
+empty$ -- 1267
+format.name$ -- 166
+if$ -- 3297
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 35
-newline$ -- 109
-num.names$ -- 35
-pop$ -- 102
+int.to.str$ -- 49
+missing$ -- 49
+newline$ -- 151
+num.names$ -- 49
+pop$ -- 145
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 384
+skip$ -- 465
 stack$ -- 0
-substring$ -- 755
-swap$ -- 240
+substring$ -- 879
+swap$ -- 294
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 108
-width$ -- 37
-write$ -- 355
-(There were 3 warnings)
+while$ -- 137
+width$ -- 51
+write$ -- 486
+(There was 1 error message)
