@@ -36,7 +36,7 @@
 \begin{titlepage}
 \vspace*{144pt}
 \begin{center}
-\Huge\bf Preparation of raman spectra for methylation-based classification methods in machine learning
+\Huge\bf Preparation Of Raman Spectra For Classification Methods In Machine Learning
 %\Huge\bf Analysis and preparation of raman spectra for use in machine learning %------ NAME OF THE THESIS HERE!!!
 
 
@@ -89,9 +89,14 @@ The Faculty Of Science And Engineering\\ % FACULTY
 \chapter{Data Exploration}
 \input{chapters/chapter3}
 
-\chapter{Results}
+\chapter{Applying the Data}
 \input{chapters/chapter4}
+
 \chapter{Conclusion}
+\input{chapters/chapter5}
+
+\chapter*{Svensk Sammanfattning}
+\input{chapters/svensk_sammanfattning}
 
 \bibliographystyle{ieeetr}
 \bibliography{ref}% ref.bib
@@ -126,7 +131,7 @@ Features extracted from the curated training set:
        
 Intersection among the feature sets: 
 509,  521,  522,  523,  524,  525,  526,  528,  529,  647, 1494, 1496
-\\
+
 
 \chapter{Spectral Images For Outlier Detection}
 \label{appendix:HF1293Comparison}
@@ -134,17 +139,48 @@ Intersection among the feature sets:
 \begin{figure}[H]
 
     \centering
-{\includegraphics[width=15cm]{images/Ward_linkage/LGm-1/HF-1293_13_1.h5_1.png} }
-\caption{Ward linkage on sample HF-868 from LGm1, The test fails to detect any outlier areas. LEftmost image is the result of the model computing 2 clusters. The number of clusters increase towards the rightmost image.\label{fig:SL_HF868}}%
+{\includegraphics[width=5cm]{images/AdriansCriterion/LGm-1/HF-1293_13_1.h5_1.png} }
+\caption{The frequency criterion on sample HF-1293 from LGm1. The upper part of the sample also includes some outliers which the criterion fails to capture.  \label{fig:SL_HF868}}%
 
 \end{figure}
 
+\begin{figure}[H]
+
+    \centering
+{\includegraphics[width=15cm]{images/Single_linkage/LGm-1/HF-1293_13_1.h5_1.png} }
+\caption{Single linkage on sample HF-1293 from LGm1. Few regions are detected, the number of clusters required to detect all outliers are unknown. \label{fig:SL_HF868}}%
+
+\end{figure}
+
+\begin{figure}[H]
+
+    \centering
+{\includegraphics[width=15cm]{images/Complete_linkage/LGm-1/HF-1293_13_1.h5_1.png} }
+\caption{Complete linkage on sample HF-1293 from LGm1. Some areas are detected with two clusters. Six clusters and up appear to capture most outliers. \label{fig:SL_HF868}}%
+
+\end{figure}
+
+\begin{figure}[H]
+
+    \centering
+{\includegraphics[width=15cm]{images/Average_linkage/LGm-1/HF-1293_13_1.h5_1.png} }
+\caption{Average linkage on sample HF-1293 from LGm1. With six clusters the same areas appear to be captured as those captured with two clusters when using complete linkage. \label{fig:SL_HF868}}%
+
+\end{figure}
+
+\begin{figure}[H]
+
+    \centering
+{\includegraphics[width=15cm]{images/Ward_linkage/LGm-1/HF-1293_13_1.h5_1.png} }
+\caption{Ward linkage on sample HF-1293 from LGm1. Overwhelming correspondence with the frequency criterion with only two clusters. \label{fig:SL_HF868}}%
+
+\end{figure}
 
 \begin{figure}[H]
 
     \centering
 {\includegraphics[width=15cm]{images/KMeans_full/LGm-1/HF-1293_13_1.h5_1.png} }
-\caption{\textit{K-means} on sample HF-868 from LGm1, The test fails to detect any outlier areas. LEftmost image is the result of the model computing 2 clusters. The number of clusters increase towards the rightmost image.\label{fig:SL_HF868}}%
+\caption{\textit{K-means} on sample HF-868 from LGm1. This is the only method capable of detecting the above region. All models computing more than two clusters detect outliers in the upper part.  \label{fig:SL_HF868}}%
 
 \end{figure}
 
@@ -168,46 +204,6 @@ Intersection among the feature sets:
 \end{figure}
 
 \end{appendices}
-
-% Multiline command from stackexchange, hide this text
-\newcommand{\comment}[1]{}
-\comment{
-\appendix
-%\chapter{Appendix}
-
-\begin{figure}[h]
-\label{appendix:spectraplot}
-    \centering
-    \subfloat[\centering Spectra from patient HF-1293. The rest of the samples available share in this pattern with some deviations]{{\includegraphics[width=5cm]{images/1293graph.JPG} }}
-    \qquad
-    \subfloat[\centering Spectra from patient HF-1887. The frequencies tilt towards the upper part of the plot. The example is decidedly removed from the analysis.]{{\includegraphics[width=5cm]{images/1887graph.JPG} }}%
-    \caption{Examples of samples drawn from the data, HF-1293 display a common pattern across all samples, HF-1887 is removed due to problematic handling}%
-\end{figure}
-
-
-\label{appendix:features0}
-
-(OLD FEATURES, done poorly on z-score standardized data)
-begin 250  309  522  523  524  525  526  527  528  529  553  563  645  646
-  647  648 1450 1451 1452 1453 1454 1455 1456 1457 1458 1459 1460 1461
- 1462 1463 1464 1465 1469 1470 1471 1472 1473 1474 1475 1476 1477 1478
- 1479 1480 1481 1482 1483 1484 1485 1486 1487 1488 1489 1490 1491 1492
- 1493 1494 1495 1496 1497 1498 1499 1500 1501 1502 1503 1511 1512 1513 end
-
-Adrians criterion concerns frequencies labeled by the features from 1463 to 1473. Almost all features are present, with the exception of features 1466, 1467 and 1468. 
-
-\label{appendix:hierimg0}
-
-
-
-\vspace{5mm}
-
-\textbf{Definition: } A model is an approximation of a desired function $f$ which produces relevant results based on human definitions.  
-
-\vspace{5mm}
-
-
-}
 
 
 \end{document}

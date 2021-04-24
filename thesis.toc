@@ -18,17 +18,17 @@
 \contentsline {subsection}{\numberline {2.3.4}Optimization}{18}{}%
 \contentsline {chapter}{\numberline {3}Data Exploration}{21}{}%
 \contentsline {section}{\numberline {3.1}Data Representation}{22}{}%
-\contentsline {section}{\numberline {3.2}Organization and Balance}{25}{}%
-\contentsline {section}{\numberline {3.3}Analysis}{27}{}%
+\contentsline {section}{\numberline {3.2}Balancing the Data}{25}{}%
+\contentsline {section}{\numberline {3.3}Feature Selection and Visual Analysis}{28}{}%
 \contentsline {subsection}{\numberline {3.3.1}The frequency criterion}{29}{}%
 \contentsline {subsection}{\numberline {3.3.2}The standard deviation test}{31}{}%
 \contentsline {subsection}{\numberline {3.3.3}The Interquartile range method}{33}{}%
 \contentsline {subsection}{\numberline {3.3.4}Hierarchical clustering}{36}{}%
 \contentsline {subsection}{\numberline {3.3.5}K-means clustering}{41}{}%
 \contentsline {section}{\numberline {3.4}Post analytical feature extraction}{43}{}%
-\contentsline {chapter}{\numberline {4}Results}{45}{}%
+\contentsline {chapter}{\numberline {4}Applying the Data}{45}{}%
 \contentsline {chapter}{\numberline {5}Conclusion}{50}{}%
-\contentsline {chapter}{Appendices}{56}{}%
-\contentsline {chapter}{\numberline {A}Feature Selection}{57}{}%
-\contentsline {chapter}{\numberline {B}Spectral Images For Outlier Detection}{58}{}%
-\contentsline {chapter}{\numberline {C}Confusion matrix from model predictions}{61}{}%
+\contentsline {chapter}{Appendices}{61}{}%
+\contentsline {chapter}{\numberline {A}Feature Selection}{62}{}%
+\contentsline {chapter}{\numberline {B}Spectral Images For Outlier Detection}{63}{}%
+\contentsline {chapter}{\numberline {C}Confusion matrix from model predictions}{69}{}%

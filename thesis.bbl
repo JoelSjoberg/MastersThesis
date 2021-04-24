@@ -80,6 +80,10 @@ J.~Liu, M.~Osadchy, L.~Ashton, M.~Foster, C.~J. Solomon, and S.~J. Gibson,
   ``Deep convolutional neural networks for raman spectrum recognition: a
   unified solution,'' {\em Analyst}, vol.~142, no.~21, pp.~4067--4074, 2017.
 
+\bibitem{rowntree1981statistics}
+D.~Rowntree, {\em Statistics without tears: A primer for non-mathematicians}.
+\newblock Scribner Book Company, 1981.
+
 \bibitem{so2008sample}
 S.~So, ``Why is the sample variance a biased estimator?,'' {\em Griffith
   University, Tech. Rep.}, vol.~9, 2008.
