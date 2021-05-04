@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  2 MAY 2021 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  4 MAY 2021 12:23
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -733,7 +733,7 @@ Chapter 2.
 (chapters/chapter2.tex [5
 
 ] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
-[16]) [17] [18]
+[16] [17]) [18]
 Chapter 3.
 (chapters/chapter3.tex [19
 
@@ -966,7 +966,7 @@ Chapter 5.
 
 ] [56] [57] [58]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-32.
+36.
 
 (C:\Users\joels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1090,10 +1090,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16114 strings out of 479624
- 319001 string characters out of 2865148
- 598637 words of memory out of 3000000
- 32898 multiletter control sequences out of 15000+200000
+ 16115 strings out of 479624
+ 319022 string characters out of 2865148
+ 598641 words of memory out of 3000000
+ 32899 multiletter control sequences out of 15000+200000
  460459 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,10n,106p,3078b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1109,7 +1109,7 @@ rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (71 pages, 863663 bytes).
+Output written on thesis.pdf (71 pages, 864662 bytes).
 PDF statistics:
  332 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

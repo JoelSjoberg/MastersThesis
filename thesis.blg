@@ -12,45 +12,45 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in lowry2014concepts
 Warning--empty publisher in allen2003natural
 Warning--can't use both volume and number fields in macqueen
-You've used 50 entries,
+You've used 51 entries,
             1876 wiz_defined-function locations,
-            777 strings with 12520 characters,
-and the built_in function-call counts, 13783 in all, are:
-= -- 1338
-> -- 581
+            783 strings with 12601 characters,
+and the built_in function-call counts, 13934 in all, are:
+= -- 1353
+> -- 585
 < -- 0
-+ -- 217
-- -- 167
-* -- 1003
-:= -- 1981
-add.period$ -- 52
-call.type$ -- 50
++ -- 219
+- -- 168
+* -- 1010
+:= -- 2003
+add.period$ -- 54
+call.type$ -- 51
 change.case$ -- 48
 chr.to.int$ -- 0
-cite$ -- 53
-duplicate$ -- 718
-empty$ -- 1287
-format.name$ -- 167
-if$ -- 3335
+cite$ -- 54
+duplicate$ -- 726
+empty$ -- 1307
+format.name$ -- 168
+if$ -- 3374
 int.to.chr$ -- 0
-int.to.str$ -- 50
-missing$ -- 51
-newline$ -- 155
-num.names$ -- 50
-pop$ -- 151
+int.to.str$ -- 51
+missing$ -- 53
+newline$ -- 159
+num.names$ -- 51
+pop$ -- 156
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 466
+skip$ -- 468
 stack$ -- 0
 substring$ -- 879
-swap$ -- 295
+swap$ -- 296
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 138
-width$ -- 52
-write$ -- 495
+while$ -- 139
+width$ -- 53
+write$ -- 505
 (There was 1 error message)

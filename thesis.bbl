@@ -110,6 +110,10 @@ Y.~Dovoedo and S.~Chakraborti, ``Boxplot-based outlier detection for the
   location-scale family,'' {\em Communications in statistics-simulation and
   computation}, vol.~44, no.~6, pp.~1492--1513, 2015.
 
+\bibitem{scheffe1999analysis}
+H.~Scheffe, {\em The analysis of variance}, vol.~72.
+\newblock John Wiley \& Sons, 1999.
+
 \bibitem{lowry2014concepts}
 R.~Lowry, ``Concepts and applications of inferential statistics,'' 2014.
 
