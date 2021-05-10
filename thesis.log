@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  4 MAY 2021 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  4 MAY 2021 19:27
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -843,20 +843,20 @@ g)
 Package pdftex.def Info: images/AdriansCriterion/LGm-1/HF-448_V5B_1.h5_3.png  u
 sed on input line 186.
 (pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
-<images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png, id=143, 310.15875pt x 320.19624pt>
+ [32 <./images/IQR/LGm-1/HF-448_V5B_1.h5_3.png>]
+<images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png, id=147, 310.15875pt x 320.19624pt>
 File: images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png Graphic file (type png)
 <use images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png>
 Package pdftex.def Info: images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png  used on inpu
 t line 196.
 (pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
-<images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png, id=144, 310.15875pt x 320.19624p
+<images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png, id=148, 310.15875pt x 320.19624p
 t>
 File: images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png Graphic file (type png)
 <use images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png>
 Package pdftex.def Info: images/STDtest/LGm-4/HF-2802_V3T_1.h5_11.png  used on 
 input line 198.
 (pdftex.def)             Requested size: 113.81102pt x 117.49359pt.
- [32 <./images/IQR/LGm-1/HF-448_V5B_1.h5_3.png>]
 <images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png, id=149, 310.15875pt x 320.19624pt>
 File: images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png Graphic file (type png)
 <use images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png>
@@ -872,13 +872,7 @@ nput line 212.
 (pdftex.def)             Requested size: 85.35826pt x 88.1202pt.
  [33 <./images/IQR/LGm-4/HF-2802_V3T_1.h5_11.png> <./images/STDtest/LGm-4/HF-28
 02_V3T_1.h5_11.png> <./images/IQR/LGm-2/HF-1010_V1T_1.h5_8.png> <./images/STDte
-st/LGm-2/HF-1010_V1T_1.h5_8.png>]
-Overfull \hbox (8.0578pt too wide) in paragraph at lines 225--226
-[]\T1/ptm/m/n/12 Single link-age merges clus-ters which posses points with min-
-i-mal dis-tance. Should
- []
-
-[34]
+st/LGm-2/HF-1010_V1T_1.h5_8.png>] [34]
 <images/Single_linkage/LGm-1/HF-868_1_2.h5_0.png, id=162, 908.39375pt x 270.008
 74pt>
 File: images/Single_linkage/LGm-1/HF-868_1_2.h5_0.png Graphic file (type png)
@@ -962,7 +956,13 @@ Chapter 5.
 ] [49]) [50] (chapters/svensk_sammanfattning.tex
 [51
 
-] [52]) [53] (thesis.bbl [54] [55
+]
+Overfull \hbox (7.3292pt too wide) in paragraph at lines 13--14
+\T1/ptm/m/it/12 hi-er-ar-chi-cal clus-ter-ing \T1/ptm/m/n/12 och \T1/ptm/m/it/1
+2 K-means clus-ter-ing\T1/ptm/m/n/12 . Dessa metoder jäm-förs med frekvens
+ []
+
+[52]) [53] (thesis.bbl [54] [55
 
 ] [56] [57] [58]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
@@ -1096,7 +1096,7 @@ Here is how much of TeX's memory you used:
  32899 multiletter control sequences out of 15000+200000
  460459 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,10n,106p,3078b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 108i,10n,106p,3079b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1109,7 +1109,7 @@ rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (71 pages, 864662 bytes).
+Output written on thesis.pdf (71 pages, 864358 bytes).
 PDF statistics:
  332 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
