@@ -125,15 +125,17 @@ Single linkage goes through each pair of clusters measuring the distance among a
 
 \begin{equation}
 \label{eqn:single}
-d(U, V) = \forall_{u, v \in U, V} min(d(u, v))
+d(U, V) = \min\limits_{(u, v) \in U, V}(d(u, v))
 \end{equation}
+% d(U, V) = \forall_{u, v \in U, V} min(d(u, v))
 
 Single linkage tends to produce trivial results, forging a hierarchy in a chain where individual elements slowly merge with the bigger cluster. In contrast, complete linkage considers the largest distance between two points for every pair of clusters. The distance between two clusters then becomes the distance between the points which are the furthest apart, formally expressed in formula (\ref{eqn:complete}).
 
 \begin{equation}
 \label{eqn:complete}
-d(U, V) = \forall_{u, v \in U, V} max(d(u, v))
+d(U, V) = \max\limits_{(u, v) \in U, V}(d(u, v))
 \end{equation}
+% d(U, V) = \forall_{u, v \in U, V} max(d(u, v))
 
 By considering the largest possible distance between two clusters, this criterion bypasses the setback of single linkage, allowing more clusters to form before merging into one unifying cluster.
 

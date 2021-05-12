@@ -50,15 +50,15 @@
         
 % Author and supervisor
 \begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
+\begin{flushleft} %\large
 \emph{Author:}\\
 \textsc{Joel Sjöberg, 38686}
 \end{flushleft}
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
+\begin{flushright} %\large
 \emph{Supervisor:} \\
-\textsc{Luigia Petre}
+\textsc{ADJ PROF Luigia Petre}
 \end{flushright}
 \end{minipage}        
         
@@ -223,6 +223,32 @@ Intersection among the feature sets:
 \caption{The confusion matrix of the predictions for the validation set. The validation set consists of samples not included in the training data. The samples are hard to generalize to. Only LGm1 is correctly labeled by the majority of predictions.}
 
 \end{figure}
+
+\chapter{Pre-Processing Pipeline}
+
+\label{appendix:prep}
+
+
+\begin{figure}[H]
+
+    \centering
+{\includegraphics[width=16cm]{images/preprocessing.png} }
+\caption{The pre-processing pipeline presented in Chapter 4. A batch of spectra with equal number of spectra from each category is drawn from the training set. Each spectrum is then given a random baseline and additive Gaussian noise. The augmented data is then passed to the pre-processor which scales the data to a limited range.}
+
+\end{figure}
+
+\chapter{Model Architecture}
+
+\label{appendix:model}
+
+\begin{figure}[H]
+
+    \centering
+{\includegraphics[width=16cm]{images/model.png} }
+\caption{The model architecture trained in the project. The input spectrum must be pre-processed. The network has five layers, the middle box represents the flattened data following propagation through the two initial convolutional layers. The input is then propagated through the dense layers to the last layer where the input has been transformed to a probability distribution, i.e., the sum of the signals equals 1.}
+
+\end{figure}
+
 
 \end{appendices}
 

@@ -28,7 +28,9 @@
 \contentsline {section}{\numberline {3.4}Post analytical feature extraction}{41}{}%
 \contentsline {chapter}{\numberline {4}Applying the Data}{43}{}%
 \contentsline {chapter}{\numberline {5}Conclusion}{48}{}%
-\contentsline {chapter}{Appendices}{60}{}%
-\contentsline {chapter}{\numberline {A}Feature Selection}{61}{}%
-\contentsline {chapter}{\numberline {B}Spectral Images For Outlier Detection}{62}{}%
-\contentsline {chapter}{\numberline {C}Confusion matrix from model predictions}{68}{}%
+\contentsline {chapter}{Appendices}{61}{}%
+\contentsline {chapter}{\numberline {A}Feature Selection}{62}{}%
+\contentsline {chapter}{\numberline {B}Spectral Images For Outlier Detection}{63}{}%
+\contentsline {chapter}{\numberline {C}Confusion matrix from model predictions}{69}{}%
+\contentsline {chapter}{\numberline {D}Pre-Processing Pipeline}{70}{}%
+\contentsline {chapter}{\numberline {E}Model Architecture}{71}{}%
