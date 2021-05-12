@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  11 MAY 2021 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  12 MAY 2021 12:15
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -881,35 +881,34 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 233--234
  [][] 
  []
 
-<images/Average_linkage/LGm-1/HF-868_1_2.h5_0.png, id=163, 908.39375pt x 289.08
+<images/Average_linkage/LGm-1/HF-868_1_2.h5_0.png, id=163, 907.39pt x 268.00125
 pt>
 File: images/Average_linkage/LGm-1/HF-868_1_2.h5_0.png Graphic file (type png)
 <use images/Average_linkage/LGm-1/HF-868_1_2.h5_0.png>
 Package pdftex.def Info: images/Average_linkage/LGm-1/HF-868_1_2.h5_0.png  used
  on input line 246.
-(pdftex.def)             Requested size: 426.79134pt x 135.81909pt.
+(pdftex.def)             Requested size: 426.79134pt x 126.05464pt.
 
 Overfull \hbox (28.45274pt too wide) in paragraph at lines 246--247
  [][] 
  []
 
 [35 <./images/Single_linkage/LGm-1/HF-868_1_2.h5_0.png>]
-<images/Complete_linkage/LGm-1/HF-868_1_2.h5_0.png, id=168, 908.39375pt x 289.0
-8pt>
+<images/Complete_linkage/LGm-1/HF-868_1_2.h5_0.png, id=168, 903.375pt x 266.997
+5pt>
 File: images/Complete_linkage/LGm-1/HF-868_1_2.h5_0.png Graphic file (type png)
 
 <use images/Complete_linkage/LGm-1/HF-868_1_2.h5_0.png>
 Package pdftex.def Info: images/Complete_linkage/LGm-1/HF-868_1_2.h5_0.png  use
 d on input line 258.
-(pdftex.def)             Requested size: 369.88582pt x 117.70752pt.
+(pdftex.def)             Requested size: 369.88582pt x 109.323pt.
  [36 <./images/Average_linkage/LGm-1/HF-868_1_2.h5_0.png>]
-<images/Ward_linkage/LGm-1/HF-868_1_2.h5_0.png, id=173, 908.39375pt x 289.08pt>
-
+<images/Ward_linkage/LGm-1/HF-868_1_2.h5_0.png, id=173, 903.375pt x 269.005pt>
 File: images/Ward_linkage/LGm-1/HF-868_1_2.h5_0.png Graphic file (type png)
 <use images/Ward_linkage/LGm-1/HF-868_1_2.h5_0.png>
 Package pdftex.def Info: images/Ward_linkage/LGm-1/HF-868_1_2.h5_0.png  used on
  input line 270.
-(pdftex.def)             Requested size: 426.79134pt x 135.81909pt.
+(pdftex.def)             Requested size: 426.79134pt x 127.08911pt.
 
 Overfull \hbox (28.45274pt too wide) in paragraph at lines 270--271
  [][] 
@@ -930,12 +929,13 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 282--284
 
 [38 <./images/Ward_linkage/LGm-1/HF-868_1_2.h5_0.png>] [39 <./images/Ward_linka
 ge/LGm-5/HF-2485_V1B_1.h5_9.png>]
-<images/KMeans_full/LGm-1/HF-868_1_2.h5_0.png, id=187, 908.39375pt x 289.08pt>
+<images/KMeans_full/LGm-1/HF-868_1_2.h5_0.png, id=187, 908.39375pt x 270.00874p
+t>
 File: images/KMeans_full/LGm-1/HF-868_1_2.h5_0.png Graphic file (type png)
 <use images/KMeans_full/LGm-1/HF-868_1_2.h5_0.png>
 Package pdftex.def Info: images/KMeans_full/LGm-1/HF-868_1_2.h5_0.png  used on 
 input line 298.
-(pdftex.def)             Requested size: 426.79134pt x 135.81909pt.
+(pdftex.def)             Requested size: 426.79134pt x 126.8588pt.
 
 Overfull \hbox (28.45274pt too wide) in paragraph at lines 298--299
  [][] 
@@ -1088,11 +1088,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  16115 strings out of 479624
  319022 string characters out of 2865148
- 598641 words of memory out of 3000000
+ 599641 words of memory out of 3000000
  32899 multiletter control sequences out of 15000+200000
  460459 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,10n,106p,3079b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 108i,10n,106p,3080b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/joels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1105,7 +1105,7 @@ rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/joels/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (71 pages, 864483 bytes).
+Output written on thesis.pdf (71 pages, 853063 bytes).
 PDF statistics:
  332 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

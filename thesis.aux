@@ -105,12 +105,12 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Data Representation}{20}{}\protected@file@percent }
 \citation{cellsubsets}
 \citation{liu2017deep}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Examples of samples drawn from the data, HF-1293 display a common pattern across all samples, HF-1887 is removed due to the skewed baseline. The range of the values are normalized between -1 and 1 to easier display the spectra. \relax }}{22}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Examples of samples drawn from the data: sample HF-1293 displays a common pattern across all samples, sample HF-1887 is removed due to the skewed baseline. The range of the values are normalized between -1 and 1 to more easily display the spectra. \relax }}{22}{}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{fig:spectrum}{{3.1}{22}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering Spectra from patient HF-1293. The rest of the samples available share in this pattern with some deviations}}}{22}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering Spectra from patient HF-1887. The frequencies tilt towards the upper part of the plot. The example is decidedly removed from the analysis.}}}{22}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Sample HF-3097 from LGm2, the spectra spikes are extremely sporadic. The range of the values are normalized between -1 and 1 to easier display the spectra.\relax }}{23}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Sample HF-3097 from LGm2, the spectra spikes are extremely rare. The range of the values are normalized between -1 and 1 to easier display the spectra.\relax }}{23}{}\protected@file@percent }
 \newlabel{fig:HF3097}{{3.2}{23}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Balancing the Data}{23}{}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces The distribution of data in the initial dataset after removing the problematic samples.\relax }}{24}{}\protected@file@percent }
@@ -120,9 +120,9 @@
 \newlabel{table:2}{{3.2}{25}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces Distribution of the testing data following balancing\relax }}{25}{}\protected@file@percent }
 \newlabel{table:3}{{3.3}{25}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Feature Selection and Visual Analysis}{26}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Feature Selection and Visual Analysis}{25}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}The frequency criterion}{27}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Sample HF-2849 from LGm3. The sample is confirmed to have necrotic tissue present in the upper part.\relax }}{27}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Sample HF-2849 from LGm3. The yellow parts of the image represents the tumor spectra saved by the criterion, and the dark spots are outliers. The sample is confirmed to have necrotic tissue present in the upper part which the criterion fails to detect.\relax }}{27}{}\protected@file@percent }
 \newlabel{fig:HF2849_1}{{3.3}{27}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Sample HF-868 from LGm1. The areas detected are confirmed outliers.\relax }}{28}{}\protected@file@percent }
 \newlabel{fig:ADHF868}{{3.4}{28}}
@@ -143,7 +143,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces A comparison between IRM and the frequency criterion for sample HF-448. \relax }}{32}{}\protected@file@percent }
 \newlabel{fig:iqrHF448}{{3.8}{32}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering The result of the interquartile range for HF-448, Several well defined areas are separated form the majority of spectra}}}{32}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering The standard deviation test for sample HF-448}}}{32}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering The frequency criterion for sample HF-448}}}{32}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces A comparison between the interquartile range and the standard deviation test for sample HF-2802. In comparison, the interquartile range locates better defined areas than the standard deviation test, but many sporadic spots are present. \relax }}{33}{}\protected@file@percent }
 \newlabel{fig:HF2802comp}{{3.9}{33}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering The result of the interquartile range for HF-2802, some larger areas are detected with sporadic spots around the entire spectra.}}}{33}{}\protected@file@percent }
@@ -153,18 +153,18 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering The result of the interquartile range for HF-1010}}}{33}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering The result of the standard deviation test for HF-1010.}}}{33}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Hierarchical clustering}{34}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces Single linkage on sample HF-868 from LGm1, The test fails to detect any outlier areas. Leftmost image is the result of the model computing two clusters. The number of clusters increase towards the rightmost image.\relax }}{35}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces Single linkage on sample HF-868 from LGm1: The test fails to detect any outlier areas. Leftmost image is the result of the model computing two clusters. The number of clusters increase towards the rightmost image.\relax }}{35}{}\protected@file@percent }
 \newlabel{fig:SL_HF868}{{3.11}{35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces Average linkage on sample HF-868 from LGm1, Leftmost image is the result of the model computing two clusters. The number of clusters increase towards the rightmost image.\relax }}{36}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces Average linkage on sample HF-868 from LGm1: Leftmost image is the result of the model computing two clusters. The number of clusters increase towards the rightmost image.\relax }}{36}{}\protected@file@percent }
 \newlabel{fig:AL_HF868}{{3.12}{36}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.13}{\ignorespaces Complete linkage on sample HF-868 from LGm1. Leftmost image is the result of the model computing 2 clusters. The number of clusters increase towards the rightmost image.\relax }}{37}{}\protected@file@percent }
 \newlabel{fig:CL_HF868}{{3.13}{37}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.14}{\ignorespaces Ward linkage on sample HF-868 from LGm1. Leftmost image is the result of the model computing 2 clusters. The number of clusters increase towards the rightmost image.\relax }}{38}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.14}{\ignorespaces Ward linkage on sample HF-868 from LGm1: The leftmost image is the result of the model computing 2 clusters. The number of clusters increase towards the rightmost image.\relax }}{38}{}\protected@file@percent }
 \newlabel{fig:WL_HF868}{{3.14}{38}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.15}{\ignorespaces Sample HF-2485 from LGm5, clustered by Hierarchical clustering using ward linkage. From left to right, is shown the results of computing from 2 to 7 clusters respectively. The oultliers are present from image 4 and up. \relax }}{39}{}\protected@file@percent }
 \newlabel{fig:hf_2485}{{3.15}{39}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}K-means clustering}{39}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.16}{\ignorespaces \textit  {K-means} clustering on sample HF-868 from LGm1. Leftmost image is the result of the model computing 2 clusters. The number of clusters increase towards the rightmost image.\relax }}{40}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.16}{\ignorespaces K-means clustering on sample HF-868 from LGm1: Leftmost image is the result of the model computing 2 clusters. The number of clusters increase towards the rightmost image.\relax }}{40}{}\protected@file@percent }
 \newlabel{fig:KM_HF868}{{3.16}{40}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}Post analytical feature extraction}{41}{}\protected@file@percent }
 \citation{zhang2010baseline}

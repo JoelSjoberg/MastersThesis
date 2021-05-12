@@ -19,7 +19,7 @@
 \contentsline {chapter}{\numberline {3}Data Exploration}{19}{}%
 \contentsline {section}{\numberline {3.1}Data Representation}{20}{}%
 \contentsline {section}{\numberline {3.2}Balancing the Data}{23}{}%
-\contentsline {section}{\numberline {3.3}Feature Selection and Visual Analysis}{26}{}%
+\contentsline {section}{\numberline {3.3}Feature Selection and Visual Analysis}{25}{}%
 \contentsline {subsection}{\numberline {3.3.1}The frequency criterion}{27}{}%
 \contentsline {subsection}{\numberline {3.3.2}The standard deviation test}{29}{}%
 \contentsline {subsection}{\numberline {3.3.3}The Interquartile range method}{31}{}%
